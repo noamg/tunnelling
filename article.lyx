@@ -136,11 +136,12 @@ extra: fitting of DOS in SC.
 
 \end_deeper
 \begin_layout Itemize
-more reference: Ayelet
+more reference: Ayelet: from theoretical backgrond!!!!!
 \end_layout
 
 \begin_layout Abstract
-abstract
+oriented by the aim: we wanted to measure tunneling to SC thin / thick compare,
+ model vortices...
 \end_layout
 
 \begin_layout Part
@@ -158,12 +159,58 @@ theoretical background: Tinkham 2, 4, 5.
 creation, characterizatino of device
 \end_layout
 
+\begin_layout Section
+transfer
+\end_layout
+
+\begin_layout Standard
+pilling
+\end_layout
+
+\begin_layout Section
+heat cleaning
+\end_layout
+
+\begin_layout Section
+AFM
+\end_layout
+
+\begin_layout Section
+final device
+\end_layout
+
+\begin_layout Itemize
+contact tests.
+ what failed, and why JC tunneling measurements.
+ .
+\end_layout
+
 \begin_layout Part
 measurements, results
 \end_layout
 
+\begin_layout Section
+tunnelling I(V), dIdV
+\end_layout
+
+\begin_layout Section
+with field H
+\end_layout
+
+\begin_layout Section
+field coolling
+\end_layout
+
+\begin_layout Section
+zero bias conductance
+\end_layout
+
 \begin_layout Part
 Discussion
+\end_layout
+
+\begin_layout Standard
+first time observed XYZ why important
 \end_layout
 
 \end_body
