@@ -78,12 +78,80 @@ tunnelling
 noam 
 \end_layout
 
+\begin_layout Section
+what do?
+\end_layout
+
+\begin_layout Section
+do not forget:
+\end_layout
+
+\begin_layout Section
+buffer:
+\end_layout
+
+\begin_layout Section
+general notes about this paper:
+\end_layout
+
+\begin_layout Itemize
+~technical report structure:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+oriented by the aim: we wanted to measure tunneling to SC thin / thick compare,
+ model vortices...
+\end_layout
+
+\begin_layout Itemize
+creation of sample (with detailed discription of the technique):
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+pilling, transfer.
+ optical, 
+\end_layout
+
+\begin_layout Itemize
+AFM, 
+\end_layout
+
+\begin_layout Itemize
+heat cleaning.
+\end_layout
+
+\begin_layout Itemize
+contact tests.
+ what failed, and why JC tunneling measurements.
+ with field field cooling first time observed XYZ why important.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+extra: fitting of DOS in SC.
+ like mcmillen.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+more reference: Ayelet
+\end_layout
+
 \begin_layout Abstract
 abstract
 \end_layout
 
 \begin_layout Part
 background
+\end_layout
+
+\begin_layout Standard
+theoretical background: Tinkham 2, 4, 5.
+ vortices.
+ density of states in SC.
+ tunneling to SC.
 \end_layout
 
 \begin_layout Part
