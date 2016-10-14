@@ -71,11 +71,12 @@
 \begin_body
 
 \begin_layout Title
-tunnelling
+Tunnelling to thin super conducting NbSl2
 \end_layout
 
 \begin_layout Author
-noam 
+Noam Gavish, Instructed by Dr.
+ Hadar Steinberg and Tom Dvir
 \end_layout
 
 \begin_layout Section
@@ -113,6 +114,19 @@ status open
 
 \begin_layout Plain Layout
 TODO: ### 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Should structure to Tom (just titles: table of contents) ASAP
 \end_layout
 
 \end_inset
@@ -187,7 +201,7 @@ background
 \end_layout
 
 \begin_layout Standard
-theoretical background: Tinkham 2, 4, 5.
+theoretical background: tunnelling, Tinkham 2, 4, 5.
  vortices.
  density of states in SC.
  tunneling to SC.
@@ -198,6 +212,28 @@ creation, characterizatino of device
 \end_layout
 
 \begin_layout Section
+desired device
+\end_layout
+
+\begin_layout Standard
+the device: what should be: NIS.
+\end_layout
+
+\begin_layout Standard
+each part: silicon...
+\end_layout
+
+\begin_layout Standard
+pilling thin layers and transfer
+\end_layout
+
+\begin_layout Standard
+gold electrodes.
+ gold markers.
+ name of technique is _____
+\end_layout
+
+\begin_layout Section
 transfer
 \end_layout
 
@@ -205,12 +241,125 @@ transfer
 pilling
 \end_layout
 
+\begin_layout Standard
+transfer stages, including images.
+ image of Tung dagger with color scale
+\end_layout
+
+\begin_layout Standard
+put notes from log: multiple stamping etc
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+copy from notes
+\end_layout
+
+\begin_layout Standard
+edit
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+pictures of the 4(? JC first) devices: tung, Nb, both, fix orientation,
+ put arrows to show
+\end_layout
+
 \begin_layout Section
 heat cleaning
 \end_layout
 
+\begin_layout Standard
+gains: cleaning dust, dirts type X Y Z from between layers.
+ better contact better tunnelling
+\end_layout
+
+\begin_layout Standard
+process:
+\end_layout
+
+\begin_layout Standard
+type of oven etc
+\end_layout
+
 \begin_layout Section
 AFM
+\end_layout
+
+\begin_layout Standard
+used AFM devie ____ tapping mode.
+ AFM machine type etc
+\end_layout
+
+\begin_layout Standard
+wanted to characterise: thickness (how many layers), which material is where
+ (topography, phase), folds
+\end_layout
+
+\begin_layout Standard
+why: electrodes design.
+ where should they go.
+\end_layout
+
+\begin_layout Standard
+images after first heat cleaning
+\end_layout
+
+\begin_layout Standard
+images after second heat cleaning 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+structure: should these pictures be in AFM section or heat cleaning section?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dirt of type a removed
+\end_layout
+
+\begin_layout Standard
+dirt type b not removed
+\end_layout
+
+\begin_layout Standard
+in that place folds were created
+\end_layout
+
+\begin_layout Standard
+what else did we see??
+\end_layout
+
+\begin_layout Standard
+can see Nb with dirt, and Nb dirt Tung: we know that the dirt was between
+ them
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+mostly images of JC.
+\end_layout
+
+\begin_layout Standard
+scans + resolution pixels, real space
+\end_layout
+
+\begin_layout Standard
+also put some graphs of cross sections (for heigh differences)
 \end_layout
 
 \begin_layout Section
@@ -219,28 +368,589 @@ final device
 
 \begin_layout Itemize
 contact tests.
- what failed, and why JC tunneling measurements.
- .
+ what failed
+\end_layout
+
+\begin_layout Itemize
+possible reason: showing optical images of device before and after heat
+ cleaning.
+ comparing the color.
+ show similar image from device of Tom.
+ bonus: image subtraction (make sure to sclae what needed to be scale.
+ maybe based on the silicon.
+ maybe the heat cleaning affected the surface of the NbSl2 and therefore
+ the contacts don't work
+\end_layout
+
+\begin_layout Itemize
+what have: JC contacts X Y : NISIN.
+ two consecutive tunneliing junctions.
+ thin Nb, thick Nb.
+\end_layout
+
+\begin_layout Itemize
+***and why JC tunneling measurements.
 \end_layout
 
 \begin_layout Part
 measurements, results
 \end_layout
 
+\begin_layout Standard
+kinds of measurements:
+\end_layout
+
+\begin_layout Standard
+tunnelling I(V), dIdV
+\end_layout
+
+\begin_layout Standard
+with field H
+\end_layout
+
+\begin_layout Standard
+field cooling
+\end_layout
+
+\begin_layout Standard
+zero bias conductance
+\end_layout
+
+\begin_layout Section
+experimental setup
+\end_layout
+
+\begin_layout Subsection
+cooler setup
+\end_layout
+
+\begin_layout Standard
+should control temperature, measure......
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+cooler setup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+electronic measurement setup
+\end_layout
+
+\begin_layout Standard
+shuold measure X, control X
+\end_layout
+
+\begin_layout Standard
+what exists, connections, choice of parameters: avaraging slow meduim fast....
+\end_layout
+
+\begin_layout Standard
+connections to the computer
+\end_layout
+
+\begin_layout Standard
+notes:
+\end_layout
+
+\begin_layout Standard
+ground voodoo
+\end_layout
+
+\begin_layout Standard
+thermal spread.
+ resolution choice
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+electronic setup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+magnet
+\end_layout
+
 \begin_layout Section
 tunnelling I(V), dIdV
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+copy from onenote.
+\end_layout
+
+\begin_layout Plain Layout
+edit
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+low bias 4K
+\end_layout
+
+\begin_layout Standard
+high bias 4K
+\end_layout
+
+\begin_layout Standard
+low bias 0.3K
+\end_layout
+
+\begin_layout Standard
+high bias 0.3K
+\end_layout
+
+\begin_layout Standard
+smooth: meaning that the derivative is taken at scale XXX.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+I(V), dIdV....
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-with field H
+zero bias conductance
+\end_layout
+
+\begin_layout Standard
+willing to measure 
+\begin_inset Formula $\frac{dI}{dV}(V\sim0,H)$
+\end_inset
+
+ in ???high resolution: 
+\begin_inset Formula $\Delta H=???[T]$
+\end_inset
+
+.
+ real measurement: finding the minimum of dIdV.
+ little above.
+ approximation of the derivative.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+zero bias conductance at conditions XXX
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+with field H: 
+\begin_inset Formula $\frac{dI}{dV}(V,H)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+** histeresis.
+ note
+\end_layout
+
+\begin_layout Standard
+the external field H was raised from 
+\begin_inset Formula $0[T]$
+\end_inset
+
+ to 
+\begin_inset Formula $4[T]$
+\end_inset
+
+ and then lowered back to 
+\begin_inset Formula $0[T]$
+\end_inset
+
+ in steps of 
+\begin_inset Formula $??[T]$
+\end_inset
+
+.
+ At each of the field an 
+\begin_inset Formula $I(V)$
+\end_inset
+
+ measurement was taken.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+maybe should insert more then one heatmap: different colorscales.
+ helps looking for features in different places
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{dI}{dV}(V,H)$
+\end_inset
+
+ heatmap.
+ left: 
+\begin_inset Formula $H$
+\end_inset
+
+ rising.
+ right: 
+\begin_inset Formula $H$
+\end_inset
+
+ decreasing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{dI}{dV}(V)$
+\end_inset
+
+ curves in different 
+\begin_inset Formula $H$
+\end_inset
+
+.
+ left: 
+\begin_inset Formula $H$
+\end_inset
+
+ rising.
+ right: 
+\begin_inset Formula $H$
+\end_inset
+
+ decreasing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{dI}{dV}(V)$
+\end_inset
+
+ curves in different 
+\begin_inset Formula $H$
+\end_inset
+
+.: X1 X2 X3 showing XXXX left: 
+\begin_inset Formula $H$
+\end_inset
+
+ rising.
+ right: 
+\begin_inset Formula $H$
+\end_inset
+
+ decreasing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+in figures link link link can observe features
+\end_layout
+
+\begin_layout Standard
+x, y, z: zero bias peak, ridges, parallel diagonal lines.
+ diagonal lines which continuation crosses....
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+measurement of field decreasing from 
+\begin_inset Formula $H=6[T]$
+\end_inset
+
+ same figures.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+field decreaing.
+ probably bad measurement due to grond issues
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
 field coolling
 \end_layout
 
-\begin_layout Section
-zero bias conductance
+\begin_layout Standard
+as 
+\begin_inset Formula $H$
+\end_inset
+
+ rises, vortices enter the SC from the side.
+ however, one of the tunnelling junctions link** is located at the heart
+ of the sample, and it is possible that only few vortices reached it.
+ In order to measure 
+\begin_inset Formula $\frac{dI}{dV}$
+\end_inset
+
+ with vortices at this junction too, we applied field cooling.
+ the sample was heated to 
+\begin_inset Formula $T=??K$
+\end_inset
+
+, a field of 
+\begin_inset Formula $H=??[T]$
+\end_inset
+
+ was applied, and then the sample was cooled to 
+\begin_inset Formula $T=??4K,$
+\end_inset
+
+ to 
+\begin_inset Formula $T=0.3K$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+few dIdV .....
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+which measurements were taken during field cooling?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+dIdV field cooling.
+ graphs over each other
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+few zero bias conductance
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+XXX
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
@@ -249,6 +959,46 @@ Discussion
 
 \begin_layout Standard
 first time observed XYZ why important
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+Tinkham
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+
+\end_inset
+
+ Tom
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-3"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-4"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
