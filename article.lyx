@@ -82,6 +82,44 @@ noam
 what do?
 \end_layout
 
+\begin_layout Itemize
+repeat: which story am I telling.
+\end_layout
+
+\begin_layout Itemize
+write down what to do in greatest detail I can do easily:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+more branches to the skeleton
+\end_layout
+
+\begin_layout Itemize
+which graphs should get inside, which order
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+give 30 minutes to crash complete each subject.
+ then second round etc.
+\end_layout
+
+\begin_layout Itemize
+during: write down debts: not to forget, things to check, things to understand.
+ use 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO: ### 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 do not forget:
 \end_layout
