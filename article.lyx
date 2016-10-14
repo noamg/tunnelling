@@ -79,6 +79,23 @@ Noam Gavish, Instructed by Dr.
  Hadar Steinberg and Tom Dvir
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 what do?
 \end_layout
@@ -122,6 +139,7 @@ TODO: ###
 \end_layout
 
 \begin_layout Itemize
+make structure with titles etc 
 \begin_inset Note Note
 status open
 
@@ -136,6 +154,10 @@ Should structure to Tom (just titles: table of contents) ASAP
 
 \begin_layout Section
 do not forget:
+\end_layout
+
+\begin_layout Itemize
+what is the name of the technique / machine used to put the gold electrodes?
 \end_layout
 
 \begin_layout Section
@@ -196,6 +218,10 @@ oriented by the aim: we wanted to measure tunneling to SC thin / thick compare,
  model vortices...
 \end_layout
 
+\begin_layout Abstract
+thin/thick different penetration of vortices
+\end_layout
+
 \begin_layout Part
 background
 \end_layout
@@ -207,43 +233,128 @@ theoretical background: tunnelling, Tinkham 2, 4, 5.
  tunneling to SC.
 \end_layout
 
+\begin_layout Subsection
+tunnelling
+\end_layout
+
+\begin_layout Subsection
+superconductivity, vortices
+\end_layout
+
+\begin_layout Subsection
+density of states in superonductor
+\end_layout
+
+\begin_layout Subsection
+tunnelling into superconductor
+\end_layout
+
 \begin_layout Part
 creation, characterizatino of device
 \end_layout
 
 \begin_layout Section
-desired device
+desired device: NIS, superconductor thin (~??nm), think (~??nm)
 \end_layout
 
 \begin_layout Standard
-the device: what should be: NIS.
+the desired device is NIS (normal-insulator-superconductor).
+ The insulator is 
+\begin_inset Formula $WSl2$
+\end_inset
+
+ (energy gap ~???).
+ The superconductor is 
+\begin_inset Formula $NbSl2$
+\end_inset
+
+ (type 2, 
+\begin_inset Formula $T_{crit}=??$
+\end_inset
+
+ 
+\begin_inset Formula $H_{c1}=??$
+\end_inset
+
+, 
+\begin_inset Formula $H_{c2}=??$
+\end_inset
+
+ ).
+ in diffrent devices the 
+\begin_inset Formula $NbSl2$
+\end_inset
+
+ was thin (~??nm) or think (~??nm), in order to compare the tunnelling to
+ thin and think SC.
 \end_layout
 
 \begin_layout Standard
-each part: silicon...
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+scheme of the desired device.
+ parts: (1)silicon, (2)NbSl2, (3)WSl2, (4)gold electrodes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-pilling thin layers and transfer
-\end_layout
+The device was built on a silicon chip.
+ Thin layers of 
+\begin_inset Formula $NbSl2$
+\end_inset
 
-\begin_layout Standard
-gold electrodes.
- gold markers.
- name of technique is _____
+ and 
+\begin_inset Formula $WSl2$
+\end_inset
+
+ were pilled from bulk material with celio-tape.
+ Later, they were piled using dry transfer technique.
+ The gold electrodes were evaporated using ____ technique.
 \end_layout
 
 \begin_layout Section
 transfer
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection
+transfer stages
+\end_layout
+
+\begin_layout Enumerate
 pilling
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 transfer stages, including images.
  image of Tung dagger with color scale
+\end_layout
+
+\begin_layout Enumerate
+.
+\end_layout
+
+\begin_layout Enumerate
+.
+\end_layout
+
+\begin_layout Enumerate
+.
 \end_layout
 
 \begin_layout Standard
@@ -266,9 +377,64 @@ edit
 .
 \end_layout
 
+\begin_layout Subsection
+Device after transfer
+\end_layout
+
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Device JC.
+ Left: 
+\begin_inset Formula $NbSl2$
+\end_inset
+
+ on silicon.
+ Right: 
+\begin_inset Formula $WSl2$
+\end_inset
+
+ on PDMS .
+ Center: 
+\begin_inset Formula $WSl2$
+\end_inset
+
+ on 
+\begin_inset Formula $NbSl2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 pictures of the 4(? JC first) devices: tung, Nb, both, fix orientation,
  put arrows to show
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -308,11 +474,64 @@ why: electrodes design.
 \end_layout
 
 \begin_layout Standard
+reference image link**
+\end_layout
+
+\begin_layout Subsection
 images after first heat cleaning
 \end_layout
 
 \begin_layout Standard
-images after second heat cleaning 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+images of JC after first heat cleaning
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+images after second heat cleaning
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+images of JC after second heat cleaning
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
@@ -323,6 +542,10 @@ structure: should these pictures be in AFM section or heat cleaning section?
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+differences
 \end_layout
 
 \begin_layout Standard
@@ -351,15 +574,24 @@ can see Nb with dirt, and Nb dirt Tung: we know that the dirt was between
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 mostly images of JC.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 scans + resolution pixels, real space
 \end_layout
 
-\begin_layout Standard
-also put some graphs of cross sections (for heigh differences)
+\begin_layout Plain Layout
+also put some graphs of cross sections (for height differences)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -383,6 +615,41 @@ possible reason: showing optical images of device before and after heat
 \end_layout
 
 \begin_layout Itemize
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+image of device JC.
+ left: before heat cleaning.
+ right: after heat cleaning
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+should put arrows to show the bright part
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
 what have: JC contacts X Y : NISIN.
  two consecutive tunneliing junctions.
  thin Nb, thick Nb.
@@ -396,24 +663,24 @@ what have: JC contacts X Y : NISIN.
 measurements, results
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection
 kinds of measurements:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 tunnelling I(V), dIdV
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
+zero bias conductance
+\end_layout
+
+\begin_layout Enumerate
 with field H
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 field cooling
-\end_layout
-
-\begin_layout Standard
-zero bias conductance
 \end_layout
 
 \begin_layout Section
@@ -472,7 +739,9 @@ notes:
 \end_layout
 
 \begin_layout Standard
-ground voodoo
+ground voodoo.
+ method of control.
+ possible reasons for gound issues.
 \end_layout
 
 \begin_layout Standard
@@ -575,6 +844,29 @@ I(V), dIdV....
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+I(V), dIdV, high bias....
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 zero bias conductance
 \end_layout
@@ -601,22 +893,19 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-zero bias conductance at conditions XXX
+zero bias conductance at conditions XXX.
+ (
+\begin_inset Formula $H$
+\end_inset
+
+ increasing and then decreasing)
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -929,22 +1218,19 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-XXX
+zero bias conductance at conditions XXX.
+ (
+\begin_inset Formula $H$
+\end_inset
+
+ increasing and then decreasing)
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
