@@ -152,6 +152,12 @@ Should structure to Tom (just titles: table of contents) ASAP
 
 \end_layout
 
+\begin_layout Itemize
+now structure is relatively built.
+ Now: what first? creation of device.
+ write subs in the body of the text
+\end_layout
+
 \begin_layout Section
 do not forget:
 \end_layout
@@ -286,7 +292,7 @@ the desired device is NIS (normal-insulator-superconductor).
 \end_inset
 
  was thin (~??nm) or think (~??nm), in order to compare the tunnelling to
- thin and think SC.
+ thin and thick SC.
 \end_layout
 
 \begin_layout Standard
@@ -337,44 +343,227 @@ transfer stages
 \end_layout
 
 \begin_layout Enumerate
-pilling
+The entire process is done in a gloves box, with atmosphere of 
+\begin_inset Formula $N_{2}$
+\end_inset
+
+ , to avoid oxidising the 
+\begin_inset Formula $NbSl2$
+\end_inset
+
+ when it's not covered with 
+\begin_inset Formula $WSl2$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Enumerate
+Pilling: _____
+\end_layout
+
+\begin_layout Enumerate
+Small squares of PDMS are located on a glass carrier, attached to the celio-tape
+, and then the celio-tape is pulled away rapidly.
+ small flakes of the target material remain on the PDMS.
+\end_layout
+
+\begin_layout Enumerate
+PDMS with 
+\begin_inset Formula $NbSl2$
+\end_inset
+
+ is turned to face down, and is lowered to touch a clean spot on the silicon
+ chip.
+ It is raised slowly, and some flakes stay on the silicon.
+ In order to transfer more flakes, the same PDMS was used again to stamp
+ an adjecet spot.
+ It increased the amount of flakes passed (thus increasing the veraity of
+ choice for the device), at the risk of leaving some PDMS residue that might
+ hinder the contact between the 
+\begin_inset Formula $NbSl2$
+\end_inset
+
+and the 
+\begin_inset Formula $WSl2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+In optical image of the flakes on PDMS and on silicon, the colors indicate
+ the width of the flake (number of layers).
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Left: 
+\begin_inset Formula $WSl2$
+\end_inset
+
+ on PDMS (dagger), Right: 
+\begin_inset Formula $NbSl2$
+\end_inset
+
+ on silicon (XXX)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Using microscope (magnification up to X100) the good flakes are found either
+ on the silicon or on the PDMS, and their pictures are taken.
+ Based on the pictures, 
+\begin_inset Quotes eld
+\end_inset
+
+skeletons
+\begin_inset Quotes erd
+\end_inset
+
+ that show the important parts are made.
+\end_layout
+
+\begin_layout Enumerate
+The device is planned
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Plan of device JC.
+ Right: 
+\begin_inset Formula $WSl2$
+\end_inset
+
+ with skeleton.
+ Right: 
+\begin_inset Formula $NbSl2$
+\end_inset
+
+ with the skeleton of 
+\begin_inset Formula $WSl2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+The PDMS with 
+\begin_inset Formula $WSl2$
+\end_inset
+
+ is located above the 
+\begin_inset Formula $NbSl2$
+\end_inset
+
+ and lowered carefully, while keeping the horizontal position where planned.
+\end_layout
+
+\begin_layout Enumerate
+After the PDMS touches the silicon, it is raised slowly (about 
+\begin_inset Formula $1\frac{\mu m}{sec}$
+\end_inset
+
+).
+ In most cases the 
+\begin_inset Formula $WSl2$
+\end_inset
+
+ flake remains on the silicon as planned.
+ Usually with location deviation of 
+\begin_inset Formula $\sim1-2[\mu m]$
+\end_inset
+
+ from the plan.
+\end_layout
+
+\begin_layout Enumerate
+.
+\end_layout
+
+\begin_layout Enumerate
+.
+\end_layout
+
+\begin_layout Enumerate
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+put notes from log: multiple stamping etc
+\end_layout
+
+\begin_layout Plain Layout
 transfer stages, including images.
  image of Tung dagger with color scale
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 .
 \end_layout
 
-\begin_layout Enumerate
-.
-\end_layout
-
-\begin_layout Enumerate
-.
-\end_layout
-
-\begin_layout Standard
-put notes from log: multiple stamping etc
-\end_layout
-
-\begin_layout Standard
-.
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 copy from notes
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 edit
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 .
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
