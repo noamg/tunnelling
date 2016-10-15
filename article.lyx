@@ -577,6 +577,13 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "device JC optical"
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -673,26 +680,83 @@ AFM
 \end_layout
 
 \begin_layout Standard
-used AFM devie ____ tapping mode.
- AFM machine type etc
+After the device is created and somewhat cleaned with heat cleaning, a better
+ characterization is required.
+ This includes: making sure what is the location and thickness (how many
+ layers) of each material.
+ This is important in order to know for sure the device structure, and in
+ order to plan the electrodes location.
 \end_layout
 
 \begin_layout Standard
-wanted to characterise: thickness (how many layers), which material is where
- (topography, phase), folds
+For that matter, we used an AFM (type ___) in tapping mode.
+ The topography measurement indicated thickness and mateiral idnetity.
+ Phase shift image indicated material idnetity.
 \end_layout
 
 \begin_layout Standard
-why: electrodes design.
- where should they go.
+Next images are of device JC, that can be seen in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "device JC optical"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-reference image link**
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+folds
+\end_layout
+
+\begin_layout Plain Layout
+dirt
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
 images after first heat cleaning
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+take images
+\end_layout
+
+\begin_layout Plain Layout
+open gwyddion
+\end_layout
+
+\begin_layout Plain Layout
+apply filters
+\end_layout
+
+\begin_layout Plain Layout
+choose height and / or phase
+\end_layout
+
+\begin_layout Plain Layout
+add scale or export with scale
+\end_layout
+
+\begin_layout Plain Layout
+add arrows dirt, etc
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -792,7 +856,7 @@ can see Nb with dirt, and Nb dirt Tung: we know that the dirt was between
 status open
 
 \begin_layout Plain Layout
-mostly images of JC.
+if possible: only images of JC.
 \end_layout
 
 \begin_layout Plain Layout
