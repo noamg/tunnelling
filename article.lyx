@@ -158,6 +158,19 @@ now structure is relatively built.
  write subs in the body of the text
 \end_layout
 
+\begin_layout Itemize
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+how deep should I get to the process of the cooling?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 do not forget:
 \end_layout
@@ -1018,19 +1031,32 @@ kinds of measurements:
 \end_layout
 
 \begin_layout Enumerate
-tunnelling I(V), dIdV
+Tunnelling: conductivity I(V), 
+\begin_inset Formula $\frac{dI}{dV}(V)=G(V)$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Enumerate
-zero bias conductance
+zero bias conductance: 
+\begin_inset Formula $\frac{dI}{dV}(V\sim0,H)$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
-with field H
+conductivity in different fields H: 
+\begin_inset Formula $G(V,H)$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
-field cooling
+field cooling: repeating the above in different condition: the sample is
+ cooled with external field H applied.
 \end_layout
 
 \begin_layout Section
@@ -1042,7 +1068,38 @@ cooler setup
 \end_layout
 
 \begin_layout Standard
-should control temperature, measure......
+the cooler setup can reduce the sample temperature down to 
+\begin_inset Formula $T_{base}=0.3K$
+\end_inset
+
+, and to measure the temperature.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+would be easier when I see everything
+\end_layout
+
+\end_inset
+
+XXX parts: sample, 1K cup, zorb, needle valve, pumps, internal vaccum chamber.
+ exchage gasses.
+ controller.
+ zorb heater, 
+\begin_inset Formula $He^{3}$
+\end_inset
+
+ container.
+ liquifier.
+ liquid helium tank.
+ radiation reflectors.
+\end_layout
+
+\begin_layout Standard
+XXX process:
 \end_layout
 
 \begin_layout Standard
@@ -1073,7 +1130,27 @@ electronic measurement setup
 \end_layout
 
 \begin_layout Standard
-shuold measure X, control X
+The electronic measurement setup applied voltage on the sample (which is
+ 2 consecutive tunnelling junctions), and measures the current through the
+ device.
+\end_layout
+
+\begin_layout Standard
+parts: electrodes, dac, voltmeter of daq, current to voltage + amplifier,
+ current voltmeter, computer, BNC wires.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+easier when I see everything
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1085,18 +1162,55 @@ connections to the computer
 \end_layout
 
 \begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
 notes:
+\end_layout
+
+\begin_layout Enumerate
+Due to a drift of the DAC, the measured 
+\begin_inset Formula $V=0$
+\end_inset
+
+ deivated sometimes from real 
+\begin_inset Formula $V=0$
+\end_inset
+
+.
+ Also, witout applied voltage their should be no tunelling current (
+\begin_inset Formula $I(V=0)=0$
+\end_inset
+
+).
+ However, the minimal current measured was above 0, probably due to imperfect
+ ground connection issues.
+ In order to optimize the effect, we found V where I was minimal, and then
+ thouched some of the metal wires and pipes connected to the cooler and
+ sample.
+ These random touches changed I, and we stopped when I was minimal.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+thermal spread: what is it? the width of fermi-dirac distribution?.
+ resolution choice.
+ 1K~80uV
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 ground voodoo.
  method of control.
  possible reasons for gound issues.
-\end_layout
-
-\begin_layout Standard
-thermal spread.
- resolution choice
 \end_layout
 
 \begin_layout Standard
@@ -1123,7 +1237,11 @@ electronic setup
 \end_layout
 
 \begin_layout Standard
-magnet
+magnet: the magnet was used to apply an external field up to 
+\begin_inset Formula $H=6[T]$
+\end_inset
+
+ using a persistent current in superconducting ___ wire.
 \end_layout
 
 \begin_layout Section
