@@ -166,6 +166,20 @@ status open
 how deep should I get to the process of the cooling?
 \end_layout
 
+\begin_layout Plain Layout
+should understand what we tried to get with each of the measurements? how
+ did it help us understand something about the story? differ beteen posibilities
+?
+\end_layout
+
+\begin_layout Plain Layout
+should make graphs ASAP and show Hadar to have tome to fixes.
+\end_layout
+
+\begin_layout Plain Layout
+uncertainties?
+\end_layout
+
 \end_inset
 
 
@@ -1036,11 +1050,31 @@ Tunnelling: conductivity I(V),
 \end_inset
 
 .
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+density of states? what else?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
 zero bias conductance: 
 \begin_inset Formula $\frac{dI}{dV}(V\sim0,H)$
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+why? magnetic histeresis, what else?
+\end_layout
+
 \end_inset
 
 
@@ -1154,7 +1188,16 @@ easier when I see everything
 \end_layout
 
 \begin_layout Standard
-what exists, connections, choice of parameters: avaraging slow meduim fast....
+what exists, connections
+\end_layout
+
+\begin_layout Standard
+choice of parameters:
+\end_layout
+
+\begin_layout Standard
+the voltmeter that measures current from the output of the amplifier takes
+ an avarage of ___ samples (mode medium)
 \end_layout
 
 \begin_layout Standard
@@ -1249,6 +1292,18 @@ tunnelling I(V), dIdV
 \end_layout
 
 \begin_layout Standard
+notes: 
+\end_layout
+
+\begin_layout Standard
+avaraging 40 measurements in measuring I.
+\end_layout
+
+\begin_layout Standard
+smooth: meaning that the derivative is taken at scale XXX.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
@@ -1283,10 +1338,6 @@ low bias 0.3K
 
 \begin_layout Standard
 high bias 0.3K
-\end_layout
-
-\begin_layout Standard
-smooth: meaning that the derivative is taken at scale XXX.
 \end_layout
 
 \begin_layout Standard
@@ -1344,14 +1395,30 @@ willing to measure
 \begin_inset Formula $\frac{dI}{dV}(V\sim0,H)$
 \end_inset
 
- in ???high resolution: 
+ in resolution: 
 \begin_inset Formula $\Delta H=???[T]$
 \end_inset
 
 .
- real measurement: finding the minimum of dIdV.
- little above.
- approximation of the derivative.
+ real measurement: finding 
+\begin_inset Formula $V_{min}$
+\end_inset
+
+ which minimises 
+\begin_inset Formula $|I|$
+\end_inset
+
+ (I~0).
+ then 
+\begin_inset Formula $\frac{dI}{dV}(V\sim0,H)\approx\frac{I(V_{min}+\Delta V)-I(V_{min})}{\Delta V}\approx\frac{1}{\Delta V}I(V_{min}+\Delta V,H)$
+\end_inset
+
+ as desired.
+ Took 
+\begin_inset Formula $\Delta V=100\mu V$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1397,23 +1464,23 @@ with field H:
 
 \begin_layout Standard
 the external field H was raised from 
-\begin_inset Formula $0[T]$
+\begin_inset Formula $H=0[T]$
 \end_inset
 
  to 
-\begin_inset Formula $4[T]$
+\begin_inset Formula $H=4[T]$
 \end_inset
 
  and then lowered back to 
-\begin_inset Formula $0[T]$
+\begin_inset Formula $H=0[T]$
 \end_inset
 
  in steps of 
-\begin_inset Formula $??[T]$
+\begin_inset Formula $\Delta H=??[T]$
 \end_inset
 
 .
- At each of the field an 
+ At each of the fields an 
 \begin_inset Formula $I(V)$
 \end_inset
 
@@ -1603,7 +1670,7 @@ field coolling
 \end_layout
 
 \begin_layout Standard
-as 
+As 
 \begin_inset Formula $H$
 \end_inset
 
