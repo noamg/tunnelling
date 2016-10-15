@@ -631,16 +631,41 @@ heat cleaning
 \end_layout
 
 \begin_layout Standard
-gains: cleaning dust, dirts type X Y Z from between layers.
- better contact better tunnelling
+During the creation of the devie some dust, water and organic materials
+ get between the layers.
+ They lower the effective contact erea between the layers and thus hurt
+ the tunnelling junction.
+ After the creation of the device, we apply heat cleaning which helps removing
+ some of the dirt.
+ The sample is located in an oven with atmosphere of 95% Argon, 5% 
+\begin_inset Formula $H_{2}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-process:
+We applied first time with 
+\begin_inset Formula $T=XXX$
+\end_inset
+
+ for 
+\begin_inset Formula $\Delta t=XXX$
+\end_inset
+
+ , second time with 
+\begin_inset Formula $T=XXX$
+\end_inset
+
+ for 
+\begin_inset Formula $\Delta t=XXX$
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
-type of oven etc
+type of oven used was ____.
 \end_layout
 
 \begin_layout Section
