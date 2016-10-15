@@ -877,19 +877,53 @@ final device
 \end_layout
 
 \begin_layout Itemize
-contact tests.
- what failed
+After the AFM measurements, golden electrodes were laid on the chip using
+ ___ technique.
 \end_layout
 
 \begin_layout Itemize
-possible reason: showing optical images of device before and after heat
- cleaning.
- comparing the color.
- show similar image from device of Tom.
- bonus: image subtraction (make sure to sclae what needed to be scale.
+The chip contained 4 devices, and __30__ electrodes and contacts tests.
+ In contact testing, it has turned out that only 2 electrodes were connected
+ through a device (one of the four devices).
+\end_layout
+
+\begin_layout Itemize
+possible reason for this failure: observing optical images of device before
+ and after heat cleaning.
+ the color texture of exposed 
+\begin_inset Formula $NbSl2$
+\end_inset
+
+ changed, which indicates a possible change in the texture of the material
+ surface.
+ Perhaps that change disturbes the contact with the electrode.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+show similar image from device of Tom.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+bonus: image subtraction (make sure to sclae what needed to be scale.
  maybe based on the silicon.
- maybe the heat cleaning affected the surface of the NbSl2 and therefore
- the contacts don't work
+\end_layout
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -904,7 +938,12 @@ status open
 \begin_layout Plain Layout
 image of device JC.
  left: before heat cleaning.
- right: after heat cleaning
+ right: after heat cleaning.
+ the color of the exposed 
+\begin_inset Formula $NbSl2$
+\end_inset
+
+ is changed
 \begin_inset Note Note
 status open
 
@@ -928,13 +967,46 @@ should put arrows to show the bright part
 \end_layout
 
 \begin_layout Itemize
-what have: JC contacts X Y : NISIN.
- two consecutive tunneliing junctions.
- thin Nb, thick Nb.
+eventually, there was a single device with 2 contacts laid over the insulator
+ 
+\begin_inset Formula $WSl2$
+\end_inset
+
+, which created a device of structure NISIN.
+ two consecutive tunneliing junctions, one at the heart of the 
+\begin_inset Formula $NbSl2$
+\end_inset
+
+ and one at the side.
+ ??thin Nb, ??thick Nb.
+ 
 \end_layout
 
 \begin_layout Itemize
-***and why JC tunneling measurements.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+scheme of the final device
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
