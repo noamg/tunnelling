@@ -339,6 +339,15 @@ scheme of the desired device.
 \end_inset
 
 
+\begin_inset Graphics
+	filename schemes/NIS.png
+	lyxscale 40
+	scale 40
+	clip
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -451,6 +460,22 @@ Left:
 \end_inset
 
 
+\begin_inset Graphics
+	filename images/tung_color_refrence.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/KALL_ref_NbSl2.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -491,7 +516,7 @@ status open
 
 \begin_layout Plain Layout
 Plan of device JC.
- Right: 
+ Left: 
 \begin_inset Formula $WSl2$
 \end_inset
 
@@ -506,6 +531,22 @@ Plan of device JC.
 
 
 \end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/JC_tung_fine_skeleton.jpg
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/JC_Nb_skeleton_tung_plan.jpg
+	lyxscale 30
+	scale 30
 
 \end_inset
 
@@ -635,6 +676,33 @@ Device JC.
 
 
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/JC_tung_fine_skeleton.jpg
+	lyxscale 20
+	scale 20
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/JC_final_trim.jpg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/JC_Nb_skeleton_tung_plan.jpg
+	lyxscale 20
+	scale 20
 
 \end_inset
 
@@ -1025,6 +1093,15 @@ status open
 \begin_layout Plain Layout
 scheme of the final device
 \end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename schemes/NISIN.png
+	lyxscale 40
+	scale 40
+	clip
 
 \end_inset
 
