@@ -1250,6 +1250,19 @@ the cooler setup can reduce the sample temperature down to
 \end_inset
 
 , and to measure the temperature.
+ The 
+\begin_inset Formula $T_{base}$
+\end_inset
+
+ temperture is bound by 
+\begin_inset Formula $He^{3}$
+\end_inset
+
+ vap
+\end_layout
+
+\begin_layout Standard
+our pressure.
 \end_layout
 
 \begin_layout Standard
@@ -1257,11 +1270,15 @@ the cooler setup can reduce the sample temperature down to
 status open
 
 \begin_layout Plain Layout
+should remove.
+ not business of this paper
+\end_layout
+
+\begin_layout Plain Layout
 would be easier when I see everything
 \end_layout
 
-\end_inset
-
+\begin_layout Plain Layout
 XXX parts: sample, 1K cup, zorb, needle valve, pumps, internal vaccum chamber.
  exchage gasses.
  controller.
@@ -1275,30 +1292,16 @@ XXX parts: sample, 1K cup, zorb, needle valve, pumps, internal vaccum chamber.
  radiation reflectors.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 XXX process:
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-cooler setup
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
