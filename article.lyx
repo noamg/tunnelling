@@ -1313,8 +1313,19 @@ The electronic measurement setup applied voltage on the sample (which is
 \end_layout
 
 \begin_layout Standard
-parts: electrodes, dac, voltmeter of daq, current to voltage + amplifier,
- current voltmeter, computer, BNC wires.
+parts: electrodes, dac, RC low pass filter (cutoff 
+\begin_inset Formula $1.59[Hz]$
+\end_inset
+
+, 
+\begin_inset Formula $R=0.1[M\Omega],C=1\mu F,\tau=0.1[sec]$
+\end_inset
+
+), voltmeter of daq, current to voltage + amplifier (rise time 
+\begin_inset Formula $\sim0.5[sec]$
+\end_inset
+
+), current voltmeter, computer, BNC wires.
 \end_layout
 
 \begin_layout Standard
@@ -1328,6 +1339,10 @@ easier when I see everything
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+MeasApp
 \end_layout
 
 \begin_layout Standard
@@ -1365,6 +1380,15 @@ Due to a drift of the DAC, the measured
 \end_inset
 
 .
+ This is sure since different measurements have 
+\begin_inset Formula $V_{min}$
+\end_inset
+
+ that minimises 
+\begin_inset Formula $I$
+\end_inset
+
+ at different voltages.
  Also, witout applied voltage their should be no tunelling current (
 \begin_inset Formula $I(V=0)=0$
 \end_inset
@@ -1376,6 +1400,12 @@ Due to a drift of the DAC, the measured
  thouched some of the metal wires and pipes connected to the cooler and
  sample.
  These random touches changed I, and we stopped when I was minimal.
+\end_layout
+
+\begin_layout Enumerate
+During all measurements, and voltmeter that measures the current was checked
+ real time, to make sure that it stabilises on a constant value (except
+ noise)
 \end_layout
 
 \begin_layout Enumerate
@@ -1432,6 +1462,27 @@ magnet: the magnet was used to apply an external field up to
 
 \begin_layout Section
 tunnelling I(V), dIdV
+\end_layout
+
+\begin_layout Standard
+recalling what measurements:
+\end_layout
+
+\begin_layout Itemize
+few dIdV low/high 4K 2.2K 0.3K change filter fight ground.
+ rise/decline.
+ feeling the system
+\end_layout
+
+\begin_layout Standard
+why interesting:
+\end_layout
+
+\begin_layout Itemize
+energy gap width: 4mV instead 2.4mV.
+ double junction? (onenote).
+ extreme cases.
+ voltage separation between junctions.
 \end_layout
 
 \begin_layout Standard
@@ -1952,7 +2003,7 @@ key "key-3"
 
 \end_inset
 
-
+https://github.com/tomirendo/measapp
 \end_layout
 
 \begin_layout Bibliography
