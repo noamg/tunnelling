@@ -1301,10 +1301,6 @@ XXX process:
 
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Subsection
 electronic measurement setup
 \end_layout
@@ -1316,7 +1312,12 @@ The electronic measurement setup applied voltage on the sample (which is
 \end_layout
 
 \begin_layout Standard
-parts: electrodes, dac, RC low pass filter (cutoff 
+setup:
+\end_layout
+
+\begin_layout Itemize
+parts: dac that supllies VDC, voltage devider (1/100), RC low pass filter
+ (cutoff 
 \begin_inset Formula $1.59[Hz]$
 \end_inset
 
@@ -1324,53 +1325,30 @@ parts: electrodes, dac, RC low pass filter (cutoff
 \begin_inset Formula $R=0.1[M\Omega],C=1\mu F,\tau=0.1[sec]$
 \end_inset
 
-), voltmeter of daq, current to voltage + amplifier (rise time 
+), voltmeter that measures dac's VDC, current to voltage + amplifier (rise
+ time 
 \begin_inset Formula $\sim0.5[sec]$
 \end_inset
 
-), current voltmeter, computer, BNC wires.
+), voltmeter that measures the current, computer, BNC wires, USB and GPIB
+ cables that connect some of the instruments to the computer.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-easier when I see everything
+\begin_layout Itemize
+the comunication between the computer and instrument was established using
+ MeasApp application.
+ The current value was avaraged (by MeasApp).
+ Usually avaraging 40 samples.
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-MeasApp
-\end_layout
-
-\begin_layout Standard
-what exists, connections
-\end_layout
-
-\begin_layout Standard
-choice of parameters:
-\end_layout
-
-\begin_layout Standard
+\begin_layout Itemize
 the voltmeter that measures current from the output of the amplifier takes
- an avarage of ___ samples (mode medium)
+ an avarage of __XXX_ samples (mode medium) (slow was too slow, fast too
+ noisy)
 \end_layout
 
 \begin_layout Standard
-connections to the computer
-\end_layout
-
-\begin_layout Standard
-.
-\end_layout
-
-\begin_layout Standard
-notes:
+notes on procedures:
 \end_layout
 
 \begin_layout Enumerate
@@ -1398,7 +1376,8 @@ Due to a drift of the DAC, the measured
 
 ).
  However, the minimal current measured was above 0, probably due to imperfect
- ground connection issues.
+ ground connection issues (that leaks to the device through the metalic
+ pipes and cooler).
  In order to optimize the effect, we found V where I was minimal, and then
  thouched some of the metal wires and pipes connected to the cooler and
  sample.
@@ -1427,12 +1406,6 @@ thermal spread: what is it? the width of fermi-dirac distribution?.
 \end_layout
 
 \begin_layout Standard
-ground voodoo.
- method of control.
- possible reasons for gound issues.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1444,6 +1417,14 @@ status open
 \begin_layout Plain Layout
 electronic setup
 \end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename schemes/electronic_setup.jpg
+	lyxscale 40
+	scale 40
 
 \end_inset
 
