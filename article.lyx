@@ -1449,6 +1449,19 @@ tunnelling I(V), dIdV
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+should write something about smooth in the graphs displayed
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 recalling what measurements:
 \end_layout
 
@@ -1456,6 +1469,46 @@ recalling what measurements:
 few dIdV low/high 4K 2.2K 0.3K change filter fight ground.
  rise/decline.
  feeling the system
+\end_layout
+
+\begin_layout Itemize
+zero bias conductance (17, 19)
+\end_layout
+
+\begin_layout Itemize
+again dIdV H=0, H_1, 0 compare (16, 18, 20)
+\end_layout
+
+\begin_layout Itemize
+then about 10 measurements playing with H, ground.
+ (35) was sucessfull.
+\end_layout
+
+\begin_layout Itemize
+I(V,H) (36 H rise, 37 H falls)
+\end_layout
+
+\begin_layout Itemize
+same but hot, more dIdV, low and high bias
+\end_layout
+
+\begin_layout Itemize
+(40) record.
+ bistability
+\end_layout
+
+\begin_layout Itemize
+field cooling in 
+\begin_inset Formula $H=0.12[T]$
+\end_inset
+
+.
+ dIdV zero bias, more dIdV more zero bias
+\end_layout
+
+\begin_layout Itemize
+from (63) and above: should complete graphs to re-understand what happenned
+ there
 \end_layout
 
 \begin_layout Standard
@@ -1467,6 +1520,14 @@ energy gap width: 4mV instead 2.4mV.
  double junction? (onenote).
  extreme cases.
  voltage separation between junctions.
+\end_layout
+
+\begin_layout Itemize
+heart of sample compared to edges.
+\end_layout
+
+\begin_layout Itemize
+are the features related to SC? to vortices? to quantum dots? else?
 \end_layout
 
 \begin_layout Standard
