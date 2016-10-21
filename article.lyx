@@ -270,20 +270,469 @@ theoretical background: tunnelling, Tinkham 2, 4, 5.
  tunneling to SC.
 \end_layout
 
+\begin_layout Standard
+electrons gas
+\end_layout
+
 \begin_layout Subsection
 tunnelling
+\end_layout
+
+\begin_layout Standard
+wave function, ...
+\end_layout
+
+\begin_layout Standard
+every energy state as a channel.
 \end_layout
 
 \begin_layout Subsection
 superconductivity, vortices
 \end_layout
 
+\begin_layout Standard
+take from report of SC
+\end_layout
+
 \begin_layout Subsection
 density of states in superonductor
 \end_layout
 
+\begin_layout Standard
+don't think of cooper pairs only as bosons.
+ those are electrons down there.
+ it a condensation, but not bose-einstein condensation.
+\end_layout
+
+\begin_layout Standard
+phase of the pesudo wave function and density of super-charge.
+ quantum adjoint properties.
+ const phase: not knowing the number of carriers.
+ 
+\end_layout
+
+\begin_layout Standard
+elecron hole symetry.
+\end_layout
+
+\begin_layout Standard
+electrons are called quasi particle.
+\end_layout
+
+\begin_layout Standard
+coherence peaks.
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+density of states: of the electrons, not of the cooper pairs.
+ remainder: quantum system.
+ energy states.
+ energy levels.
+ solid state.
+ behaviour of electrons.
+ energy states of electrons, energy levels.
+ hamiltonian.
+ temperature.
+ boltzman distribution.
+ FD distribution, pauli prohibition.
+ fermi level.
+ meaning of fermi level (other then just the level of the top electron).
+ pouring electrons.
+\end_layout
+
+\begin_layout Standard
+free space 1D, 2D, 3D.
+ central potential.
+ others.
+ periodical potential.
+ bloch states.
+ inert fermi sea.
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Subsubsection
+BSC model
+\end_layout
+
+\begin_layout Standard
+The BCS is a model for superconductivity.
+ It's suggests that a minor attractive electron electron interaction creates
+ energy states lower then 
+\begin_inset Formula $E_{f}$
+\end_inset
+
+, and that thsese states entangles the two electron in 
+\begin_inset Formula $|\vec{k}\uparrow,-\vec{k}\downarrow>$
+\end_inset
+
+ state.
+ It's not trivial as generally, in 3D not every potential well has bound
+ states.
+ Also, the coloumb repulsion between the electrons is screened by the positive
+ ions of the crystal.
+ The suggested source of attractivr interaction is mediated by the ions:
+ an electron that passes by atrracts the ions, and creates a wake of high
+ density of possitive charge, which can be viewed as a phonon.
+ Another electron passing by is attracted to these ions, and therfore is
+ attracted to the first electron.
+ The key point is that the electrons are moving much faster then the ions,
+ and thus the coloumb repulsion can be efectively screened.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+electron electron attraction mediated by the ions crystal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Pair of electrons with attractive interaction
+\end_layout
+
+\begin_layout Standard
+Considering two electrons with attractive interaction 
+\begin_inset Formula $V(\vec{r_{1}}-\vec{r_{2})}$
+\end_inset
+
+ at 
+\begin_inset Formula $E_{f}$
+\end_inset
+
+ on top of inert fermi sea.
+ In the frame of reference of the center of mass, and assuming for simplicity
+ that the interaction potential has interaction only for momenta which has
+ energy close to 
+\begin_inset Formula $E_{f}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $V_{k,k^{'}}=-V_{0}\cdot\begin{cases}
+\begin{array}{cc}
+\xi_{k,}\xi_{k^{'}}<\hbar\omega_{c} & 1\\
+else & 0
+\end{array}\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+wheras 
+\begin_inset Formula $\epsilon_{k}=\frac{\hbar^{2}k^{2}}{2m},\xi_{k}=\epsilon_{k}-E_{f},\omega_{c}=debyee...$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The result is 
+\begin_inset Formula $E=2\cdot E_{f}-\Delta,\Delta=2\hbar\omega_{c}\exp(-\frac{2}{g(E_{f})\cdot V_{0}})$
+\end_inset
+
+ so for every attractive interaction exists energy states of the couple
+ of electrons that is lower than 
+\begin_inset Formula $E_{f}$
+\end_inset
+
+.
+ To minimize the energy, the electrons need to be not far, so 
+\begin_inset Formula $\psi(\vec{r}=\vec{r_{1}}-\vec{r}_{2})$
+\end_inset
+
+ should be symetric, and 
+\begin_inset Formula $\chi(S_{1},S_{2})$
+\end_inset
+
+ would be anti-symetric (singlet) so the entire wavefunction would be anti-symet
+ric.
+\end_layout
+
+\begin_layout Standard
+Therefore, the state in which all the electrons are free and in fermi sea
+ is unstable, and couples of electrons tend to entangle themselves together.
+\end_layout
+
+\begin_layout Subsubsection
+Attractive interactions between all electrons
+\end_layout
+
+\begin_layout Standard
+The interaction hamiltonian taking into account pairs in singlet mode is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $H=H_{interaction}=\sum_{k,s}\xi_{k}C_{ks}^{\dagger}C_{ks}+\sum_{kk^{'}}V_{kk^{'}}C_{k\uparrow}^{\dagger}C_{-k\downarrow}^{\dagger}C_{-k\downarrow}C_{k\uparrow}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Using mean field approximation for states of cooper pairs, and Bogoliubov
+ transformation, the hamiltonian presents these energy states:
+\end_layout
+
+\begin_layout Standard
+electron with energy above 
+\begin_inset Formula $E_{f}+\Delta$
+\end_inset
+
+, hole with energy below 
+\begin_inset Formula $E_{f}-\Delta$
+\end_inset
+
+, and the energy spectrum reveals an energy gap, with prohibited states:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+energy spectrum of electrons in SC (according to BSC)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+next until next clause, should remove
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Full interaction
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+finite potential well.
+ 1D has to be at least one bound state.
+ 3D not nessecarilly.: the well is the attractive interaction.
+ outside the well: floating on fermi surface.
+\end_layout
+
+\begin_layout Standard
+screening of coloumn force
+\end_layout
+
+\begin_layout Standard
+cooper problem: a term in H of attractive electron electron interaction
+ (of spesific 2).
+\end_layout
+
+\begin_layout Standard
+center of mass viewer.
+ coordinated transformation.
+ r,R.
+ K space.
+ an assumption about the attractive potential.
+ new energy levels: creates an entangled state of the electron, with less
+ energy then 
+\begin_inset Formula $E_{f}$
+\end_inset
+
+.
+ regardless strength of the potential.
+ this state: symetric in space r (so they are close).
+ antisymetric in spin.
+ singlet.
+\end_layout
+
+\begin_layout Standard
+we can tell a story about attractive potential: mediated by virtual phonon
+ (rather then thermal).
+\end_layout
+
+\begin_layout Standard
+so 2 electrons leave fermi level and dive toghether.
+ then again.
+ then again.
+ so all the electrons near fermi level couple and dive (join the condensate).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+ask Hadar:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+what happans to fermi level? why isn't it falling now?
+\end_layout
+
+\begin_layout Standard
+what is close? what is 
+\begin_inset Formula $\Delta$
+\end_inset
+
+ ? from where is it rising? that is the energy earned by creating a cooper
+ pair.
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+fermionic quasi particle
+\end_layout
+
+\begin_layout Standard
+branches.
+ bands.
+ energy spectrum
+\end_layout
+
+\begin_layout Standard
+exitation as particles.
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+semi conductor model
+\end_layout
+
+\begin_layout Standard
+energy gap
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+full hamiltonian with electron-electron attractive interactions.
+ solving.
+ lot's of math.
+ some transformation.
+\end_layout
+
+\begin_layout Standard
+density of states as real part of complex function.
+ levels, coherence peaks , gap.
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+impurities.
+ channels.
+ changing parameter to complex.
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+cooper problem.
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+zero resistance rising from that.
+\end_layout
+
 \begin_layout Subsection
 tunnelling into superconductor
+\end_layout
+
+\begin_layout Standard
+impurities.
+ channels
+\end_layout
+
+\begin_layout Standard
+the voltage sets fermi level.
+\end_layout
+
+\begin_layout Standard
+an electron tries to tunnell.
+ there is not a free energy state.
+ cannot.
+\end_layout
+
+\begin_layout Standard
+near the edges the thermal spread (phonons) may help to tunnell.
+\end_layout
+
+\begin_layout Standard
+impurities.
+\end_layout
+
+\begin_layout Standard
+vortices.
+ can get to normal state in the vortex, then wait untill it's diving.
 \end_layout
 
 \begin_layout Part
