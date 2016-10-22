@@ -1634,6 +1634,16 @@ measurements, results
 
 \begin_layout Subsection
 kinds of measurements:
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+and what physics do they tell/reveal/examine
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
@@ -1655,7 +1665,15 @@ density of states? what else?
 \end_layout
 
 \begin_layout Enumerate
-zero bias conductance: 
+zero bias conductance (
+\begin_inset Formula $H<0.12[T]$
+\end_inset
+
+, 
+\begin_inset Formula $H<4??6[T]$
+\end_inset
+
+): 
 \begin_inset Formula $\frac{dI}{dV}(V\sim0,H)$
 \end_inset
 
@@ -1683,6 +1701,10 @@ conductivity in different fields H:
 \begin_layout Enumerate
 field cooling: repeating the above in different condition: the sample is
  cooled with external field H applied.
+\end_layout
+
+\begin_layout Enumerate
+control bistability.
 \end_layout
 
 \begin_layout Section
@@ -1891,6 +1913,20 @@ magnet: the magnet was used to apply an external field up to
 \end_inset
 
  using a persistent current in superconducting ___ wire.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $H<0.12[T]$
+\end_inset
+
+ keithley...
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1911,13 +1947,22 @@ should write something about smooth in the graphs displayed
 \end_layout
 
 \begin_layout Standard
-recalling what measurements:
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+recalling what measurements: XXXXXXXXX
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
 few dIdV low/high 4K 2.2K 0.3K change filter fight ground.
  rise/decline.
- feeling the system
+ feeling the system 
 \end_layout
 
 \begin_layout Itemize
@@ -1958,6 +2003,39 @@ field cooling in
 \begin_layout Itemize
 from (63) and above: should complete graphs to re-understand what happenned
  there
+\end_layout
+
+\begin_layout Itemize
+again ground.
+\end_layout
+
+\begin_layout Itemize
+again conductance
+\end_layout
+
+\begin_layout Itemize
+again zero bias.
+\end_layout
+
+\begin_layout Itemize
+try I(V,H) fail.
+ again cunductance.
+\end_layout
+
+\begin_layout Itemize
+(94<) with hadar
+\end_layout
+
+\begin_layout Itemize
+conductance, zero bias, full (103)
+\end_layout
+
+\begin_layout Itemize
+more.
+ I don't keep track of what I wanted to check.
+ the reason is that I mainlt focused on repeating measurements.
+ and trying to reproduce the interesting features.
+ OK just say that, and compare to beginnning of measurement (weeks ago).
 \end_layout
 
 \begin_layout Standard
