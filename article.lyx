@@ -1087,6 +1087,19 @@ edit
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Ask Tom: what is new in the process? Add discussion here?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Device after transfer
 \end_layout
@@ -1930,7 +1943,7 @@ status open
 \end_layout
 
 \begin_layout Section
-tunnelling I(V), dIdV
+buffer
 \end_layout
 
 \begin_layout Standard
@@ -2057,16 +2070,12 @@ heart of sample compared to edges.
 are the features related to SC? to vortices? to quantum dots? else?
 \end_layout
 
-\begin_layout Standard
-notes: 
-\end_layout
+\begin_layout Section
+conductance of the double tunnelling junction: I(V), 
+\begin_inset Formula $\frac{dI}{dV}(V)=G(V)$
+\end_inset
 
-\begin_layout Standard
-avaraging 40 measurements in measuring I.
-\end_layout
 
-\begin_layout Standard
-smooth: meaning that the derivative is taken at scale XXX.
 \end_layout
 
 \begin_layout Standard
@@ -2085,45 +2094,22 @@ edit
 .
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 low bias 4K
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 high bias 4K
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 low bias 0.3K
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 high bias 0.3K
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-I(V), dIdV....
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \end_inset
 
 
@@ -2139,7 +2125,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-I(V), dIdV, high bias....
+I(V), dIdV, of the double junction, few T....
 \end_layout
 
 \end_inset
@@ -2150,10 +2136,83 @@ I(V), dIdV, high bias....
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+I(V), dIdV, high bias, of the double junction, few T....
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+notes: 
+\end_layout
+
+\begin_layout Standard
+avaraging 40 measurements in measuring I.
+\end_layout
+
+\begin_layout Standard
+smooth: meaning that the derivative is taken at scale XXX.
+\end_layout
+
+\begin_layout Standard
+In low bias, the conductance displayes the gap behaviour of a tunneliing
+ junction, as expected.
+ The ratio of ___levels and the minimum of the gap is ___ compared to 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+ask Tom .
+ 
+\end_layout
+
+\end_inset
+
+.
+ The width is 
+\begin_inset Formula $\Delta E=***$
+\end_inset
+
+ compared to 
+\begin_inset Formula $***$
+\end_inset
+
+ measured at ***.
+ The width of the gap is wider, probably due to the fact this is a double
+ junction.
+ each junction recieves only a part of the bias voltage.
+ ...more....
+\end_layout
+
+\begin_layout Standard
+* XXX double junction model.
 \end_layout
 
 \begin_layout Section
-zero bias conductance
+entrance of vortices: zero bias conductance 
+\begin_inset Formula $G(V\sim0,H)$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2197,7 +2256,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-zero bias conductance at conditions XXX.
+zero bias conductance at conditions XXX 
+\begin_inset Formula $H<***$
+\end_inset
+
+.
  (
 \begin_inset Formula $H$
 \end_inset
@@ -2215,8 +2278,160 @@ zero bias conductance at conditions XXX.
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+zero bias conductance 
+\begin_inset Formula $H<***$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+conductance before ZBC, at 
+\begin_inset Formula $H=***$
+\end_inset
+
+, after 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+must check times of measurements.
+ make sure not enough time to diffuse.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+maybe should insert here conductance with trapped flux from later chronologicall
+y
+\end_layout
+
+\begin_layout Plain Layout
+maybe should add here all the ZBC done at the end., and quantisation analysis
+\end_layout
+
+\begin_layout Plain Layout
+quantisation analysis: think a little, ask Haddar.
+ focus first on simplest things possible.
+ histogram of 
+\begin_inset Formula $I(H+\Delta H)-I(H)$
+\end_inset
+
+ four soutable 
+\begin_inset Formula $\Delta H$
+\end_inset
+
+.?? histogram of values.
+ also: semi-automatic analysis with ginput and me showing the levels.
+\end_layout
+
+\begin_layout Plain Layout
+maybe add here figures and discussion on histeresis.
+ H from -0.12 to 0.12.
+ up and down...
+ remarks of Hader.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+the conductance rises with 
+\begin_inset Formula $H$
+\end_inset
+
+ without threshould, indicating that vortices enter the sample even at the
+ lowest field (at both junctions).
+\end_layout
+
+\begin_layout Enumerate
+vortices trapping: up and down.
+\end_layout
+
+\begin_layout Enumerate
+vortices trapping??? conductance after going down.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+maybe: quantization analysis here.....
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-with field H: 
+physical title??? more on vortices and conductance: with field H: 
 \begin_inset Formula $\frac{dI}{dV}(V,H)$
 \end_inset
 
@@ -2224,8 +2439,60 @@ with field H:
 \end_layout
 
 \begin_layout Standard
+** 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+ask Tom
+\end_layout
+
+\end_inset
+
+consecutive junctions.
+ 
+\begin_inset Formula $R_{tot}=??R_{1}+R_{2}$
+\end_inset
+
+,which is true? how it makes sense with everything? 
+\begin_inset Formula $G=\frac{dI}{dV},G=\frac{I}{V}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+** how is the width of the gap changing as a function of H? how about field
+ cooling? how is it in comparison with single junction?
+\end_layout
+
+\begin_layout Standard
+here we have two consecutive junctions.
+ in order to have current, both should be 
+\begin_inset Quotes eld
+\end_inset
+
+open
+\begin_inset Quotes erd
+\end_inset
+
+.
+ in ZBC the conductance is dependant on the vortices.
+ which junction is the bottleneck? does it change over H? thuogh must compare
+ to single junction.
+\end_layout
+
+\begin_layout Standard
+* double junction model.
+\end_layout
+
+\begin_layout Standard
 ** histeresis.
  note
+\end_layout
+
+\begin_layout Standard
+.
 \end_layout
 
 \begin_layout Standard
@@ -2260,6 +2527,19 @@ status open
 \begin_layout Plain Layout
 maybe should insert more then one heatmap: different colorscales.
  helps looking for features in different places
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+(36,37)
 \end_layout
 
 \end_inset
@@ -2392,6 +2672,28 @@ x, y, z: zero bias peak, ridges, parallel diagonal lines.
 \end_layout
 
 \begin_layout Standard
+interesting features, were not reproduced later.
+\end_layout
+
+\begin_layout Standard
+the sample was affected by surge ....
+ at ...
+ maybe changed it.
+\end_layout
+
+\begin_layout Standard
+maybe special case of flux trapping we could not reproduce.
+\end_layout
+
+\begin_layout Standard
+check temperture profile, make sure
+\end_layout
+
+\begin_layout Standard
+more ....
+\end_layout
+
+\begin_layout Standard
 .
 \end_layout
 
@@ -2405,6 +2707,17 @@ measurement of field decreasing from
 \end_inset
 
  same figures.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+(103?)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2418,11 +2731,56 @@ status open
 
 \begin_layout Plain Layout
 field decreaing.
- probably bad measurement due to grond issues
+ probably bad measurement due to grond issues???
 \end_layout
 
 \end_inset
 
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+another measurement like this one, same behaviour 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+(?)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+.....
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -2432,7 +2790,16 @@ field decreaing.
 \end_layout
 
 \begin_layout Section
-field coolling
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+ask Tom: maybe this section should be after ZBC and before I(V,H)
+\end_layout
+
+\end_inset
+
+more flux trapping: field coolling
 \end_layout
 
 \begin_layout Standard
@@ -2532,6 +2899,67 @@ zero bias conductance at conditions XXX.
 
 \end_inset
 
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+comparison of results of field cooling to without field cooling.
+ ratio, width of gap, total area under the graph (should be constant/conserved)....
+\end_layout
+
+\begin_layout Standard
+should compare on the graphs.
+ stack.
+\end_layout
+
+\begin_layout Standard
+discussion:
+\end_layout
+
+\begin_layout Standard
+...
+\end_layout
+
+\begin_layout Standard
+...
+\end_layout
+
+\begin_layout Section
+bistabillity
+\end_layout
+
+\begin_layout Standard
+measurements, making sure noise, some statistics.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+....
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
