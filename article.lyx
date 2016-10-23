@@ -250,6 +250,54 @@ extra: fitting of DOS in SC.
 more reference: Ayelet: from theoretical backgrond!!!!!
 \end_layout
 
+\begin_layout Itemize
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+try SVG
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/noam/Downloads/try_qt_1.svg
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Abstract
 oriented by the aim: we wanted to measure tunneling to SC thin / thick compare,
  model vortices...
