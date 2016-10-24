@@ -176,9 +176,45 @@ fig.savefig(os.path.join(figs_dir + 'conductance_low_bias_few_T' + fig_format))
 
 
 
+#%% didV low bias few T, more.
+# maybe should shift the minimum to v = 0
+fig, axes = plt.subplots(2, 1, sharex=True)
+Ns = ['0001', '0002', '0005', '0010', '0012', '0013', '0016']
+amps = [1e9, 1e9, 1e9, 1e9, 1e9, 1e9, 1e9]
+labels = ['4K', '4K', '2.2K', '0.3K', '0.3K', '0.3K', '0.3K']
+assert len(Ns) == len(amps)
+for i in range(len(Ns)):
+    N = Ns[i]
+    amp = amps[i]
+    label = labels[i]
+    process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, axes=axes, label=label)
+axes[0].legend(loc='best')
+axes[1].legend(loc='best')
+fig.savefig(os.path.join(figs_dir + 'conductance_low_bias_few_T_12_13' + fig_format))
+
+
+
+
+#%% dIdV high bias few T
+# shoft V = 0
+fig, axes = plt.subplots(2, 1, sharex=True)
+Ns = ['0003', '0004', '0006', '0014']
+amps = [1e8, 1e8, 1e9, 1e8]
+labels = ['4K', '4K', '1.7K', '0.3K']
+assert len(Ns) == len(amps)
+for i in range(len(Ns)):
+    N = Ns[i]
+    amp = amps[i]
+    label = labels[i]
+    if N == '0006':
+        process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, axes=axes, label=label, SF=43)
+    else:
+        process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, axes=axes, label=label)
+axes[0].legend(loc='best')
+axes[1].legend(loc='best')
+fig.savefig(os.path.join(figs_dir + 'conductance_high_bias_few_T' + fig_format))
+
 #%%
-
-
 
 plt.show()
 
