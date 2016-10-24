@@ -2189,6 +2189,16 @@ I(V), dIdV, of the double junction, few T....
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/conductance_low_bias_few_T_12_13.svg
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -2206,6 +2216,14 @@ status open
 \begin_layout Plain Layout
 I(V), dIdV, high bias, of the double junction, few T....
 \end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/conductance_high_bias_few_T.svg
+	lyxscale 40
+	scale 40
 
 \end_inset
 
