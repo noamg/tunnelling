@@ -794,6 +794,16 @@ desired device: NIS, superconductor thin (~??nm), think (~??nm)
 \begin_layout Standard
 the desired device is NIS (normal-insulator-superconductor).
  The insulator is 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Tom: wikipedia 1.35eV ref ....
+\end_layout
+
+\end_inset
+
+
 \begin_inset Formula $WSl2$
 \end_inset
 
@@ -803,6 +813,16 @@ the desired device is NIS (normal-insulator-superconductor).
 \end_inset
 
  (type 2, 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Tom: articles
+\end_layout
+
+\end_inset
+
+
 \begin_inset Formula $T_{crit}=??$
 \end_inset
 
@@ -819,8 +839,18 @@ the desired device is NIS (normal-insulator-superconductor).
 \begin_inset Formula $NbSl2$
 \end_inset
 
- was thin (~??nm) or think (~??nm), in order to compare the tunnelling to
- thin and thick SC.
+ was thin 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+AFM, colors different....
+\end_layout
+
+\end_inset
+
+(~??nm) or think (~??nm), in order to compare the tunnelling to thin and
+ thick SC.
 \end_layout
 
 \begin_layout Standard
@@ -868,7 +898,17 @@ The device was built on a silicon chip.
 
  were pilled from bulk material with celio-tape.
  Later, they were piled using dry transfer technique.
- The gold electrodes were evaporated using ____ technique.
+ The gold electrodes were evaporated using ____ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+e-beam lithography
+\end_layout
+
+\end_inset
+
+technique.
 \end_layout
 
 \begin_layout Section
@@ -877,6 +917,43 @@ transfer
 
 \begin_layout Subsection
 transfer stages
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+dry transfer.
+ article: 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+copy of him
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+goal
 \end_layout
 
 \begin_layout Enumerate
@@ -1140,7 +1217,12 @@ edit
 status open
 
 \begin_layout Plain Layout
-Ask Tom: what is new in the process? Add discussion here?
+Ask Tom: what is new in the process? Add discussion here?:new heat anhiling.
+ diff between 
+\end_layout
+
+\begin_layout Plain Layout
+heat 
 \end_layout
 
 \end_inset
@@ -1242,6 +1324,19 @@ pictures of the 4(? JC first) devices: tung, Nb, both, fix orientation,
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+mendeley desktop
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 heat cleaning
 \end_layout
@@ -1281,11 +1376,32 @@ We applied first time with
 \end_layout
 
 \begin_layout Standard
-type of oven used was ____.
+type of oven used was ____
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Ayelet Zalic thesis
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
-AFM
+AFM-
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+slice differently: tell afm...
+ every time it's needed
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1298,7 +1414,17 @@ After the device is created and somewhat cleaned with heat cleaning, a better
 \end_layout
 
 \begin_layout Standard
-For that matter, we used an AFM (type ___) in tapping mode.
+For that matter, we used an AFM (type ___
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+nano center...
+\end_layout
+
+\end_inset
+
+) in tapping mode.
  The topography measurement indicated thickness and mateiral idnetity.
  Phase shift image indicated material idnetity.
 \end_layout
@@ -1689,6 +1815,46 @@ scheme of the final device
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+pic1 pic2 pic3, peeling traumatic? fall? diff: color diff, cracks
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+images tom's device
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 measurements, results
 \end_layout
@@ -1790,11 +1956,7 @@ the cooler setup can reduce the sample temperature down to
 \begin_inset Formula $He^{3}$
 \end_inset
 
- vap
-\end_layout
-
-\begin_layout Standard
-our pressure.
+ vapour pressure.
 \end_layout
 
 \begin_layout Standard
@@ -1835,6 +1997,16 @@ XXX process:
 
 \begin_layout Subsection
 electronic measurement setup
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+apparatus
 \end_layout
 
 \begin_layout Standard
@@ -1930,6 +2102,21 @@ status open
 thermal spread: what is it? the width of fermi-dirac distribution?.
  resolution choice.
  1K~80uV
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+cooler setup cryogenic apparatus: cooler issues, real temerature at device:
+ 0.3 is 1.5K-2K.
+ fix from Tom mcmillan, other data(!)
 \end_layout
 
 \end_inset
@@ -2118,6 +2305,41 @@ heart of sample compared to edges.
 are the features related to SC? to vortices? to quantum dots? else?
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+time dependance.
+ subsection.
+ Send Tom Data: late measurements ***
+\end_layout
+
+\begin_layout Plain Layout
+real time view of the data
+\end_layout
+
+\begin_layout Plain Layout
+real time desicions.
+\end_layout
+
+\begin_layout Plain Layout
+track time
+\end_layout
+
+\begin_layout Plain Layout
+Tom: think: what property of this device is special.
+\end_layout
+
+\begin_layout Plain Layout
+past: no hysteresis, or const no time dependant.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 conductance of the double tunnelling junction: I(V), 
 \begin_inset Formula $\frac{dI}{dV}(V)=G(V)$
@@ -2199,6 +2421,50 @@ I(V), dIdV, of the double junction, few T....
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+yes; should 
+\end_layout
+
+\begin_layout Plain Layout
+plot as is, plot reverse.
+ if shift is correct, gaps overlap.
+ manually.
+\end_layout
+
+\begin_layout Plain Layout
+resistance at gap high.
+ noise.
+ avaraging.
+ bad idea.
+ decision of minimum.
+\end_layout
+
+\begin_layout Plain Layout
+ZBC: fix dV.
+\end_layout
+
+\begin_layout Plain Layout
+idea: parapolic fit.
+\end_layout
+
+\begin_layout Plain Layout
+prefer peaks.
+ lower resistance.
+\end_layout
+
+\begin_layout Plain Layout
+manually Vs auto
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -2255,7 +2521,7 @@ In low bias, the conductance displayes the gap behaviour of a tunneliing
 status open
 
 \begin_layout Plain Layout
-ask Tom .
+ask Tom: pdf pictures old....
  
 \end_layout
 
@@ -2281,9 +2547,203 @@ ask Tom .
 * XXX double junction model.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+two tunnelling junctions consecutive.
+ (7K)
+\end_layout
+
+\begin_layout Plain Layout
+still tunnelling into normal material.
+ dIdV flat.
+ exp...
+\end_layout
+
+\begin_layout Plain Layout
+R1 >> R2.
+ probable?
+\end_layout
+
+\begin_layout Plain Layout
+same process, different R.
+\end_layout
+
+\begin_layout Plain Layout
+SC
+\end_layout
+
+\begin_layout Plain Layout
+voltage
+\end_layout
+
+\begin_layout Plain Layout
+about Delta 1 mV material.
+\end_layout
+
+\begin_layout Plain Layout
+v ~ 0.5 mV
+\end_layout
+
+\begin_layout Plain Layout
+some is lost on wires.
+\end_layout
+
+\begin_layout Plain Layout
+few resistors.
+ most on big resistors.
+\end_layout
+
+\begin_layout Plain Layout
+single junction.
+ inside gap.
+\end_layout
+
+\begin_layout Plain Layout
+1.5
+\end_layout
+
+\begin_layout Plain Layout
+outside
+\end_layout
+
+\begin_layout Plain Layout
+low resistance
+\end_layout
+
+\begin_layout Plain Layout
+double junction
+\end_layout
+
+\begin_layout Plain Layout
+normal
+\end_layout
+
+\begin_layout Plain Layout
+factor 2 R R
+\end_layout
+
+\begin_layout Plain Layout
+0.5, 1 v
+\end_layout
+
+\begin_layout Plain Layout
+SC
+\end_layout
+
+\begin_layout Plain Layout
+assume same devision
+\end_layout
+
+\begin_layout Plain Layout
+inside gap, outside.
+\end_layout
+
+\begin_layout Plain Layout
+resistance resistance
+\end_layout
+
+\begin_layout Plain Layout
+different devision
+\end_layout
+
+\begin_layout Plain Layout
+but - one of them inside.
+\end_layout
+
+\begin_layout Plain Layout
+raise slowly V
+\end_layout
+
+\begin_layout Plain Layout
+assume.
+ both gap.
+ R most V.
+ r little.
+\end_layout
+
+\begin_layout Plain Layout
+R out gap.
+ second out.
+\end_layout
+
+\begin_layout Plain Layout
+equation.
+ feedback.
+ self consistest.
+\end_layout
+
+\begin_layout Plain Layout
+both is gap?
+\end_layout
+
+\begin_layout Plain Layout
+at least one.
+\end_layout
+
+\begin_layout Plain Layout
+2 mV
+\end_layout
+
+\begin_layout Plain Layout
+possible both outside...
+\end_layout
+
+\begin_layout Plain Layout
+effective gap about doubled.
+ regardless of ratio R r.
+ shape - which ? which transformation.
+\end_layout
+
+\begin_layout Plain Layout
+double junction: already researched.
+ NISIN junction.
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+vortices one not other.
+ over time.
+ H.
+ field cooling.
+ speculation.
+\end_layout
+
+\begin_layout Plain Layout
+bad device or not? should get clues from this device.
+\end_layout
+
+\begin_layout Plain Layout
+for next one.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 entrance of vortices: zero bias conductance 
 \begin_inset Formula $G(V\sim0,H)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+finding center: findnig zero: not argmin????, very noisy..
+ which tolerance? single point?
+\end_layout
+
 \end_inset
 
 
@@ -2345,6 +2805,14 @@ zero bias conductance at conditions XXX
 \end_inset
 
 
+\begin_inset Graphics
+	filename figs/ZBC_low_H.svg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2375,11 +2843,7 @@ zero bias conductance
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
-
+maybe there is no meas like this?
 \end_layout
 
 \end_inset
@@ -2392,10 +2856,6 @@ zero bias conductance
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -2425,6 +2885,25 @@ must check times of measurements.
 \end_layout
 
 \begin_layout Plain Layout
+ENOUGH TIME TO DIFFUSE!!!!!!!!!
+\end_layout
+
+\begin_layout Plain Layout
+see bistabillity
+\end_layout
+
+\begin_layout Plain Layout
+compare end(!)
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/conductance_before_after_ZBC.svg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
 
 \end_layout
 
@@ -2453,7 +2932,7 @@ quantisation analysis: think a little, ask Haddar.
 \begin_inset Formula $I(H+\Delta H)-I(H)$
 \end_inset
 
- four soutable 
+ for soutable 
 \begin_inset Formula $\Delta H$
 \end_inset
 
@@ -2466,6 +2945,10 @@ maybe add here figures and discussion on histeresis.
  H from -0.12 to 0.12.
  up and down...
  remarks of Hader.
+\end_layout
+
+\begin_layout Plain Layout
+Send Tom: *** late data
 \end_layout
 
 \end_inset
@@ -2601,6 +3084,61 @@ status open
 \begin_layout Plain Layout
 maybe should insert more then one heatmap: different colorscales.
  helps looking for features in different places
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+talking Tom:
+\end_layout
+
+\begin_layout Plain Layout
+trying to reproduce.
+\end_layout
+
+\begin_layout Plain Layout
+ground?
+\end_layout
+
+\begin_layout Plain Layout
+vortices?
+\end_layout
+
+\begin_layout Plain Layout
+shock?
+\end_layout
+
+\begin_layout Plain Layout
+Tom almost no high field.
+ 2T ratio=7/5
+\end_layout
+
+\begin_layout Plain Layout
+other device.
+ similar device.
+ observe.
+ H.
+ no reproduce.
+\end_layout
+
+\begin_layout Plain Layout
+does it realy look the same at H=0.
+ stack!
+\end_layout
+
+\begin_layout Plain Layout
+Q: 
+\end_layout
+
+\begin_layout Plain Layout
+can reset: T>T_c.
+ then try again
+\end_layout
+
+\begin_layout Plain Layout
+write: cannot reproduce
 \end_layout
 
 \end_inset
@@ -2791,7 +3329,7 @@ status open
 
 \end_inset
 
-
+ 119, 36, 37, 87 stuck, (7x)
 \end_layout
 
 \begin_layout Standard
@@ -2909,6 +3447,29 @@ As
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+future possible work: more effort to see vortices inside and outside the
+ material.
+ maybe the diffusion out has different rates at side and at heart.
+\end_layout
+
+\begin_layout Plain Layout
+measure dIdV(V, H=const, time)
+\end_layout
+
+\begin_layout Plain Layout
+even field profiles?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 few dIdV .....
 \end_layout
 
@@ -3009,6 +3570,20 @@ bistabillity
 
 \begin_layout Standard
 measurements, making sure noise, some statistics.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+send Tom
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(40)(111)
 \end_layout
 
 \begin_layout Standard
