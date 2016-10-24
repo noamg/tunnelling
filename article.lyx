@@ -2179,6 +2179,14 @@ I(V), dIdV, of the double junction, few T....
 \end_inset
 
 
+\begin_inset Graphics
+	filename figs/conductance_low_bias_few_T.svg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
 \end_layout
 
 \end_inset

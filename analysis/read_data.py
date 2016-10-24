@@ -161,9 +161,9 @@ if False:
 
 #%% dIdV low bias few T
 fig, axes = plt.subplots(2, 1, sharex=True)
-Ns = []
-amps = []
-labels = []
+Ns = ['0001', '0002', '0005', '0010']
+amps = [1e9, 1e9, 1e9, 1e9]
+labels = ['4K', '4K', '2.2K', '0.3K']
 assert len(Ns) == len(amps)
 for i in range(len(Ns)):
     N = Ns[i]
