@@ -43,7 +43,14 @@ def read_mesdata(f):
     sweeped = list(map(lambda a: a[0], val['sweeped'].flatten()))
     measured = list(map(lambda a: a[0], val['measured'].flatten()))
     measured_time = val['measurement_time'][0]
-    T = data[:, len(sweeped) + measured.index('lakes336.ctemp')]
+
+    assert data.shape != (0, 0), 'data is empty'
+    assert data.shape[1] == len(sweeped) + len(measured), 'number of fields stated unlike data columns'
+    
+    if 'lakes336.ctemp' in measured:
+        T = data[:, len(sweeped) + measured.index('lakes336.ctemp')]
+    else:
+        T = np.array([-10, -10])
     return sweeped, measured, data, measured_time, [T.min(), T.max()]
 
 def read_I_V(f, amp, Vdc_div):
@@ -81,7 +88,7 @@ def read_record(f, amp):
         
     return time, Idc
     
-
+#%%
 sweeped, measured, data, measured_time, T_range = read_mesdata(f_I_H_magnet)
 #def process_I_H(....I_min, dV)
 
@@ -152,7 +159,7 @@ if False:
     
     fig = plt.figure()
     ax = plt.subplot(111)
-    process_I_H(os.path.join(data_dir + data_prefix + N_I_H_keithley + data_format), 1e9, 0, 100e-6, ax, label='label')
+    process_I_H(os.path.join(data_dir + data_prefix + N_I_H_keithley + data_format), amp=1e9, I_min=0, dV=100e-6, ax=ax, label='label')
     ax.legend(loc='best')
     fig = plt.figure()
     ax = plt.subplot(111)
@@ -214,6 +221,65 @@ axes[0].legend(loc='best')
 axes[1].legend(loc='best')
 fig.savefig(os.path.join(figs_dir + 'conductance_high_bias_few_T' + fig_format))
 
+#%% ZBC low H, should fix I_min, dV
+
+fig = plt.figure()
+ax = plt.subplot(111)
+Ns = ['0017', '0019']
+amps = [1e9, 1e9,]
+labels = ['', '']
+I_mins = [0, 0,]
+dVs = np.array([100e-6, 100e-6])
+assert len(Ns) == len(amps)
+for i in range(len(Ns)):
+    N = Ns[i]
+    amp = amps[i]
+    label = labels[i]
+    I_min = I_mins[i]
+    dV = dVs[i]
+    process_I_H(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, I_min=I_min, dV=dV, ax=ax, label='label')
+ax.legend(loc='best')
+fig.savefig(os.path.join(figs_dir + 'ZBC_low_H' + fig_format))
+
+
+#%% conductance_before_after_ZBC
+fig, axes = plt.subplots(2, 1, sharex=True)
+Ns = ['0016', '0018', '0020']
+amps = [1e9, 1e9, 1e9]
+labels = ['H=0 before', 'H=0.12[T]', 'H=0 after']
+assert len(Ns) == len(amps)
+for i in range(len(Ns)):
+    N = Ns[i]
+    amp = amps[i]
+    label = labels[i]
+    _, _, _, time, _ = read_mesdata(os.path.join(data_dir + data_prefix + N + data_format))
+    process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, axes=axes, label=label+'-'+time[-8:])
+axes[0].legend(loc='best')
+#axes[1].legend(loc='best')
+fig.savefig(os.path.join(figs_dir + 'conductance_before_after_ZBC' + fig_format))
+#%%
+Ns = ['0016', '0017', '0018', '0019', '0020', '0021', '0022', '0023', '0024', '0025', '0026', '0027', '0028', '0029']
+for N in Ns:
+    try:
+        sweeped, measured, data, measured_time, [T_min, T_max] = read_mesdata(os.path.join(data_dir + data_prefix + N + data_format))
+        print(N, sweeped, measured, data.shape, measured_time, [T_min, T_max])
+        print()
+    except AssertionError:
+        print(N)
+#%% field cooling dIdV
+        
+fig, axes = plt.subplots(2, 1, sharex=True)
+Ns = ['0016', '0051',]
+amps = [1e9, 1e8]
+labels = ['zero cooling', 'H=0.12[T] cooling']
+assert len(Ns) == len(amps)
+for i in range(len(Ns)):
+    N = Ns[i]
+    amp = amps[i]
+    label = labels[i]
+    process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, axes=axes, label=label)
+axes[0].legend(loc='best')
+fig.savefig(os.path.join(figs_dir + 'field_cooling_conductance' + fig_format))
 #%%
 
 plt.show()
