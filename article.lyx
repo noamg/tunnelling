@@ -331,6 +331,52 @@ superconductivity, vortices
 take from report of SC
 \end_layout
 
+\begin_layout Standard
+superconductivity is a phenomena where the material is a perfect conductor
+ (zero resistance) and a perfect diamagnet (repels magnetic field).
+ The diamagnetism is achieved by edge currents that keep 
+\begin_inset Formula $B=0$
+\end_inset
+
+ inside the superconductor.
+ This state takes place in very cold metals (for example: lead 
+\begin_inset Formula $7\degcirc K$
+\end_inset
+
+, aluminum 
+\begin_inset Formula $4\degcircK).$
+\end_inset
+
+ This state is removed by a sufficiantly strong external field H.
+ In Type I superconductors become normal at a spesific 
+\begin_inset Formula $H_{c}$
+\end_inset
+
+, and type II superconductors change gradually: superfonducting under 
+\begin_inset Formula $H_{c1}$
+\end_inset
+
+, normal over 
+\begin_inset Formula $H_{c2}$
+\end_inset
+
+, intermediate state between.
+ At predicted in Ginzburg Landau theory, the magnetic flux 
+\begin_inset Formula $\Phi$
+\end_inset
+
+ penetrates the material quantised.
+ Since the magnetic energy is 
+\begin_inset Formula $E\propto B^{2}$
+\end_inset
+
+, the stable state is where the flux is quantised at single units: those
+ are single flux units penetrating the material, serrounded by super current
+ that protects the rest of the material from the magnetic field.
+ at the Heart of the vortice, there is a normal state core.
+ 
+\end_layout
+
 \begin_layout Subsection
 density of states in superonductor
 \end_layout
