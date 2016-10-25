@@ -3329,7 +3329,7 @@ status open
 
 \end_inset
 
- 119, 36, 37, 87 stuck, (7x)
+ 119, 36, 37, 87 stuck
 \end_layout
 
 \begin_layout Standard
@@ -3503,6 +3503,14 @@ dIdV field cooling.
 \end_inset
 
 
+\begin_inset Graphics
+	filename figs/field_cooling_conductance.svg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3524,13 +3532,35 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-zero bias conductance at conditions XXX.
+zero bias conductance at conditions XXX bistability....
  (
 \begin_inset Formula $H$
 \end_inset
 
  increasing and then decreasing)
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/ZBC_field_cooling.svg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/ZBC_field_cooling_1T.svg
+	lyxscale 40
+	scale 40
 
 \end_inset
 
@@ -3564,8 +3594,43 @@ discussion:
 ...
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+time depedance...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 bistabillity
+\end_layout
+
+\begin_layout Standard
+as seen in dIdV, ZBC...
 \end_layout
 
 \begin_layout Standard
@@ -3602,6 +3667,71 @@ status open
 \begin_layout Plain Layout
 ....
 \end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/record_40.svg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+...
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/record_111.svg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/record_111_zoom_300.svg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/record_111_zoom_50.svg
+	lyxscale 40
+	scale 40
 
 \end_inset
 
