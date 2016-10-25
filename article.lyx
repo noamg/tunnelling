@@ -340,11 +340,11 @@ superconductivity is a phenomena where the material is a perfect conductor
 
  inside the superconductor.
  This state takes place in very cold metals (for example: lead 
-\begin_inset Formula $7\degcirc K$
+\begin_inset Formula $7\degree K$
 \end_inset
 
 , aluminum 
-\begin_inset Formula $4\degcircK).$
+\begin_inset Formula $4\degree K).$
 \end_inset
 
  This state is removed by a sufficiantly strong external field H.
@@ -379,65 +379,6 @@ superconductivity is a phenomena where the material is a perfect conductor
 
 \begin_layout Subsection
 density of states in superonductor
-\end_layout
-
-\begin_layout Standard
-don't think of cooper pairs only as bosons.
- those are electrons down there.
- it a condensation, but not bose-einstein condensation.
-\end_layout
-
-\begin_layout Standard
-phase of the pesudo wave function and density of super-charge.
- quantum adjoint properties.
- const phase: not knowing the number of carriers.
- 
-\end_layout
-
-\begin_layout Standard
-elecron hole symetry.
-\end_layout
-
-\begin_layout Standard
-electrons are called quasi particle.
-\end_layout
-
-\begin_layout Standard
-coherence peaks.
-\end_layout
-
-\begin_layout Standard
-.
-\end_layout
-
-\begin_layout Standard
-density of states: of the electrons, not of the cooper pairs.
- remainder: quantum system.
- energy states.
- energy levels.
- solid state.
- behaviour of electrons.
- energy states of electrons, energy levels.
- hamiltonian.
- temperature.
- boltzman distribution.
- FD distribution, pauli prohibition.
- fermi level.
- meaning of fermi level (other then just the level of the top electron).
- pouring electrons.
-\end_layout
-
-\begin_layout Standard
-free space 1D, 2D, 3D.
- central potential.
- others.
- periodical potential.
- bloch states.
- inert fermi sea.
-\end_layout
-
-\begin_layout Standard
-.
 \end_layout
 
 \begin_layout Subsubsection
@@ -481,6 +422,14 @@ status open
 \begin_layout Plain Layout
 electron electron attraction mediated by the ions crystal
 \end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/cooper_pair.jpg
+	lyxscale 40
+	scale 40
 
 \end_inset
 
@@ -610,6 +559,14 @@ energy spectrum of electrons in SC (according to BSC)
 \end_inset
 
 
+\begin_inset Graphics
+	filename images/energy_gap.jpg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -618,172 +575,7 @@ energy spectrum of electrons in SC (according to BSC)
 \end_layout
 
 \begin_layout Standard
-.
-\end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-next until next clause, should remove
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Full interaction
-\end_layout
-
-\begin_layout Standard
-.
-\end_layout
-
-\begin_layout Standard
-finite potential well.
- 1D has to be at least one bound state.
- 3D not nessecarilly.: the well is the attractive interaction.
- outside the well: floating on fermi surface.
-\end_layout
-
-\begin_layout Standard
-screening of coloumn force
-\end_layout
-
-\begin_layout Standard
-cooper problem: a term in H of attractive electron electron interaction
- (of spesific 2).
-\end_layout
-
-\begin_layout Standard
-center of mass viewer.
- coordinated transformation.
- r,R.
- K space.
- an assumption about the attractive potential.
- new energy levels: creates an entangled state of the electron, with less
- energy then 
-\begin_inset Formula $E_{f}$
-\end_inset
-
-.
- regardless strength of the potential.
- this state: symetric in space r (so they are close).
- antisymetric in spin.
- singlet.
-\end_layout
-
-\begin_layout Standard
-we can tell a story about attractive potential: mediated by virtual phonon
- (rather then thermal).
-\end_layout
-
-\begin_layout Standard
-so 2 electrons leave fermi level and dive toghether.
- then again.
- then again.
- so all the electrons near fermi level couple and dive (join the condensate).
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-ask Hadar:
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-what happans to fermi level? why isn't it falling now?
-\end_layout
-
-\begin_layout Standard
-what is close? what is 
-\begin_inset Formula $\Delta$
-\end_inset
-
- ? from where is it rising? that is the energy earned by creating a cooper
- pair.
-\end_layout
-
-\begin_layout Standard
-.
-\end_layout
-
-\begin_layout Standard
-fermionic quasi particle
-\end_layout
-
-\begin_layout Standard
-branches.
- bands.
- energy spectrum
-\end_layout
-
-\begin_layout Standard
-exitation as particles.
-\end_layout
-
-\begin_layout Standard
-.
-\end_layout
-
-\begin_layout Standard
-semi conductor model
-\end_layout
-
-\begin_layout Standard
-energy gap
-\end_layout
-
-\begin_layout Standard
-.
-\end_layout
-
-\begin_layout Standard
-full hamiltonian with electron-electron attractive interactions.
- solving.
- lot's of math.
- some transformation.
-\end_layout
-
-\begin_layout Standard
-density of states as real part of complex function.
- levels, coherence peaks , gap.
-\end_layout
-
-\begin_layout Standard
-.
-\end_layout
-
-\begin_layout Standard
-impurities.
- channels.
- changing parameter to complex.
-\end_layout
-
-\begin_layout Standard
-.
-\end_layout
-
-\begin_layout Standard
-cooper problem.
-\end_layout
-
-\begin_layout Standard
-.
-\end_layout
-
-\begin_layout Standard
-zero resistance rising from that.
 \end_layout
 
 \begin_layout Subsection
