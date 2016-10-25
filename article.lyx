@@ -29,6 +29,7 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
+\float_placement H
 \paperfontsize default
 \spacing single
 \use_hyperref false
@@ -2813,6 +2814,14 @@ zero bias conductance at conditions XXX
 \end_inset
 
 
+\begin_inset Graphics
+	filename figs/ZBC_many.svg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3608,12 +3617,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-time depedance...
+time depedance...did not find.
+ should look more
 \end_layout
 
 \end_inset
 
-
+ 
 \end_layout
 
 \begin_layout Plain Layout

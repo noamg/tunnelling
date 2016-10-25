@@ -154,7 +154,9 @@ def process_record(f, amp, I_min, dV, ax=None, label=''):
         ax = plt.subplot(111)
     time, Idc = read_record(f, amp)
     dIdV_zero_bias = (Idc - I_min) / dV
-    _ = ax.plot(time, dIdV_zero_bias * 1e9, '.', label=label)
+    #_ = ax.plot(time, dIdV_zero_bias * 1e9, '.', label=label)
+    _ = ax.plot(time[::2], dIdV_zero_bias[::2] * 1e9, '.', label=label+'even')
+    _ = ax.plot(time[1::2], dIdV_zero_bias[1::2] * 1e9, '.', label=label+'odd')
     ax.set_xlabel('time[s]')
     ax.set_ylabel('G[nS]')
 
@@ -250,6 +252,7 @@ for i in range(len(Ns)):
     process_I_H(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, I_min=I_min, dV=dV, ax=ax, label=label)
 ax.legend(loc='best')
 fig.savefig(os.path.join(figs_dir + 'ZBC_low_H' + fig_format))
+#%%
 
 
 #%% conductance_before_after_ZBC
@@ -314,11 +317,11 @@ fig.savefig(os.path.join(figs_dir + 'ZBC_field_cooling' + fig_format))
 #%%field cooling ZBC 1T
 fig = plt.figure()
 ax = plt.subplot(111)
-Ns = ['0053', '0057', '0060']
-amps = [1e9, 1e9, 1e9]
-labels = ['FC up 0.12T', 'FC up 1T', 'FC down']
-I_mins = [0, 0, 0,]
-dVs = np.array([100e-6, 100e-6, 100e-6, 100e-6])
+Ns = ['0053', '0057', '0060', '0097']
+amps = [1e10, 1e10, 1e10, 1e10]
+labels = ['FC up 0.12T', 'FC up 1T', 'FC down', 'zero cooling']
+I_mins = [0, 0, 0,0]
+dVs = np.array([100e-6, 100e-6, 100e-6, 100e-6, 100e-6])
 assert len(Ns) == len(amps)
 for i in range(len(Ns)):
     N = Ns[i]
@@ -338,7 +341,7 @@ process_record(os.path.join(data_dir + data_prefix + '0040' + data_format), amp=
 fig.savefig(os.path.join(figs_dir + 'record_40' + fig_format))
 
 
-#%%
+#%%recird bistability
 fig = plt.figure()
 ax = plt.subplot(111)
 process_record(os.path.join(data_dir + data_prefix + '0111' + data_format), amp=1e10, I_min=0, dV=100e-6, ax=ax, label='')
@@ -350,10 +353,43 @@ fig.savefig(os.path.join(figs_dir + 'record_111_zoom_50' + fig_format))
 
 #%%
 sweeped, measured, data, measured_time, [T_min, T_max] = read_mesdata(os.path.join(data_dir + data_prefix + '0111' + data_format))
+time, Idc = read_record(os.path.join(data_dir + data_prefix + '0111' + data_format), 1e10)
 fig = plt.figure()
 ax = fig.add_subplot(111)
-_ = ax.plot(data[::2,2], '.')
-ax.set_xlim([0, ])
+_ = ax.plot(time[::2], Idc[::2], '.')
+_ = ax.plot(time[1::2], Idc[1::2], '.')
+#
+#_ = ax.plot(time[::4], Idc[::4], '.')
+#_ = ax.plot(time[1::4], Idc[1::4], '.')
+#_ = ax.plot(time[2::4], Idc[2::4], '.')
+#_ = ax.plot(time[3::4], Idc[3::4], '.')
+
+#ax.set_xlim(0, 50)
+
+#%%
+for n in range(102, 143):
+    sweeped, measured, data, measured_time, [T_min, T_max] = read_mesdata(os.path.join(data_dir + data_prefix + '0' + str(n) + data_format))
+    print(n, measured_time, data.shape[0], sweeped)
+#%%ZBC many end
+fig = plt.figure()
+ax = plt.subplot(111)
+Ns = ['0129', '0130', '0131', '0132', '0133', '0134', '0135']
+amps = 7 * [1e10, ]
+labels = ['up', 'down', 'up', 'down', 'up', 'down', 'up', 'down', 'up']
+I_mins = 7 * [0,]
+dVs = np.array(7 * [100e-6,])
+assert len(Ns) == len(amps)
+for i in range(len(Ns)):
+    N = Ns[i]
+    amp = amps[i]
+    label = labels[i]
+    I_min = I_mins[i]
+    dV = dVs[i]
+    process_I_H(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, I_min=I_min, dV=dV, ax=ax, label=label)
+ax.legend(loc='best')
+fig.savefig(os.path.join(figs_dir + 'ZBC_many' + fig_format))
+    
+
 
 #%%
 plt.show()
