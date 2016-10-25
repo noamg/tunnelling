@@ -540,7 +540,12 @@ electron with energy above
 \begin_inset Formula $E_{f}-\Delta$
 \end_inset
 
-, and the energy spectrum reveals an energy gap, with prohibited states:
+, and the energy spectrum reveals an energy gap, with prohibited states
+ (
+\begin_inset Formula $0\degree K,$
+\end_inset
+
+ in actual temperature, they are very unpopolated states):
 \end_layout
 
 \begin_layout Standard
@@ -574,40 +579,26 @@ energy spectrum of electrons in SC (according to BSC)
 
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Subsection
 tunnelling into superconductor
 \end_layout
 
 \begin_layout Standard
-impurities.
- channels
+Electrons can tunnell only to a free energy state.
+ If no final state with the electro's energy exists, tunnelling cannot take
+ place.
+ Therefore, tunnelling current of electrons with energies within the gap
+ is low.
+ The temperature influences: an electron may absorb a phonon at the superonducto
+r and land on a state ouside the gap.
+ Impurities in the SC also influence: around them there is normal material,
+ with a different density of states.
+ One instance of such impurities are the current vortices around flux that
+ penetrated the superonductor.
 \end_layout
 
 \begin_layout Standard
-the voltage sets fermi level.
-\end_layout
 
-\begin_layout Standard
-an electron tries to tunnell.
- there is not a free energy state.
- cannot.
-\end_layout
-
-\begin_layout Standard
-near the edges the thermal spread (phonons) may help to tunnell.
-\end_layout
-
-\begin_layout Standard
-impurities.
-\end_layout
-
-\begin_layout Standard
-vortices.
- can get to normal state in the vortex, then wait untill it's diving.
 \end_layout
 
 \begin_layout Part
