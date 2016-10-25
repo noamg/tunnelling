@@ -597,16 +597,20 @@ r and land on a state ouside the gap.
  penetrated the superonductor.
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Part
 creation, characterizatino of device
 \end_layout
 
 \begin_layout Section
-desired device: NIS, superconductor thin (~??nm), think (~??nm)
+desired device: NIS, superconductor thin (
+\begin_inset Formula $10-20[nm]$
+\end_inset
+
+), thick (
+\begin_inset Formula $2-3[nm]$
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Standard
@@ -625,7 +629,11 @@ Tom: wikipedia 1.35eV ref ....
 \begin_inset Formula $WSl2$
 \end_inset
 
- (energy gap ~???).
+ (energy gap 
+\begin_inset Formula $1.35[eV]$
+\end_inset
+
+).
  The superconductor is 
 \begin_inset Formula $NbSl2$
 \end_inset
@@ -641,7 +649,7 @@ Tom: articles
 \end_inset
 
 
-\begin_inset Formula $T_{crit}=??$
+\begin_inset Formula $T_{crit}=7.11\degree K$
 \end_inset
 
  
@@ -657,18 +665,16 @@ Tom: articles
 \begin_inset Formula $NbSl2$
 \end_inset
 
- was thin 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-AFM, colors different....
-\end_layout
-
+ was thin (
+\begin_inset Formula $2-3[nm]$
 \end_inset
 
-(~??nm) or think (~??nm), in order to compare the tunnelling to thin and
- thick SC.
+) or think (
+\begin_inset Formula $10-20[nm]$
+\end_inset
+
+), in order to compare the tunnelling to thin and thick SC.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -716,62 +722,15 @@ The device was built on a silicon chip.
 
  were pilled from bulk material with celio-tape.
  Later, they were piled using dry transfer technique.
- The gold electrodes were evaporated using ____ 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-e-beam lithography
-\end_layout
-
-\end_inset
-
-technique.
+ The gold electrodes were evaporated using e-beam lithography technique.
 \end_layout
 
 \begin_layout Section
-transfer
+Dry transfer
 \end_layout
 
 \begin_layout Subsection
 transfer stages
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-dry transfer.
- article: 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-copy of him
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-goal
 \end_layout
 
 \begin_layout Enumerate
@@ -791,7 +750,15 @@ The entire process is done in a gloves box, with atmosphere of
 \end_layout
 
 \begin_layout Enumerate
-Pilling: _____
+Thin layers of 
+\begin_inset Formula $NbSl2$
+\end_inset
+
+ and 
+\begin_inset Formula $WSl2$
+\end_inset
+
+ were pilled from bulk material with celio-tape
 \end_layout
 
 \begin_layout Enumerate
@@ -846,11 +813,12 @@ Left:
 \begin_inset Formula $WSl2$
 \end_inset
 
- on PDMS (dagger), Right: 
+ on PDMS, Right: 
 \begin_inset Formula $NbSl2$
 \end_inset
 
- on silicon (XXX)
+ on silicon (zoom: X100.
+ the color indicate the number of layers)
 \end_layout
 
 \end_inset
@@ -984,52 +952,6 @@ After the PDMS touches the silicon, it is raised slowly (about
  from the plan.
 \end_layout
 
-\begin_layout Enumerate
-.
-\end_layout
-
-\begin_layout Enumerate
-.
-\end_layout
-
-\begin_layout Enumerate
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-put notes from log: multiple stamping etc
-\end_layout
-
-\begin_layout Plain Layout
-transfer stages, including images.
- image of Tung dagger with color scale
-\end_layout
-
-\begin_layout Plain Layout
-.
-\end_layout
-
-\begin_layout Plain Layout
-copy from notes
-\end_layout
-
-\begin_layout Plain Layout
-edit
-\end_layout
-
-\begin_layout Plain Layout
-.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
 \begin_inset Note Note
 status open
@@ -1155,6 +1077,20 @@ mendeley desktop
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+AFM, colors different....The thickness is based on optical images, in which
+ the colors indicate the number of layers.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 heat cleaning
 \end_layout
@@ -1193,20 +1129,6 @@ We applied first time with
  
 \end_layout
 
-\begin_layout Standard
-type of oven used was ____
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Ayelet Zalic thesis
-\end_layout
-
-\end_inset
-
-.
-\end_layout
-
 \begin_layout Section
 AFM-
 \begin_inset Note Note
@@ -1232,17 +1154,8 @@ After the device is created and somewhat cleaned with heat cleaning, a better
 \end_layout
 
 \begin_layout Standard
-For that matter, we used an AFM (type ___
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-nano center...
-\end_layout
-
-\end_inset
-
-) in tapping mode.
+For that matter, we used an AFM (type Dimension 3100 Nanoscope V) in tapping
+ mode.
  The topography measurement indicated thickness and mateiral idnetity.
  Phase shift image indicated material idnetity.
 \end_layout
