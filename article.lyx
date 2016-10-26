@@ -85,12 +85,63 @@ Noam Gavish, Instructed by Dr.
 \end_layout
 
 \begin_layout Abstract
+The goal of this experiment was to compare tunnelling through 
+\begin_inset Formula $WSe2$
+\end_inset
+
+ to 
+\begin_inset Formula $NbSe2$
+\end_inset
+
+ in different conditions: thin (2-3[nm]), thick (10-20[nm]), and tunnelling
+ to location near the edge or at the heart of the sample.
+ The tunnelling is affected by vortices.
+ These conditions may affect the vortex behaviour: penetration of thiner
+ layer of superconductor is easier, so more vortices are expected.
+ At the heart of the sample, vortices are less likely to enter, or leave
+ once enterred.
+ However, the device creation procedure was proven to be unsutable to 
+\begin_inset Formula $NbSe2$
+\end_inset
+
+ and the only measurement possible was on a double junction: NISIN.
+ Tunnelling, zero bias conductance, zero cooling and full 
+\begin_inset Formula $G(V,H)$
+\end_inset
+
+ were measured.
+ We found that the double junction effective energy gap was about double
+ then single junction gap.
+ We also obsereved quantised stairs in zero bias coductance, which can be
+ attributed to entrance of few vortices.
+ Finally, we measured zero bias peak in the conductance during two of the
+ 
+\begin_inset Formula $G(V,H)$
+\end_inset
+
+ measurements, which we did not reproduce.
+\end_layout
+
+\begin_layout Abstract
+\begin_inset Note Note
+status open
+
+\begin_layout Abstract
+.
+\end_layout
+
+\begin_layout Abstract
 oriented by the aim: we wanted to measure tunneling to SC thin / thick compare,
  model vortices...
 \end_layout
 
 \begin_layout Abstract
 thin/thick different penetration of vortices
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
