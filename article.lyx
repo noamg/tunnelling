@@ -76,7 +76,7 @@
 \begin_body
 
 \begin_layout Title
-Tunnelling to thin super conducting NbSl2
+Tunnelling to thin super conducting NbSe2
 \end_layout
 
 \begin_layout Author
@@ -688,7 +688,7 @@ status open
 
 \begin_layout Plain Layout
 scheme of the desired device.
- parts: (1)silicon, (2)NbSl2, (3)WSl2, (4)gold electrodes
+ parts: (1)silicon, (2)NbSe2, (3)WSl2, (4)gold electrodes
 \end_layout
 
 \end_inset
@@ -1531,10 +1531,10 @@ status open
 
 \begin_layout Plain Layout
 Another device of the same research group.
- Left: NbSl2.
+ Left: NbSe2.
  middle: same layer covered by thin Boron-Nitride.
  Right: same deivce after heat cleaning.
- Like in our case, the exposed NbSl2 was harmed by the heat cleaning.
+ Like in our case, the exposed NbSe2 was harmed by the heat cleaning.
 \end_layout
 
 \end_inset
