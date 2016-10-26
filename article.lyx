@@ -2680,17 +2680,6 @@ zero bias conductance.
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename figs/ZBC_field_cooling.svg
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
 	filename figs/ZBC_field_cooling_1T.svg
 	lyxscale 40
 	scale 40
@@ -2920,39 +2909,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Formula $\frac{dI}{dV}(V,H)$
-\end_inset
-
- heatmap.
- left: 
-\begin_inset Formula $H$
-\end_inset
-
- rising.
- right: 
-\begin_inset Formula $H$
-\end_inset
-
- decreasing
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+36
 \end_layout
 
 \begin_layout Standard
@@ -2965,25 +2922,55 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-\begin_inset Formula $\frac{dI}{dV}(V)$
+\begin_inset Formula $\frac{dI}{dV}(V,H):$
 \end_inset
 
- curves in different 
+from top right clockwise: 3D curve, heatmap, curve for each field, selecting
+ only H=0,1.5,4[T].
+ 
 \begin_inset Formula $H$
 \end_inset
 
-.
- left: 
-\begin_inset Formula $H$
-\end_inset
-
- rising.
- right: 
-\begin_inset Formula $H$
-\end_inset
-
- decreasing
+ rising
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/i_H_V/dIdV_H_V_surf.jpg
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/i_H_V/dIdV_H_V_imagesc_2.jpg
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/i_H_V/dIdV_H_V_curves.jpg
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/i_H_V/dIdV_H_V_curves_H_0_1_4.jpg
+	lyxscale 40
+	scale 15
 
 \end_inset
 
@@ -3005,23 +2992,16 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-\begin_inset Formula $\frac{dI}{dV}(V)$
+\begin_inset Formula $\frac{dI}{dV}(V,H):$
 \end_inset
 
- curves in different 
+from top right clockwise: 3D curve, heatmap, curve for each field, selecting
+ only H=0,1.5,4[T].
+ 
 \begin_inset Formula $H$
 \end_inset
 
-.: X1 X2 X3 showing XXXX left: 
-\begin_inset Formula $H$
-\end_inset
-
- rising.
- right: 
-\begin_inset Formula $H$
-\end_inset
-
- decreasing
+ decreasing.
 \end_layout
 
 \end_inset
@@ -3029,151 +3009,123 @@ status open
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/i_H_V/dIdV_H_V_surf_37.jpg
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/i_H_V/dIdV_H_V_imagesc_2_37.jpg
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/i_H_V/dIdV_H_V_curves_37.jpg
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/i_H_V/dIdV_H_V_curves_H_0_1_4_37.jpg
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-in figures link link link can observe features
+Few features appear in those measurements:
+\end_layout
+
+\begin_layout Enumerate
+zero bias peak
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+ridges
+\begin_inset Quotes erd
+\end_inset
+
+ in the conductance map, that create parallel diagonal lines
+\end_layout
+
+\begin_layout Enumerate
+diagonal lines which continuation crosses....
 \end_layout
 
 \begin_layout Standard
-x, y, z: zero bias peak, ridges, parallel diagonal lines.
- diagonal lines which continuation crosses....
+Those interesting features, were not reproduced later:
 \end_layout
 
 \begin_layout Standard
-interesting features, were not reproduced later.
-\end_layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
 
-\begin_layout Standard
-the sample was affected by surge ....
- at ...
- maybe changed it.
-\end_layout
+\begin_layout Plain Layout
+\begin_inset Caption Standard
 
-\begin_layout Standard
-maybe special case of flux trapping we could not reproduce.
-\end_layout
-
-\begin_layout Standard
-check temperture profile, make sure
-\end_layout
-
-\begin_layout Standard
-more ....
-\end_layout
-
-\begin_layout Standard
-alking Tom:
-\end_layout
-
-\begin_layout Standard
-trying to reproduce.
-\end_layout
-
-\begin_layout Standard
-ground?
-\end_layout
-
-\begin_layout Standard
-vortices?
-\end_layout
-
-\begin_layout Standard
-shock?
-\end_layout
-
-\begin_layout Standard
-Tom almost no high field.
- 2T ratio=7/5
-\end_layout
-
-\begin_layout Standard
-other device.
- similar device.
- observe.
- H.
- no reproduce.
-\end_layout
-
-\begin_layout Standard
-does it realy look the same at H=0.
- stack!
-\end_layout
-
-\begin_layout Standard
-Q: 
-\end_layout
-
-\begin_layout Standard
-can reset: T>T_c.
- then try again
-\end_layout
-
-\begin_layout Standard
-write: cannot reproduce
-\end_layout
-
-\begin_layout Standard
-.
-\end_layout
-
-\begin_layout Standard
-.
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 measurement of field decreasing from 
 \begin_inset Formula $H=6[T]$
 \end_inset
 
- same figures.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-(103?)
-\end_layout
-
-\end_inset
-
- 119, 36, 37, 87 stuck
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-field decreaing.
- probably bad measurement due to grond issues???
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
 \end_inset
 
 
+\begin_inset Graphics
+	filename figs/i_H_V/JCUL-0103dIdV_H_V_surf.jpg
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/i_H_V/JCUL-0103dIdV_H_V_imagesc_2.jpg
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-another measurement like this one, same behaviour 
-\begin_inset Note Note
-status open
-
 \begin_layout Plain Layout
-(?)
+\begin_inset Graphics
+	filename figs/i_H_V/JCUL-0103dIdV_H_V_curves.jpg
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3191,8 +3143,39 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-.....
+measurement of field decreasing from 
+\begin_inset Formula $H=6[1]$
+\end_inset
+
+
 \end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/i_H_V/JCUL-0119dIdV_H_V_surf.jpg
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/i_H_V/JCUL-0119dIdV_H_V_imagesc_2.jpg
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/i_H_V/JCUL-0119dIdV_H_V_curves.jpg
+	lyxscale 40
+	scale 15
 
 \end_inset
 
@@ -3202,17 +3185,68 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection
+Discussion
+\end_layout
+
+\begin_layout Standard
+The he features including zero bias peak were not expected, and we don't
+ have a simple explaination.
+ We could not reproduce them, but they don't behave as random noise: they
+ occured smoothly on a 2D scan, both with 
+\begin_inset Formula $H$
+\end_inset
+
+ scanned upwards on downward, with very similar results.
+\end_layout
+
+\begin_layout Standard
+One possible reason is a current surge stemming from quick chnage of the
+ bias voltage from 60 to 0 mV (due to a setup problem).
+\end_layout
+
+\begin_layout Standard
+A possible source to these features could be a special state of vortices
+ trapped within the junction near the heart of the sample.
+\end_layout
+
+\begin_layout Standard
+.
 \end_layout
 
 \begin_layout Section
-bistabillity
+Bistability
 \end_layout
 
 \begin_layout Standard
-as seen in dIdV, ZBC...
+In some of the conductance and zero bias conductance measurements, bistability
+ was observed.
+ As control measurement, we took measurements 
+\begin_inset Formula $I(V\sim0,H=0,t)$
+\end_inset
+
+ from which 
+\begin_inset Formula $G(t)$
+\end_inset
+
+ was estimated similarly to zero bias conductance.
+ One of the measurements doesn't present an easy pattern.
+ Another one has two modes, changing every other measurement point, suggesting
+ that maybe it stems from the electronic measurement apparatus.
 \end_layout
 
 \begin_layout Standard
+Future control measurements will include measurements in different sampling
+ rates to examine the source of the bistability.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 measurements, making sure noise, some statistics.
 \begin_inset Note Note
 status open
@@ -3226,8 +3260,9 @@ send Tom
 
 \end_layout
 
-\begin_layout Standard
-(40)(111)
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3244,7 +3279,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-....
+control bistability measurement.
+ No obvious pattern
 \end_layout
 
 \end_inset
@@ -3279,7 +3315,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-...
+control bistability measurement.
+ bistability: two modes interleaved (changing every other sample point)
 \end_layout
 
 \end_inset
