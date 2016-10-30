@@ -76,7 +76,7 @@
 \begin_body
 
 \begin_layout Title
-Tunnelling to thin super conducting NbSe2
+NISIN tunnelling to thin super conducting NbSe2 with inner junction
 \end_layout
 
 \begin_layout Author
@@ -146,17 +146,6 @@ thin/thick different penetration of vortices
 
 \begin_layout Part
 background
-\end_layout
-
-\begin_layout Standard
-theoretical background: tunnelling, Tinkham 2, 4, 5.
- vortices.
- density of states in SC.
- tunneling to SC.
-\end_layout
-
-\begin_layout Standard
-electrons gas
 \end_layout
 
 \begin_layout Subsection
@@ -265,7 +254,7 @@ electron electron attraction mediated by the ions crystal
 \begin_inset Graphics
 	filename images/cooper_pair.jpg
 	lyxscale 40
-	scale 40
+	scale 20
 
 \end_inset
 
@@ -403,7 +392,7 @@ energy spectrum of electrons in SC (according to BSC)
 \begin_inset Graphics
 	filename images/energy_gap.jpg
 	lyxscale 40
-	scale 40
+	scale 30
 
 \end_inset
 
@@ -489,11 +478,20 @@ Tom: articles
 \end_inset
 
  
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 \begin_inset Formula $H_{c1}=??$
 \end_inset
 
 , 
 \begin_inset Formula $H_{c2}=??$
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
  ).
@@ -524,7 +522,7 @@ status open
 
 \begin_layout Plain Layout
 scheme of the desired device.
- parts: (1)silicon, (2)NbSe2, (3)WSl2, (4)gold electrodes
+ parts: (1)silicon, (2)NbSe2, (3)WSe2, (4)gold electrodes
 \end_layout
 
 \end_inset
@@ -549,11 +547,11 @@ scheme of the desired device.
 \begin_layout Standard
 The device was built on a silicon chip.
  Thin layers of 
-\begin_inset Formula $NbSl2$
+\begin_inset Formula $NbSe2$
 \end_inset
 
  and 
-\begin_inset Formula $WSl2$
+\begin_inset Formula $WSe2$
 \end_inset
 
  were pilled from bulk material with celio-tape.
@@ -1146,15 +1144,15 @@ Left: images of JC after first heat cleaning.
 \begin_inset Graphics
 	filename afm/JC_after_heat_cleaning_1_of_2large_fast.008.jpeg
 	lyxscale 60
-	scale 60
+	scale 70
 
 \end_inset
 
 
 \begin_inset Graphics
-	filename images/tom_Nb.jpg
+	filename afm/jcul.001_adapt_1.jpg
 	lyxscale 30
-	scale 30
+	scale 35
 
 \end_inset
 
@@ -1224,9 +1222,6 @@ possible reason for this failure: observing optical images of device before
  surface.
  Perhaps that change disturbes the contact with the electrode.
  Also, the crack that existed in the material expanded.
-\end_layout
-
-\begin_layout Itemize
 \begin_inset Float figure
 wide false
 sideways false
@@ -1458,15 +1453,7 @@ density of states? what else?
 \end_layout
 
 \begin_layout Enumerate
-zero bias conductance (
-\begin_inset Formula $H<0.12[T]$
-\end_inset
-
-, 
-\begin_inset Formula $H<4??6[T]$
-\end_inset
-
-): 
+zero bias conductance: 
 \begin_inset Formula $\frac{dI}{dV}(V\sim0,H)$
 \end_inset
 
@@ -1893,7 +1880,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-I(V), dIdV, high bias, of the double junction, few T....
+I(V), dIdV, high bias, of the double junction, few T
 \end_layout
 
 \end_inset
@@ -2179,8 +2166,18 @@ willing to measure
 \begin_inset Formula $\frac{dI}{dV}(V\sim0,H)$
 \end_inset
 
- in resolution: 
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+in resolution: 
 \begin_inset Formula $\Delta H=???[T]$
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 .
@@ -2215,7 +2212,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-zero bias conductance at conditions XXX 
+zero bias conductance: 
 \begin_inset Formula $|H|<0.12[T]$
 \end_inset
 
@@ -2234,7 +2231,7 @@ zero bias conductance at conditions XXX
 \begin_inset Graphics
 	filename figs/ZBC_low_H.svg
 	lyxscale 40
-	scale 40
+	scale 30
 
 \end_inset
 
@@ -2242,7 +2239,7 @@ zero bias conductance at conditions XXX
 \begin_inset Graphics
 	filename figs/ZBC_many.svg
 	lyxscale 40
-	scale 40
+	scale 35
 
 \end_inset
 
@@ -2447,10 +2444,6 @@ even field profiles?
 \end_layout
 
 \begin_layout Standard
-few dIdV .....
-\end_layout
-
-\begin_layout Standard
 \begin_inset Note Note
 status open
 
@@ -2505,8 +2498,10 @@ status open
 
 \begin_layout Plain Layout
 zero bias conductance.
- The main difference observed from zero cooling, is much more significant
- bistability
+ in zero cooling, the zero conductance is higher at all fields, indicating
+ larger amount of vortices, which probably penetrated to the junction at
+ the heart of the material.
+ bistability is observed as well.
 \end_layout
 
 \end_inset
@@ -2518,7 +2513,15 @@ zero bias conductance.
 \begin_inset Graphics
 	filename figs/ZBC_field_cooling_1T.svg
 	lyxscale 40
-	scale 40
+	scale 30
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/ZBC_field_cooling.svg
+	lyxscale 40
+	scale 30
 
 \end_inset
 
@@ -3125,7 +3128,7 @@ control bistability measurement.
 \begin_inset Graphics
 	filename figs/record_40.svg
 	lyxscale 40
-	scale 40
+	scale 20
 
 \end_inset
 
@@ -3161,29 +3164,23 @@ control bistability measurement.
 \begin_inset Graphics
 	filename figs/record_111.svg
 	lyxscale 40
-	scale 40
+	scale 20
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/record_111_zoom_300.svg
 	lyxscale 40
-	scale 40
+	scale 20
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/record_111_zoom_50.svg
 	lyxscale 40
-	scale 40
+	scale 20
 
 \end_inset
 
@@ -3206,7 +3203,7 @@ key "key-1"
 
 \end_inset
 
-Tinkham
+Lecture Notes of Dror Orgad from course about superconductors.
 \end_layout
 
 \begin_layout Bibliography
@@ -3216,7 +3213,10 @@ key "key-2"
 
 \end_inset
 
- Tom
+ A.Castellanos-Gomez et al.
+ “Deterministic transfer of two-dimensional materials by all-dry viscoelastic
+ stamping”.
+ 2D Materials, (2014).
 \end_layout
 
 \begin_layout Bibliography
@@ -3236,7 +3236,7 @@ key "key-4"
 
 \end_inset
 
-
+Tinkham Ch 2,3,4,5
 \end_layout
 
 \end_body
