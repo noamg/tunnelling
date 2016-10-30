@@ -543,7 +543,7 @@ Hadar
 \end_inset
 
 in diffrent devices the 
-\begin_inset Formula $NbSl2$
+\begin_inset Formula $NbSe2$
 \end_inset
 
  was thin (
@@ -642,11 +642,11 @@ The entire process is done in a gloves box, with atmosphere of
 
 \begin_layout Enumerate
 Thin layers of 
-\begin_inset Formula $NbSl2$
+\begin_inset Formula $NbSe2$
 \end_inset
 
  and 
-\begin_inset Formula $WSl2$
+\begin_inset Formula $WSe2$
 \end_inset
 
  were pilled from bulk material with celio-tape
@@ -660,7 +660,7 @@ Small squares of PDMS are located on a glass carrier, attached to the celio-tape
 
 \begin_layout Enumerate
 PDMS with 
-\begin_inset Formula $NbSl2$
+\begin_inset Formula $NbSe2$
 \end_inset
 
  is turned to face down, and is lowered to touch a clean spot on the silicon
@@ -671,11 +671,11 @@ PDMS with
  It increased the amount of flakes passed (thus increasing the veraity of
  choice for the device), at the risk of leaving some PDMS residue that might
  hinder the contact between the 
-\begin_inset Formula $NbSl2$
+\begin_inset Formula $NbSe2$
 \end_inset
 
 and the 
-\begin_inset Formula $WSl2$
+\begin_inset Formula $WSe2$
 \end_inset
 
 .
@@ -701,11 +701,11 @@ status open
 
 \begin_layout Plain Layout
 Left: 
-\begin_inset Formula $WSl2$
+\begin_inset Formula $WSe2$
 \end_inset
 
  on PDMS, Right: 
-\begin_inset Formula $NbSl2$
+\begin_inset Formula $NbSe2$
 \end_inset
 
  on silicon (zoom: X100.
@@ -772,16 +772,16 @@ status open
 \begin_layout Plain Layout
 Plan of device JC.
  Left: 
-\begin_inset Formula $WSl2$
+\begin_inset Formula $WSe2$
 \end_inset
 
  with skeleton.
  Right: 
-\begin_inset Formula $NbSl2$
+\begin_inset Formula $NbSe2$
 \end_inset
 
  with the skeleton of 
-\begin_inset Formula $WSl2$
+\begin_inset Formula $WSe2$
 \end_inset
 
 
@@ -815,11 +815,11 @@ Plan of device JC.
 
 \begin_layout Enumerate
 The PDMS with 
-\begin_inset Formula $WSl2$
+\begin_inset Formula $WSe2$
 \end_inset
 
  is located above the 
-\begin_inset Formula $NbSl2$
+\begin_inset Formula $NbSe2$
 \end_inset
 
  and lowered carefully, while keeping the horizontal position where planned.
@@ -832,7 +832,7 @@ After the PDMS touches the silicon, it is raised slowly (about
 
 ).
  In most cases the 
-\begin_inset Formula $WSl2$
+\begin_inset Formula $WSe2$
 \end_inset
 
  flake remains on the silicon as planned.
@@ -884,21 +884,21 @@ name "device JC optical"
 \begin_layout Plain Layout
 Device JC.
  Left: 
-\begin_inset Formula $NbSl2$
+\begin_inset Formula $NbSe2$
 \end_inset
 
  on silicon.
  Right: 
-\begin_inset Formula $WSl2$
+\begin_inset Formula $WSe2$
 \end_inset
 
  on PDMS .
  Center: 
-\begin_inset Formula $WSl2$
+\begin_inset Formula $WSe2$
 \end_inset
 
  on 
-\begin_inset Formula $NbSl2$
+\begin_inset Formula $NbSe2$
 \end_inset
 
 
@@ -1172,20 +1172,20 @@ status open
 Left: images of JC after first heat cleaning.
  Right: images of JC after second heat cleaning.
  Some of the dirt from the 
-\begin_inset Formula $WSl2$
+\begin_inset Formula $WSe2$
 \end_inset
 
 , and from between the 
-\begin_inset Formula $NbSl2$
+\begin_inset Formula $NbSe2$
 \end_inset
 
  and 
-\begin_inset Formula $WSl2$
+\begin_inset Formula $WSe2$
 \end_inset
 
  is removed.
  The dirt only on 
-\begin_inset Formula $NbSl2$
+\begin_inset Formula $NbSe2$
 \end_inset
 
  didn't change.
@@ -1272,7 +1272,7 @@ The chip contained 4 devices, and 32 electrodes.
 possible reason for this failure: observing optical images of device before
  and after the second heat cleaning.
  the color of exposed 
-\begin_inset Formula $NbSl2$
+\begin_inset Formula $NbSe2$
 \end_inset
 
  changed, which indicates a possible change in the texture of the material
@@ -1292,7 +1292,7 @@ image of device JC.
  left: before heat cleaning.
  right: after heat cleaning.
  the color of the exposed 
-\begin_inset Formula $NbSl2$
+\begin_inset Formula $NbSe2$
 \end_inset
 
  is changed, the crack expanded
@@ -1348,12 +1348,12 @@ should put arrows to show the bright part
 \begin_layout Itemize
 eventually, there was a single device with 2 contacts laid over the insulator
  
-\begin_inset Formula $WSl2$
+\begin_inset Formula $WSe2$
 \end_inset
 
 , which created a device of structure NISIN.
  two consecutive tunneliing junctions, one at the heart of the 
-\begin_inset Formula $NbSl2$
+\begin_inset Formula $NbSe2$
 \end_inset
 
  and one at the side.
