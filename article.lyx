@@ -653,7 +653,7 @@ Thin layers of
 \end_layout
 
 \begin_layout Enumerate
-Small squares of PDMS are located on a glass carrier, attached to the celio-tape
+Small squares of PDMS are located on a glass carrier, attached to the cello-tape
 , and then the celio-tape is pulled away rapidly.
  small flakes of the target material remain on the PDMS.
 \end_layout
@@ -668,7 +668,7 @@ PDMS with
  It is raised slowly, and some flakes stay on the silicon.
  In order to transfer more flakes, the same PDMS was used again to stamp
  an adjecet spot.
- It increased the amount of flakes passed (thus increasing the veraity of
+ It increased the amount of flakes passed (thus increasing the variety of
  choice for the device), at the risk of leaving some PDMS residue that might
  hinder the contact between the 
 \begin_inset Formula $NbSe2$
@@ -684,17 +684,10 @@ and the
 \begin_layout Enumerate
 In optical image of the flakes on PDMS and on silicon, the colors indicate
  the width of the flake (number of layers).
-\end_layout
-
-\begin_layout Enumerate
 \begin_inset Float figure
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -742,6 +735,16 @@ Left:
 Using microscope (magnification up to X100) the good flakes are found either
  on the silicon or on the PDMS, and their pictures are taken.
  Based on the pictures, 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+
 \begin_inset Quotes eld
 \end_inset
 
@@ -754,17 +757,20 @@ skeletons
 
 \begin_layout Enumerate
 The device is planned
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
 \end_layout
 
-\begin_layout Enumerate
+\end_inset
+
+
 \begin_inset Float figure
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -987,12 +993,39 @@ heat cleaning
 \end_layout
 
 \begin_layout Standard
-During the creation of the devie some dust, water and organic materials
- get between the layers.
- They lower the effective contact erea between the layers and thus hurt
- the tunnelling junction.
- After the creation of the device, we apply heat cleaning which helps removing
- some of the dirt.
+During the creation of the device some 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+dust, water and organic materials get between the layers.
+ They lower the effective contact area between the layers and thus 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+hurt the tunnelling junction.
+ After the creation of the device, we apply heat cleaning which helps 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+removing some of the dirt.
  The sample is located in an oven with atmosphere of 95% Argon, 5% 
 \begin_inset Formula $H_{2}$
 \end_inset
@@ -1001,7 +1034,11 @@ During the creation of the devie some dust, water and organic materials
 \end_layout
 
 \begin_layout Standard
-We applied first time with 
+We applied the heat cleaning process two times:
+\end_layout
+
+\begin_layout Standard
+first time with 
 \begin_inset Formula $T=150\degree C$
 \end_inset
 
@@ -1021,7 +1058,7 @@ We applied first time with
 \end_layout
 
 \begin_layout Subsubsection
-AFM-
+AFM
 \begin_inset Note Note
 status open
 
@@ -1047,7 +1084,17 @@ After the device is created and somewhat cleaned with heat cleaning, a better
 \begin_layout Standard
 For that matter, we used an AFM (type Dimension 3100 Nanoscope V) in tapping
  mode.
- The topography measurement indicated thickness and mateiral idnetity.
+ The topography measurement indicated thickness and 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+mateiral idnetity.
  Phase shift image indicated material idnetity.
 \end_layout
 
@@ -1352,14 +1399,11 @@ eventually, there was a single device with 2 contacts laid over the insulator
 \end_inset
 
 , which created a device of structure NISIN.
- two consecutive tunneliing junctions, one at the heart of the 
+ two consecutive tunnelling junctions, one at the heart of the 
 \begin_inset Formula $NbSe2$
 \end_inset
 
  and one at the side.
-\end_layout
-
-\begin_layout Itemize
 \begin_inset Float figure
 wide false
 sideways false
@@ -1418,7 +1462,17 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Another device of the same research group.
+Another device of the same 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+research group.
  Left: NbSe2.
  middle: same layer covered by thin Boron-Nitride.
  Right: same deivce after heat cleaning.
@@ -1572,8 +1626,17 @@ the cryogenic apparatus can reduce the sample temperature down to
 \begin_layout Standard
 From other measurements it turned out that there is a problem in the cryogenic
  apparatus.
- When the thermometers indicated base level, the temperature at the sample
- was 
+ When the thermometers indicated base level, the 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+temperature at the sample was 
 \begin_inset Formula $1.5\degree K-2\degree K$
 \end_inset
 
@@ -1631,8 +1694,8 @@ setup:
 \end_layout
 
 \begin_layout Itemize
-parts: dac that supllies VDC, voltage devider (1/100), RC low pass filter
- (cutoff 
+parts: DAC (digital analogue converter) that supllies VDC, voltage devider
+ (1/100), RC low pass filter (cutoff 
 \begin_inset Formula $1.59[Hz]$
 \end_inset
 
@@ -1689,13 +1752,13 @@ Due to a drift of the DAC, the measured
 \end_inset
 
  at different voltages.
- Also, witout applied voltage their should be no tunelling current (
+ Also, without applied voltage there should be no tunelling current (
 \begin_inset Formula $I(V=0)=0$
 \end_inset
 
 ).
  However, the minimal current measured was above 0, probably due to imperfect
- ground connection issues (that leaks to the device through the metalic
+ ground connection issues (that leaks to the device through the metallic
  pipes and cooler).
  In order to optimize the effect, we found V where I was minimal, and then
  thouched some of the metal wires and pipes connected to the cooler and
@@ -1704,7 +1767,7 @@ Due to a drift of the DAC, the measured
 \end_layout
 
 \begin_layout Enumerate
-During all measurements, and voltmeter that measures the current was checked
+During all measurements, the voltmeter that measures the current was checked
  real time, to make sure that it stabilises on a constant value (except
  noise).
 \end_layout
@@ -1714,7 +1777,7 @@ The temperature creates a thermal spread in the energy (
 \begin_inset Formula $1\degree K\to80\mu V)$
 \end_inset
 
-, which was considerred when choosing the voltage sample step.
+, which was considered when choosing the voltage sample step.
 \end_layout
 
 \begin_layout Standard
@@ -1753,7 +1816,17 @@ magnet: the magnet was used to apply an external field up to
 \begin_inset Formula $H=6[T]$
 \end_inset
 
- using a persistent current in superconducting wire.
+ using a 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+persistent current in superconducting wire.
 \end_layout
 
 \begin_layout Standard
@@ -1980,7 +2053,7 @@ smooth: meaning that the derivative is taken at scale XXX.
 \end_layout
 
 \begin_layout Standard
-In low bias, the conductance displayes the gap behaviour of a tunneliing
+In low bias, the conductance displayes the gap behaviour of a tunnelling
  junction, as expected.
  The ratio of conductance levels and the minimum of the gap is 
 \begin_inset Formula $30-50$
@@ -2219,8 +2292,8 @@ finding center: findnig zero: not argmin????, very noisy..
 \end_layout
 
 \begin_layout Standard
-willing to measure 
-\begin_inset Formula $\frac{dI}{dV}(V\sim0,H)$
+We want to measure 
+\begin_inset Formula $\frac{dI}{dV}(V=0,H)$
 \end_inset
 
  
@@ -2248,11 +2321,11 @@ in resolution:
 
  (I~0).
  then 
-\begin_inset Formula $\frac{dI}{dV}(V\sim0,H)\approx\frac{I(V_{min}+\Delta V)-I(V_{min})}{\Delta V}\approx\frac{1}{\Delta V}I(V_{min}+\Delta V,H)$
+\begin_inset Formula $\frac{dI}{dV}(V=V_{min},H)\approx\frac{I(V_{min}+\Delta V)-I(V_{min})}{\Delta V}\approx\frac{1}{\Delta V}I(V_{min}+\Delta V,H)$
 \end_inset
 
- as desired.
- Took 
+ which is measured.
+ We choose usually 
 \begin_inset Formula $\Delta V=100\mu V$
 \end_inset
 
@@ -2805,7 +2878,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-36
+
 \end_layout
 
 \begin_layout Standard
@@ -3089,7 +3162,7 @@ Discussion
 
 \begin_layout Standard
 The he features including zero bias peak were not expected, and we don't
- have a simple explaination.
+ have a simple explanation.
  We could not reproduce them, but they don't behave as random noise: they
  occured smoothly on a 2D scan, both with 
 \begin_inset Formula $H$
