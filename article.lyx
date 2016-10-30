@@ -153,10 +153,6 @@ superconductivity, vortices
 \end_layout
 
 \begin_layout Standard
-take from report of SC
-\end_layout
-
-\begin_layout Standard
 superconductivity is a phenomena where the material is a perfect conductor
  (zero resistance) and a perfect diamagnet (repels magnetic field).
  The diamagnetism is achieved by edge currents that keep 
@@ -168,7 +164,7 @@ superconductivity is a phenomena where the material is a perfect conductor
 \begin_inset Formula $7\degree K$
 \end_inset
 
-, aluminum 
+, aluminium 
 \begin_inset Formula $4\degree K).$
 \end_inset
 
@@ -190,7 +186,7 @@ superconductivity is a phenomena where the material is a perfect conductor
 \begin_inset Formula $\Phi$
 \end_inset
 
- penetrates the material quantised.
+ penetrates the material quantized.
  Since the magnetic energy is 
 \begin_inset Formula $E\propto B^{2}$
 \end_inset
@@ -212,12 +208,12 @@ BSC model
 
 \begin_layout Standard
 The BCS is a model for superconductivity.
- It's suggests that a minor attractive electron electron interaction creates
+ It suggests that a minor attractive electron electron interaction creates
  energy states lower then 
 \begin_inset Formula $E_{f}$
 \end_inset
 
-, and that thsese states entangles the two electron in 
+, and that these states entangles the two electron in 
 \begin_inset Formula $|\vec{k}\uparrow,-\vec{k}\downarrow>$
 \end_inset
 
@@ -226,13 +222,23 @@ The BCS is a model for superconductivity.
  states.
  Also, the coloumb repulsion between the electrons is screened by the positive
  ions of the crystal.
- The suggested source of attractivr interaction is mediated by the ions:
- an electron that passes by atrracts the ions, and creates a wake of high
- density of possitive charge, which can be viewed as a phonon.
+ The suggested source of attractive interaction is mediated by the ions:
+ an electron that passes by attracts the ions, and creates a wake of high
+ density of positive charge, which can be viewed as a phonon.
  Another electron passing by is attracted to these ions, and therfore is
  attracted to the first electron.
  The key point is that the electrons are moving much faster then the ions,
- and thus the coloumb repulsion can be efectively screened.
+ and thus the coloumb repulsion can be efectively screened 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar: what about screened?
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -302,10 +308,11 @@ else & 0
 
 \begin_layout Standard
 wheras 
-\begin_inset Formula $\epsilon_{k}=\frac{\hbar^{2}k^{2}}{2m},\xi_{k}=\epsilon_{k}-E_{f},\omega_{c}=debyee...$
+\begin_inset Formula $\epsilon_{k}=\frac{\hbar^{2}k^{2}}{2m},\xi_{k}=\epsilon_{k}-E_{f},\omega_{c}=\omega$
 \end_inset
 
-
+ debye: the maximal frequency of the phonons in the crystal.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -313,8 +320,9 @@ The result is
 \begin_inset Formula $E=2\cdot E_{f}-\Delta,\Delta=2\hbar\omega_{c}\exp(-\frac{2}{g(E_{f})\cdot V_{0}})$
 \end_inset
 
- so for every attractive interaction exists energy states of the couple
- of electrons that is lower than 
+ .
+ So the pair of electrons with attractive interaction, has energy state
+ that is lower than 
 \begin_inset Formula $E_{f}$
 \end_inset
 
@@ -333,7 +341,7 @@ ric.
 
 \begin_layout Standard
 Therefore, the state in which all the electrons are free and in fermi sea
- is unstable, and couples of electrons tend to entangle themselves together.
+ is unstable, and couples of electrons tend to get entangaled.
 \end_layout
 
 \begin_layout Subsubsection
@@ -384,6 +392,16 @@ status open
 
 \begin_layout Plain Layout
 energy spectrum of electrons in SC (according to BSC)
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -409,21 +427,40 @@ tunnelling into superconductor
 \end_layout
 
 \begin_layout Standard
-Electrons can tunnell only to a free energy state.
- If no final state with the electro's energy exists, tunnelling cannot take
- place.
+Electrons can tunnel only to a free energy state.
+ If no final state with the electron's energy exists, tunnelling cannot
+ take place.
  Therefore, tunnelling current of electrons with energies within the gap
  is low.
- The temperature influences: an electron may absorb a phonon at the superonducto
-r and land on a state ouside the gap.
- Impurities in the SC also influence: around them there is normal material,
+ The temperature influences: an electron may absorb a phonon 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+at the superonductor and land on a state ouside the gap.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+Impurities in the SC also influence: around them there is normal material,
  with a different density of states.
  One instance of such impurities are the current vortices around flux that
  penetrated the superonductor.
 \end_layout
 
 \begin_layout Part
-creation, characterizatino of device
+Creation, characterization of device
 \end_layout
 
 \begin_layout Section
@@ -451,7 +488,7 @@ Tom: wikipedia 1.35eV ref ....
 \end_inset
 
 
-\begin_inset Formula $WSl2$
+\begin_inset Formula $WSe2$
 \end_inset
 
  (energy gap 
@@ -460,7 +497,7 @@ Tom: wikipedia 1.35eV ref ....
 
 ).
  The superconductor is 
-\begin_inset Formula $NbSl2$
+\begin_inset Formula $NbSe2$
 \end_inset
 
  (type 2, 
@@ -495,7 +532,17 @@ status open
 \end_inset
 
  ).
- in diffrent devices the 
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+in diffrent devices the 
 \begin_inset Formula $NbSl2$
 \end_inset
 
@@ -518,6 +565,16 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -554,8 +611,8 @@ The device was built on a silicon chip.
 \begin_inset Formula $WSe2$
 \end_inset
 
- were pilled from bulk material with celio-tape.
- Later, they were piled using dry transfer technique.
+ were peelled from bulk material with cello-tape.
+ Later, they were piled one above the other using dry transfer technique.
  The gold electrodes were evaporated using e-beam lithography technique.
 \end_layout
 
@@ -573,11 +630,11 @@ The entire process is done in a gloves box, with atmosphere of
 \end_inset
 
  , to avoid oxidising the 
-\begin_inset Formula $NbSl2$
+\begin_inset Formula $NbSe2$
 \end_inset
 
  when it's not covered with 
-\begin_inset Formula $WSl2$
+\begin_inset Formula $WSe2$
 \end_inset
 
 .
