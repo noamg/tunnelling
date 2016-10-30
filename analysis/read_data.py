@@ -118,7 +118,7 @@ if False:
     test_read_I_V()
     test_read_I_H()
 
-def process_I_V(f, amp, Vdc_div=100, SF=11, axes=None, label=''):
+def process_I_V(f, amp, Vdc_div=100, SF=11, axes=None, label='', is_fix_zero=False):
     if axes is None:
         fig, axes = plt.subplots(2, 1, sharex=True)
     mask = np.ones(SF) * 1.0 / SF
@@ -129,6 +129,9 @@ def process_I_V(f, amp, Vdc_div=100, SF=11, axes=None, label=''):
     N = np.int((SF - 1) * 0.5)
     dIdVdc[0:N] = dIdVdc[0:N] * np.arange(SF-1, N, -1) / N
     dIdVdc[-N:] = dIdVdc[-N:] * np.arange(N, SF-1) / N
+    
+    if is_fix_zero:
+        Vdc = Vdc - Vdc[dIdVdc.argmin()]
     
     ax1, ax2 = axes
     _ = ax1.plot(Vdc * 1e3, Idc * 1e9, '.', label=label)
@@ -188,7 +191,7 @@ for i in range(len(Ns)):
     N = Ns[i]
     amp = amps[i]
     label = labels[i]
-    process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, axes=axes, label=label)
+    process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, axes=axes, label=label, is_fix_zero=True)
 axes[0].legend(loc='best')
 axes[1].legend(loc='best')
 fig.savefig(os.path.join(figs_dir + 'conductance_low_bias_few_T' + fig_format))
@@ -206,7 +209,7 @@ for i in range(len(Ns)):
     N = Ns[i]
     amp = amps[i]
     label = labels[i]
-    process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, axes=axes, label=label)
+    process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, axes=axes, label=label, is_fix_zero=True)
 axes[0].legend(loc='best')
 axes[1].legend(loc='best')
 fig.savefig(os.path.join(figs_dir + 'conductance_low_bias_few_T_12_13' + fig_format))
@@ -226,9 +229,9 @@ for i in range(len(Ns)):
     amp = amps[i]
     label = labels[i]
     if N == '0006':
-        process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, axes=axes, label=label, SF=43)
+        process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, axes=axes, label=label, SF=43, is_fix_zero=True)
     else:
-        process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, axes=axes, label=label)
+        process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, axes=axes, label=label, is_fix_zero=True)
 axes[0].legend(loc='best')
 axes[1].legend(loc='best')
 fig.savefig(os.path.join(figs_dir + 'conductance_high_bias_few_T' + fig_format))
@@ -240,8 +243,8 @@ ax = plt.subplot(111)
 Ns = ['0017', '0019']
 amps = [1e10, 1e10,]
 labels = ['up', 'down']
-I_mins = [0, 0,]
-dVs = np.array([100e-6, 100e-6])
+I_mins = [0.0021e-9, 0.0021e-9,]
+dVs = np.array([280e-6, 280e-6])
 assert len(Ns) == len(amps)
 for i in range(len(Ns)):
     N = Ns[i]
@@ -300,8 +303,8 @@ ax = plt.subplot(111)
 Ns = ['0017', '0019', '0053']
 amps = [1e10, 1e10, 1e9]
 labels = ['ZC up', 'ZC down', 'FC']
-I_mins = [0, 0, 0,]
-dVs = np.array([100e-6, 100e-6, 100e-6, 100e-6])
+I_mins = [0.0021e-9, 0.0021e-9, 0.0061e-9,]
+dVs = np.array([280e-6, 280e-6, 100e-6, 240e-6])
 assert len(Ns) == len(amps)
 for i in range(len(Ns)):
     N = Ns[i]
@@ -345,10 +348,13 @@ fig.savefig(os.path.join(figs_dir + 'record_40' + fig_format))
 fig = plt.figure()
 ax = plt.subplot(111)
 process_record(os.path.join(data_dir + data_prefix + '0111' + data_format), amp=1e10, I_min=0, dV=100e-6, ax=ax, label='')
+ax.legend(loc='best')
 fig.savefig(os.path.join(figs_dir + 'record_111' + fig_format))
 ax.set_xlim(0, 300)
+ax.legend(loc='best')
 fig.savefig(os.path.join(figs_dir + 'record_111_zoom_300' + fig_format))
 ax.set_xlim(0, 50)
+ax.legend(loc='best')
 fig.savefig(os.path.join(figs_dir + 'record_111_zoom_50' + fig_format))
 
 #%%
@@ -365,6 +371,17 @@ _ = ax.plot(time[1::2], Idc[1::2], '.')
 #_ = ax.plot(time[3::4], Idc[3::4], '.')
 
 #ax.set_xlim(0, 50)
+
+#%% checl finding center convolve:
+V, I = read_I_V(os.path.join(data_dir + data_prefix + '0016' + data_format), 1e10, 100)
+x = np.diff(I) / np.diff(V)
+fig = plt.figure()
+ax = fig.add_subplot(111)
+ax.plot(V[1:], x, '.')
+ax.plot(-1 * V[1:], x[::-1], '.')
+fig2 = plt.figure()
+ax2 = fig2.add_subplot(111)
+ax2.plot(np.convolve(x,x))
 
 #%%
 for n in range(102, 143):
@@ -389,7 +406,8 @@ for i in range(len(Ns)):
 ax.legend(loc='best')
 fig.savefig(os.path.join(figs_dir + 'ZBC_many' + fig_format))
     
-
+#%%
+sweeped, measured, data, measured_time, [T_min, T_max] = read_mesdata(os.path.join(data_dir + data_prefix + '0130' + data_format))
 
 #%%
 plt.show()
