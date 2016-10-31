@@ -10,7 +10,8 @@ import os
 import numpy as np
 import scipy as sp
 from scipy import io
-
+import matplotlib
+matplotlib.rcParams['legend.numpoints'] = 1
 import matplotlib.pyplot as plt
 
 f_I_V_H = '/home/noam/studies/physics/amirim_hadar/tunnelling.git/measurements/JCUL-0103.mat'
