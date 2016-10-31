@@ -265,19 +265,22 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/cooper_pair.jpg
+	lyxscale 40
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 electron electron attraction mediated by the ions crystal
 \end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/cooper_pair.jpg
-	lyxscale 40
-	scale 20
 
 \end_inset
 
@@ -405,6 +408,17 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/energy_gap.jpg
+	lyxscale 40
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -420,14 +434,6 @@ Hadar
 
 
 \end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/energy_gap.jpg
-	lyxscale 40
-	scale 30
 
 \end_inset
 
@@ -592,21 +598,27 @@ Hadar
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename schemes/NIS.png
+	lyxscale 40
+	scale 40
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 scheme of the desired device.
  parts: (1)silicon, (2)NbSe2, (3)WSe2, (4)gold electrodes
 \end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename schemes/NIS.png
-	lyxscale 40
-	scale 40
-	clip
 
 \end_inset
 
@@ -707,6 +719,25 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/tung_color_refrence.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/KALL_ref_NbSl2.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -721,22 +752,6 @@ Left:
  on silicon (zoom: X100.
  the color indicate the number of layers)
 \end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/tung_color_refrence.png
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/KALL_ref_NbSl2.png
-	lyxscale 40
-	scale 40
 
 \end_inset
 
@@ -790,6 +805,25 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/JC_tung_fine_skeleton.jpg
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/JC_Nb_skeleton_tung_plan.jpg
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -809,22 +843,6 @@ Plan of device JC.
 
 
 \end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/JC_tung_fine_skeleton.jpg
-	lyxscale 30
-	scale 30
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/JC_Nb_skeleton_tung_plan.jpg
-	lyxscale 30
-	scale 30
 
 \end_inset
 
@@ -902,6 +920,36 @@ name "device JC optical"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/JC_tung_fine_skeleton.jpg
+	lyxscale 20
+	scale 20
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/JC_final_trim.jpg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/JC_Nb_skeleton_tung_plan.jpg
+	lyxscale 20
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -926,33 +974,6 @@ Device JC.
 
 
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename images/JC_tung_fine_skeleton.jpg
-	lyxscale 20
-	scale 20
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/JC_final_trim.jpg
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/JC_Nb_skeleton_tung_plan.jpg
-	lyxscale 20
-	scale 20
 
 \end_inset
 
@@ -1187,15 +1208,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-images of JC after first heat cleaning
-\end_layout
-
-\end_inset
-
-
 \begin_inset Graphics
 	filename afm/JC_after_heat_cleaning_1_of_2large_fast.008.jpeg
 	lyxscale 60
@@ -1208,6 +1220,18 @@ images of JC after first heat cleaning
 	filename images/JC_final_trim.jpg
 	lyxscale 40
 	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+images of JC after first heat cleaning
+\end_layout
 
 \end_inset
 
@@ -1228,6 +1252,36 @@ final device: images after second heat cleaning
 wide false
 sideways false
 status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename afm/JC_after_heat_cleaning_1_of_2large_fast.008.jpeg
+	lyxscale 60
+	scale 70
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename afm/jcul.001_adapt_1.jpg
+	lyxscale 30
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename afm/jcul.001_phase.jpg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1255,36 +1309,6 @@ Left: images of JC after first heat cleaning.
  didn't change.
  Bottom: zoom in on the crack (after second heat cleaning).
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename afm/JC_after_heat_cleaning_1_of_2large_fast.008.jpeg
-	lyxscale 60
-	scale 70
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename afm/jcul.001_adapt_1.jpg
-	lyxscale 30
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename afm/jcul.001_phase.jpg
-	lyxscale 40
-	scale 40
 
 \end_inset
 
@@ -1349,6 +1373,33 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/JC_before_first_heat_cleaning_zoom.jpg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/JC_after_first_heat_cleaning_zoom.jpg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/JC_after_second_heat_cleaning_zoom.jpg
+	lyxscale 40
+	scale 7
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -1371,33 +1422,6 @@ should put arrows to show the bright part
 
 
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename images/JC_before_first_heat_cleaning_zoom.jpg
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/JC_after_first_heat_cleaning_zoom.jpg
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/JC_after_second_heat_cleaning_zoom.jpg
-	lyxscale 40
-	scale 7
 
 \end_inset
 
@@ -1427,6 +1451,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename schemes/NISIN.png
+	lyxscale 40
+	scale 40
+	clip
+
+\end_inset
+
 
 \end_layout
 
@@ -1436,15 +1468,6 @@ status open
 \begin_layout Plain Layout
 scheme of the final device
 \end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename schemes/NISIN.png
-	lyxscale 40
-	scale 40
-	clip
 
 \end_inset
 
@@ -1476,29 +1499,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Another device of the same 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
-\end_layout
-
-\end_inset
-
-research group.
- Left: NbSe2.
- middle: same layer covered by thin Boron-Nitride.
- Right: same deivce after heat cleaning.
- Like in our case, the exposed NbSe2 was harmed by the heat cleaning.
-\end_layout
-
-\end_inset
-
-
 \begin_inset Graphics
 	filename images/tom_Nb.jpg
 	lyxscale 7
@@ -1519,6 +1519,32 @@ research group.
 	filename images/tom_heat.jpg
 	lyxscale 7
 	scale 7
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Another device of the same 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+research group.
+ Left: NbSe2.
+ middle: same layer covered by thin Boron-Nitride.
+ Right: same deivce after heat cleaning.
+ Like in our case, the exposed NbSe2 was harmed by the heat cleaning.
+\end_layout
 
 \end_inset
 
@@ -1804,19 +1830,22 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename schemes/electronic_setup.jpg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 electronic setup
 \end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename schemes/electronic_setup.jpg
-	lyxscale 40
-	scale 40
 
 \end_inset
 
@@ -1939,15 +1968,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-I(V), dIdV, of the double junction, few temperatures
-\end_layout
-
-\end_inset
-
-
 \begin_inset Graphics
 	filename figs/conductance_low_bias_few_T.svg
 	lyxscale 40
@@ -1962,6 +1982,18 @@ I(V), dIdV, of the double junction, few temperatures
 \begin_inset Graphics
 	filename figs/conductance_low_bias_few_T_12_13.svg
 	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+I(V), dIdV, of the double junction, few temperatures
+\end_layout
 
 \end_inset
 
@@ -2024,19 +2056,22 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/conductance_high_bias_few_T.svg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 I(V), dIdV, high bias, of the double junction, few T
 \end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename figs/conductance_high_bias_few_T.svg
-	lyxscale 40
-	scale 40
 
 \end_inset
 
@@ -2356,6 +2391,25 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/ZBC_low_H.svg
+	lyxscale 40
+	scale 30
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/ZBC_many.svg
+	lyxscale 40
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2375,22 +2429,6 @@ zero bias conductance:
 \end_inset
 
 
-\begin_inset Graphics
-	filename figs/ZBC_low_H.svg
-	lyxscale 40
-	scale 30
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename figs/ZBC_many.svg
-	lyxscale 40
-	scale 35
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -2403,6 +2441,17 @@ zero bias conductance:
 wide false
 sideways false
 status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/conductance_before_after_ZBC.svg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -2429,17 +2478,6 @@ must check times of measurements.
 
 
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename figs/conductance_before_after_ZBC.svg
-	lyxscale 40
-	scale 40
 
 \end_inset
 
@@ -2610,19 +2648,22 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/field_cooling_conductance.svg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 conductance in field cooling: trapped vortices raise the conductivity
 \end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename figs/field_cooling_conductance.svg
-	lyxscale 40
-	scale 40
 
 \end_inset
 
@@ -2641,22 +2682,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-zero bias conductance.
- in zero cooling, the zero conductance is higher at all fields, indicating
- larger amount of vortices, which probably penetrated to the junction at
- the heart of the material.
- bistability is observed as well.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/ZBC_field_cooling_1T.svg
 	lyxscale 40
@@ -2669,6 +2694,22 @@ zero bias conductance.
 	filename figs/ZBC_field_cooling.svg
 	lyxscale 40
 	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+zero bias conductance.
+ in zero cooling, the zero conductance is higher at all fields, indicating
+ larger amount of vortices, which probably penetrated to the junction at
+ the heart of the material.
+ bistability is observed as well.
+\end_layout
 
 \end_inset
 
@@ -2905,27 +2946,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Formula $\frac{dI}{dV}(V,H):$
-\end_inset
-
-from top right clockwise: 3D curve, heatmap, curve for each field, selecting
- only H=0,1.5,4[T].
- 
-\begin_inset Formula $H$
-\end_inset
-
- rising
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/i_H_V/dIdV_H_V_surf.jpg
 	lyxscale 40
@@ -2963,17 +2983,6 @@ from top right clockwise: 3D curve, heatmap, curve for each field, selecting
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
 \begin_layout Plain Layout
 \begin_inset Caption Standard
 
@@ -2987,13 +2996,24 @@ from top right clockwise: 3D curve, heatmap, curve for each field, selecting
 \begin_inset Formula $H$
 \end_inset
 
- decreasing.
+ rising
 \end_layout
 
 \end_inset
 
 
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -3027,6 +3047,27 @@ from top right clockwise: 3D curve, heatmap, curve for each field, selecting
 	filename figs/i_H_V/dIdV_H_V_curves_H_0_1_4_37.jpg
 	lyxscale 40
 	scale 15
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{dI}{dV}(V,H):$
+\end_inset
+
+from top right clockwise: 3D curve, heatmap, curve for each field, selecting
+ only H=0,1.5,4[T].
+ 
+\begin_inset Formula $H$
+\end_inset
+
+ decreasing.
+\end_layout
 
 \end_inset
 
@@ -3072,19 +3113,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-measurement of field decreasing from 
-\begin_inset Formula $H=6[T]$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \begin_inset Graphics
 	filename figs/i_H_V/JCUL-0103dIdV_H_V_surf.jpg
 	lyxscale 40
@@ -3114,6 +3142,22 @@ measurement of field decreasing from
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+measurement of field decreasing from 
+\begin_inset Formula $H=6[T]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -3126,19 +3170,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-measurement of field decreasing from 
-\begin_inset Formula $H=6[1]$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \begin_inset Graphics
 	filename figs/i_H_V/JCUL-0119dIdV_H_V_surf.jpg
 	lyxscale 40
@@ -3162,6 +3193,22 @@ measurement of field decreasing from
 	filename figs/i_H_V/JCUL-0119dIdV_H_V_curves.jpg
 	lyxscale 40
 	scale 15
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+measurement of field decreasing from 
+\begin_inset Formula $H=6[1]$
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -3262,20 +3309,23 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/record_40.svg
+	lyxscale 40
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 control bistability measurement.
  No obvious pattern
 \end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename figs/record_40.svg
-	lyxscale 40
-	scale 20
 
 \end_inset
 
@@ -3298,16 +3348,6 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-control bistability measurement.
- bistability: two modes interleaved (changing every other sample point)
-\end_layout
-
-\end_inset
-
-
 \begin_inset Graphics
 	filename figs/record_111.svg
 	lyxscale 40
@@ -3328,6 +3368,19 @@ control bistability measurement.
 	filename figs/record_111_zoom_50.svg
 	lyxscale 40
 	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+control bistability measurement.
+ bistability: two modes interleaved (changing every other sample point)
+\end_layout
 
 \end_inset
 
