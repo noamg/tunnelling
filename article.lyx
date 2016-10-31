@@ -826,6 +826,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename images/JC_tung_fine_skeleton.jpg
 	lyxscale 30
@@ -2006,6 +2007,16 @@ status open
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Should remove: I(V)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2024,7 +2035,23 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-I(V), dIdV, of the double junction, few temperatures
+\begin_inset Formula $G=\frac{dI}{dV}$
+\end_inset
+
+, of the double junction.
+ Notes: the width of the low conductivity area is 
+\begin_inset Formula $3.4[mV]$
+\end_inset
+
+ compared to 
+\begin_inset Formula $\Delta=2[mV]$
+\end_inset
+
+, as 
+\begin_inset Formula $T$
+\end_inset
+
+ drops, the conductance curve is deeper.
 \end_layout
 
 \end_inset
@@ -2103,7 +2130,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-I(V), dIdV, high bias, of the double junction, few T
+\begin_inset Formula $G=\frac{dI}{dV}$
+\end_inset
+
+ of the double junction in high bias.
+ Notes: charge density wave doesn't appear.
+ The conductance curve contains a few featurs that becomes sharper as T
+ drops.
 \end_layout
 
 \end_inset
@@ -2447,7 +2480,10 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-zero bias conductance: 
+\begin_inset Formula $G(V=0,H):$
+\end_inset
+
+ zero bias conductance: 
 \begin_inset Formula $|H|<0.12[T]$
 \end_inset
 
@@ -2457,7 +2493,8 @@ zero bias conductance:
 \end_inset
 
  increasing and then decreasing).
- 
+ Note the stairs shape of the conductance curve.
+ They can be attributed to enterence of few vortices.
 \end_layout
 
 \end_inset
@@ -2497,8 +2534,9 @@ conductance before ZBC, at
 \end_inset
 
 , and after.
- However, the measurements were taken at big differences of time, so vortices
- had time to diffuse.
+ Measurements time is written.
+ The conductance curve before and after the ZBC overlap.
+ This gives us an upper bound on the vortex diffusion rate (and hysteresis).
  Some bistability can also be seen.
  
 \begin_inset Note Note
@@ -2698,7 +2736,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-conductance in field cooling: trapped vortices raise the conductivity
+conductance curves: in field cooling the curve is deeper then in zero cooling.
+ This can be expalined by trapped vortices (which raise the conductivity)
 \end_layout
 
 \end_inset
@@ -2741,8 +2780,35 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-zero bias conductance.
- in zero cooling, the zero conductance is higher at all fields, indicating
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $G(V=0,H)$
+\end_inset
+
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+zero bias conductance, in zero cooling and and field cooling.
+ In field cooling, the conductance curve is higher at all fields, indicating
  larger amount of vortices, which probably penetrated to the junction at
  the heart of the material.
  bistability is observed as well.
@@ -2973,10 +3039,6 @@ status open
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -3035,7 +3097,17 @@ from top right clockwise: 3D curve, heatmap, curve for each field, selecting
 \begin_inset Formula $H$
 \end_inset
 
- rising
+ rising.
+ In 
+\begin_inset Formula $H>1.5[T]$
+\end_inset
+
+ there is a peak 
+\begin_inset Formula $G(V;H)$
+\end_inset
+
+ at zero bias.
+ 
 \end_layout
 
 \end_inset
@@ -3108,6 +3180,16 @@ from top right clockwise: 3D curve, heatmap, curve for each field, selecting
 \end_inset
 
  decreasing.
+ In 
+\begin_inset Formula $H>1.5[T]$
+\end_inset
+
+ there is a peak 
+\begin_inset Formula $G(V;H)$
+\end_inset
+
+ at zero bias.
+ 
 \end_layout
 
 \end_inset
@@ -3155,6 +3237,16 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO: change units to Tesla not kGauss
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename figs/i_H_V/JCUL-0103dIdV_H_V_surf.jpg
 	lyxscale 40
@@ -3190,10 +3282,15 @@ status open
 
 \begin_layout Plain Layout
 measurement of field decreasing from 
-\begin_inset Formula $H=6[T]$
+\begin_inset Formula $H=6[T].$
 \end_inset
 
+The curve 
+\begin_inset Formula $G(V)$
+\end_inset
 
+ becomes deeper as H falls.
+ no zero bias peak observed.
 \end_layout
 
 \end_inset
@@ -3214,6 +3311,16 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO: change units to Tesla not kGauss
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename figs/i_H_V/JCUL-0119dIdV_H_V_surf.jpg
 	lyxscale 40
@@ -3249,10 +3356,16 @@ status open
 
 \begin_layout Plain Layout
 measurement of field decreasing from 
-\begin_inset Formula $H=6[1]$
+\begin_inset Formula $H=6[T]$
 \end_inset
 
+.
+ The curve 
+\begin_inset Formula $G(V)$
+\end_inset
 
+ becomes deeper as H falls.
+ no zero bias peak observed.
 \end_layout
 
 \end_inset
