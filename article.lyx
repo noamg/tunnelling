@@ -85,41 +85,58 @@ Noam Gavish, Instructed by Dr.
 \end_layout
 
 \begin_layout Abstract
-The goal of this experiment was to compare tunnelling through 
-\begin_inset Formula $WSe2$
+Niobium Deselenide (
+\begin_inset Formula $NbSe2)$
 \end_inset
 
- to 
+ is a super conductor type 2, so it's penetrable by magnetix flux in vortices.
+ The goal of this experiment was to compare vortices behaviour in 
 \begin_inset Formula $NbSe2$
 \end_inset
 
- in different conditions: thin (2-3[nm]), thick (10-20[nm]), and tunnelling
- to location near the edge or at the heart of the sample.
- The tunnelling is affected by vortices.
+ in different conditions: thin (2-3[nm]), thick (10-20[nm]), near the edge
+ or at the heart of the sample.
  These conditions may affect the vortex behaviour: penetration of thiner
  layer of superconductor is easier, so more vortices are expected.
  At the heart of the sample, vortices are less likely to enter, or leave
  once enterred.
- However, the device creation procedure was proven to be unsutable to 
+ In order to characterize vortices behaiour, we built a device of 
 \begin_inset Formula $NbSe2$
 \end_inset
 
- and the only measurement possible was on a double junction: NISIN.
- Tunnelling, zero bias conductance, zero cooling and full 
-\begin_inset Formula $G(V,H)$
+ coverred by Tungstan Deselenide (
+\begin_inset Formula $WSe2$
 \end_inset
 
- were measured.
- We found that the double junction effective energy gap was about double
- then single junction gap.
- We also obsereved quantised stairs in zero bias coductance, which can be
- attributed to entrance of few vortices.
- Finally, we measured zero bias peak in the conductance during two of the
+, insulator) and planned to use tunnelling measurements (which are affected
+ by vortices).
+ However, during the device's creation, we applied heat cleaning, which
+ harmed exposed 
+\begin_inset Formula $NbSl2$
+\end_inset
+
+: the contacts didn't work.
+ Eventually, we had a double junction: Normal-Insulator-Superconducding-Insulato
+r-Normal.
+ **The conductance measurement of the double junction___.
+ We obsereved quantised stairs in zero bias coductance 
+\begin_inset Formula $G(V=0,H)$
+\end_inset
+
+, which can be attributed to entrance of few vortices.
+\end_layout
+
+\begin_layout Abstract
+Finally, we measured zero bias peak in the conductance during two of the
  
 \begin_inset Formula $G(V,H)$
 \end_inset
 
  measurements, which we did not reproduce.
+\end_layout
+
+\begin_layout Abstract
+bistability???
 \end_layout
 
 \begin_layout Abstract
