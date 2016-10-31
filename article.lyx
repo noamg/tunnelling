@@ -3412,9 +3412,21 @@ Bistability
 \end_layout
 
 \begin_layout Standard
-In some of the conductance and zero bias conductance measurements, bistability
- was observed.
- As control measurement, we took measurements 
+In some of the conductance 
+\begin_inset Formula $G(V)$
+\end_inset
+
+ and zero bias conductance 
+\begin_inset Formula $G(V=0,H)$
+\end_inset
+
+ measurements, bistability was observed (___references___).
+ It can stem from small area that can be either charged or uncharged, and
+ influences the conductance.
+\end_layout
+
+\begin_layout Standard
+As control measurement, we took measurements 
 \begin_inset Formula $I(V\sim0,H=0,t)$
 \end_inset
 
@@ -3424,13 +3436,22 @@ In some of the conductance and zero bias conductance measurements, bistability
 
  was estimated similarly to zero bias conductance.
  One of the measurements doesn't present an easy pattern.
- Another one has two modes, changing every other measurement point, suggesting
- that maybe it stems from the electronic measurement apparatus.
+ Another one has two modes, changing every other measurement point.
+ This alternation suggests that maybe it stems from the electronic measurement
+ apparatus.
+ It seems unprobable that there is phenomenon with rate of exactly 
+\begin_inset Formula $1[Hz]$
+\end_inset
+
+ which is the sampling rate.
+ Future control measurements will include measurements in different sampling
+ rates to examine the source of the bistability.
 \end_layout
 
 \begin_layout Standard
-Future control measurements will include measurements in different sampling
- rates to examine the source of the bistability.
+So far: there is bistability, but we are not sure about it's source, and
+ the interleaved measurement is strong evidence it is connected to the electroni
+c measurement apparatus.
 \end_layout
 
 \begin_layout Standard
@@ -3463,10 +3484,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename figs/record_40.svg
@@ -3482,7 +3499,10 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-control bistability measurement.
+\begin_inset Formula $G(t)$
+\end_inset
+
+ control bistability measurement.
  No obvious pattern
 \end_layout
 
@@ -3503,10 +3523,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename figs/record_111.svg
@@ -3522,16 +3538,21 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-control bistability measurement.
- bistability: two modes interleaved (changing every other sample point)
+G(t) control bistability measurement.
+ Two modes interleaved (changing every other sample point): even points
+ at blue.
+ odd points at green.
+ The fact that the mode change every other sample suggests that it's connected
+ to the electronic measurement apparatus, as it's unprobable that there
+ is a phenomenon with rate exactly 
+\begin_inset Formula $1[Hz]$
+\end_inset
+
+ : like the sampling rate.
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
