@@ -86,7 +86,7 @@ Noam Gavish, Instructed by Dr.
 
 \begin_layout Abstract
 Niobium Deselenide (
-\begin_inset Formula $NbSe2)$
+\begin_inset Formula $\text{NbSe}_{2})$
 \end_inset
 
  is a super conductor type 2, so it's penetrable by magnetix flux in vortices.
@@ -267,7 +267,11 @@ The BCS is a model for superconductivity.
 status open
 
 \begin_layout Plain Layout
-Hadar: what about screened?
+Hadar: what about screened? - over screening.
+ charge of phonon? derivation of source of positive interaction.
+ dialectric coefficiant.
+ plasma freq of the electrons, plasma freq of the ions.
+ whay plasma??? what is plasma?
 \end_layout
 
 \end_inset
@@ -441,17 +445,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-energy spectrum of electrons in SC (according to BSC)
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
-\end_layout
-
-\end_inset
-
-
+energy spectrum of electrons in SC (according to BCS)
 \end_layout
 
 \end_inset
@@ -469,34 +463,18 @@ tunnelling into superconductor
 \end_layout
 
 \begin_layout Standard
-Electrons can tunnel only to a free energy state.
- If no final state with the electron's energy exists, tunnelling cannot
- take place.
+Electrons can tunnel only to an uncoupied energy state.
+ If no final state with the electron's energy exists, tunnelling is supressed.
  Therefore, tunnelling current of electrons with energies within the gap
- is low.
- The temperature influences: an electron may absorb a phonon 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
-\end_layout
-
-\end_inset
-
-at the superonductor and land on a state ouside the gap.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
-\end_layout
-
-\end_inset
-
-Impurities in the SC also influence: around them there is normal material,
- with a different density of states.
+ is diminished.
+ It is important to note that the temperature influences the tunnelling:
+ at finite temperature the fermi dirac distribution of electrons energies
+ has finite width.
+ An electron may get some additional energy from the electrons bath of the
+ superonductor and land on a state ouside the gap.
+ Impurities in the SC influence the density of states, as around them there
+ is normal material, with a different density of states (that influence
+ is still not fully understood).
  One instance of such impurities are the current vortices around flux that
  penetrated the superonductor.
 \end_layout
