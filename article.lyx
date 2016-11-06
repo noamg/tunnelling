@@ -283,8 +283,31 @@ superconductivity is a phenomena where the material is a perfect conductor
 , the stable state is where the flux is quantised at single units: those
  are single flux units penetrating the material, serrounded by super current
  that protects the rest of the material from the magnetic field.
+ The field 
+\begin_inset Formula $B$
+\end_inset
+
+ drops exponentially 
+\begin_inset Formula $\sim exp(-\lambda x$
+\end_inset
+
+) where 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is the penetration depth.
  at the Heart of the vortice, there is a normal state core.
- 
+\end_layout
+
+\begin_layout Standard
+In previous work ***ref*** it was shown that the width of the super conductor
+ affect the behaviour of vortices.
+ From Ginzburg-Landau theory of super conductors it is derived that material
+ with finite width, has an effective penetration depth 
+\begin_inset Formula $\lambda_{eff}$
+\end_inset
+
+ which rises as the width decreases.
 \end_layout
 
 \begin_layout Subsection
