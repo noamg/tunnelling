@@ -93,13 +93,80 @@ Niobium Deselenide (NbSe
 \begin_inset Formula $_{2}$
 \end_inset
 
-) is a super conductor type 2, so it's penetrable by magnetix flux in vortices.
- The goal of this experiment was to compare vortices behaviour in 
+) is a type 2 super conductor (can contain magnetic flux trapped in super
+ current vortices).
+ The behaviour of vortices is dependant on the material width (shown experimenta
+lly in previous work of Tom Dvir
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+phrasing?
+\end_layout
+
+\end_inset
+
+).
+ In this work we built a double tunnelling junction: Normal-Insulator-Supercondu
+cding-Insulator-Normal (NISIN) with Tungstan Deselenide (
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+) as insulator, and ultra-thin (2-3nm) layers of 
 \begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
- in different conditions: thin (2-3[nm]), thick (10-20[nm]), near the edge
- or at the heart of the sample.
+.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+check google scholar
+\end_layout
+
+\end_inset
+
+**The conductance measurement of the double junction___.
+ We obsereved quantised stairs in zero bias coductance 
+\begin_inset Formula $G(V=0,H)$
+\end_inset
+
+, which can be attributed to entrance of few vortices.
+ We also measured zero bias peak in the conductance during two of the 
+\begin_inset Formula $G(V,H)$
+\end_inset
+
+ measurements, which we did not reproduce.
+\end_layout
+
+\begin_layout Abstract
+In addition, originally we planned a device with two separate tunnelling
+ junctions.
+ However, during the device's creation, we applied heat cleaning, which
+ harmed exposed 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+, causing the contacts laid on it not to work.
+ Since the contacts on the 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+ worked, we used the double junction that was created.
+\end_layout
+
+\begin_layout Abstract
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The goal of this experiment was to compare vortices behaviour in 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ in different conditions: thin (2-3nm), thick (10-20nm), near the edge or
+ at the heart of the sample.
  These conditions may affect the vortex behaviour: penetration of thiner
  layer of superconductor is easier, so more vortices are expected.
  At the heart of the sample, vortices are less likely to enter, or leave
@@ -119,28 +186,12 @@ Niobium Deselenide (NbSe
 \begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
-: the contacts didn't work.
- Eventually, we had a double junction: Normal-Insulator-Superconducding-Insulato
-r-Normal.
- **The conductance measurement of the double junction___.
- We obsereved quantised stairs in zero bias coductance 
-\begin_inset Formula $G(V=0,H)$
-\end_inset
-
-, which can be attributed to entrance of few vortices.
+: the contacts didn't work
 \end_layout
 
-\begin_layout Abstract
-Finally, we measured zero bias peak in the conductance during two of the
- 
-\begin_inset Formula $G(V,H)$
 \end_inset
 
- measurements, which we did not reproduce.
-\end_layout
 
-\begin_layout Abstract
-bistability???
 \end_layout
 
 \begin_layout Abstract
