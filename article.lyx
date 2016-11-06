@@ -76,7 +76,11 @@
 \begin_body
 
 \begin_layout Title
-NISIN tunnelling to thin super conducting NbSe2 with inner junction
+NISIN tunnelling to thin super conducting 
+\begin_inset Formula $\text{NbSe_{2}}$
+\end_inset
+
+ with inner junction
 \end_layout
 
 \begin_layout Author
@@ -85,13 +89,13 @@ Noam Gavish, Instructed by Dr.
 \end_layout
 
 \begin_layout Abstract
-Niobium Deselenide (
-\begin_inset Formula $\text{NbSe}_{2})$
+Niobium Deselenide (NbSe
+\begin_inset Formula $_{2}$
 \end_inset
 
- is a super conductor type 2, so it's penetrable by magnetix flux in vortices.
+) is a super conductor type 2, so it's penetrable by magnetix flux in vortices.
  The goal of this experiment was to compare vortices behaviour in 
-\begin_inset Formula $NbSe2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
  in different conditions: thin (2-3[nm]), thick (10-20[nm]), near the edge
@@ -101,18 +105,18 @@ Niobium Deselenide (
  At the heart of the sample, vortices are less likely to enter, or leave
  once enterred.
  In order to characterize vortices behaiour, we built a device of 
-\begin_inset Formula $NbSe2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
  coverred by Tungstan Deselenide (
-\begin_inset Formula $WSe2$
+\begin_inset Formula $\text{WSe}_{2}$
 \end_inset
 
 , insulator) and planned to use tunnelling measurements (which are affected
  by vortices).
  However, during the device's creation, we applied heat cleaning, which
  harmed exposed 
-\begin_inset Formula $NbSl2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
 : the contacts didn't work.
@@ -498,17 +502,7 @@ desired device: NIS, superconductor thin (
 \begin_layout Standard
 the desired device is NIS (normal-insulator-superconductor).
  The insulator is 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Tom: wikipedia 1.35eV ref ....
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $WSe2$
+\begin_inset Formula $\text{WSe}_{2}$
 \end_inset
 
  (energy gap 
@@ -517,7 +511,7 @@ Tom: wikipedia 1.35eV ref ....
 
 ).
  The superconductor is 
-\begin_inset Formula $NbSe2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
  (type 2, 
@@ -563,7 +557,7 @@ Hadar
 \end_inset
 
 in diffrent devices the 
-\begin_inset Formula $NbSe2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
  was thin (
@@ -615,7 +609,15 @@ Hadar
 
 \begin_layout Plain Layout
 scheme of the desired device.
- parts: (1)silicon, (2)NbSe2, (3)WSe2, (4)gold electrodes
+ parts: (1)silicon, (2)
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+, (3)
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+, (4)gold electrodes
 \end_layout
 
 \end_inset
@@ -631,11 +633,11 @@ scheme of the desired device.
 \begin_layout Standard
 The device was built on a silicon chip.
  Thin layers of 
-\begin_inset Formula $NbSe2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
  and 
-\begin_inset Formula $WSe2$
+\begin_inset Formula $\text{WSe}_{2}$
 \end_inset
 
  were peelled from bulk material with cello-tape.
@@ -657,11 +659,11 @@ The entire process is done in a gloves box, with atmosphere of
 \end_inset
 
  , to avoid oxidising the 
-\begin_inset Formula $NbSe2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
  when it's not covered with 
-\begin_inset Formula $WSe2$
+\begin_inset Formula $\text{WSe}_{2}$
 \end_inset
 
 .
@@ -669,11 +671,11 @@ The entire process is done in a gloves box, with atmosphere of
 
 \begin_layout Enumerate
 Thin layers of 
-\begin_inset Formula $NbSe2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
  and 
-\begin_inset Formula $WSe2$
+\begin_inset Formula $\text{WSe}_{2}$
 \end_inset
 
  were pilled from bulk material with celio-tape
@@ -687,7 +689,7 @@ Small squares of PDMS are located on a glass carrier, attached to the cello-tape
 
 \begin_layout Enumerate
 PDMS with 
-\begin_inset Formula $NbSe2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
  is turned to face down, and is lowered to touch a clean spot on the silicon
@@ -698,11 +700,11 @@ PDMS with
  It increased the amount of flakes passed (thus increasing the variety of
  choice for the device), at the risk of leaving some PDMS residue that might
  hinder the contact between the 
-\begin_inset Formula $NbSe2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
 and the 
-\begin_inset Formula $WSe2$
+\begin_inset Formula $\text{WSe}_{2}$
 \end_inset
 
 .
@@ -741,11 +743,11 @@ status open
 
 \begin_layout Plain Layout
 Left: 
-\begin_inset Formula $WSe2$
+\begin_inset Formula $\text{WSe}_{2}$
 \end_inset
 
  on PDMS, Right: 
-\begin_inset Formula $NbSe2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
  on silicon (zoom: X100.
@@ -829,16 +831,16 @@ status open
 \begin_layout Plain Layout
 Plan of device JC.
  Left: 
-\begin_inset Formula $WSe2$
+\begin_inset Formula $\text{WSe}_{2}$
 \end_inset
 
  with skeleton.
  Right: 
-\begin_inset Formula $NbSe2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
  with the skeleton of 
-\begin_inset Formula $WSe2$
+\begin_inset Formula $\text{WSe}_{2}$
 \end_inset
 
 
@@ -856,11 +858,11 @@ Plan of device JC.
 
 \begin_layout Enumerate
 The PDMS with 
-\begin_inset Formula $WSe2$
+\begin_inset Formula $\text{WSe}_{2}$
 \end_inset
 
  is located above the 
-\begin_inset Formula $NbSe2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
  and lowered carefully, while keeping the horizontal position where planned.
@@ -873,7 +875,7 @@ After the PDMS touches the silicon, it is raised slowly (about
 
 ).
  In most cases the 
-\begin_inset Formula $WSe2$
+\begin_inset Formula $\text{WSe}_{2}$
 \end_inset
 
  flake remains on the silicon as planned.
@@ -956,21 +958,21 @@ name "device JC optical"
 \begin_layout Plain Layout
 Device JC.
  Left: 
-\begin_inset Formula $NbSe2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
  on silicon.
  Right: 
-\begin_inset Formula $WSe2$
+\begin_inset Formula $\text{WSe}_{2}$
 \end_inset
 
  on PDMS .
  Center: 
-\begin_inset Formula $WSe2$
+\begin_inset Formula $\text{WSe}_{2}$
 \end_inset
 
  on 
-\begin_inset Formula $NbSe2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
 
@@ -1294,20 +1296,20 @@ status open
 Left: images of JC after first heat cleaning.
  Right: images of JC after second heat cleaning.
  Some of the dirt from the 
-\begin_inset Formula $WSe2$
+\begin_inset Formula $\text{WSe}_{2}$
 \end_inset
 
 , and from between the 
-\begin_inset Formula $NbSe2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
  and 
-\begin_inset Formula $WSe2$
+\begin_inset Formula $\text{WSe}_{2}$
 \end_inset
 
  is removed.
  The dirt only on 
-\begin_inset Formula $NbSe2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
  didn't change.
@@ -1364,7 +1366,7 @@ The chip contained 4 devices, and 32 electrodes.
 possible reason for this failure: observing optical images of device before
  and after the second heat cleaning.
  the color of exposed 
-\begin_inset Formula $NbSe2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
  changed, which indicates a possible change in the texture of the material
@@ -1412,7 +1414,7 @@ image of device JC.
  left: before heat cleaning.
  right: after heat cleaning.
  the color of the exposed 
-\begin_inset Formula $NbSe2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
  is changed, the crack expanded
@@ -1441,12 +1443,12 @@ should put arrows to show the bright part
 \begin_layout Itemize
 eventually, there was a single device with 2 contacts laid over the insulator
  
-\begin_inset Formula $WSe2$
+\begin_inset Formula $\text{WSe}_{2}$
 \end_inset
 
 , which created a device of structure NISIN.
  two consecutive tunnelling junctions, one at the heart of the 
-\begin_inset Formula $NbSe2$
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
  and one at the side.
@@ -1547,10 +1549,18 @@ Hadar
 \end_inset
 
 research group.
- Left: NbSe2.
+ Left: 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+.
  middle: same layer covered by thin Boron-Nitride.
  Right: same deivce after heat cleaning.
- Like in our case, the exposed NbSe2 was harmed by the heat cleaning.
+ Like in our case, the exposed 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ was harmed by the heat cleaning.
 \end_layout
 
 \end_inset
