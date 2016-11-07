@@ -1568,7 +1568,7 @@ status open
 \begin_inset Graphics
 	filename figs/ZBC_low_H.svg
 	lyxscale 40
-	scale 30
+	scale 65
 
 \end_inset
 
@@ -1615,7 +1615,7 @@ fix caption
 \end_inset
 
  zero bias conductance.
- Left: two curves 
+ Top left: two curves 
 \begin_inset Formula $H$
 \end_inset
 
@@ -1625,8 +1625,23 @@ fix caption
 
 .
  Note the stairs shape of the conductance curve.
- They can be attributed to enterence of few vortices.
- Right: few scans of 
+ Top middle: histogram of the conductance values with 
+\begin_inset Formula $H$
+\end_inset
+
+ increasing.
+ Top right: histogram of the conductance values with 
+\begin_inset Formula $H$
+\end_inset
+
+ decreasing.
+ Note the quantisation of these values with difference of 
+\begin_inset Formula $\sim1nS$
+\end_inset
+
+.
+ That quantisation can be attributed to enterence of few vortices.
+ bottom: few scans of 
 \begin_inset Formula $H$
 \end_inset
 

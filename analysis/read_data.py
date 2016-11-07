@@ -152,6 +152,7 @@ def process_I_H(f, amp, I_min, dV, ax=None, label=''):
     _ = ax.plot(H, dIdV_zero_bias * 1e9, '.', label=label)
     ax.set_xlabel('H[T]')
     ax.set_ylabel('G[nS]')
+    return H, dIdV_zero_bias
 
 def process_record(f, amp, I_min, dV, ax=None, label=''):
     if ax is None:
@@ -260,22 +261,30 @@ fig.savefig(os.path.join(figs_dir + 'conductance_high_bias_few_T_no_repeat' + fi
 
 #%% ZBC low H, should fix I_min, dV
 
-fig = plt.figure()
-ax = plt.subplot(111)
+fig, [ax, ax_hist1, ax_hist2] = plt.subplots(1, 3)
 Ns = ['0017', '0019']
 amps = [1e10, 1e10,]
 labels = ['up', 'down']
 I_mins = [0.0021e-9, 0.0021e-9,]
 dVs = np.array([280e-6, 280e-6])
 assert len(Ns) == len(amps)
+H_ = [None, None]
+dIdV_zero_bias = [None, None]
 for i in range(len(Ns)):
     N = Ns[i]
     amp = amps[i]
     label = labels[i]
     I_min = I_mins[i]
     dV = dVs[i]
-    process_I_H(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, I_min=I_min, dV=dV, ax=ax, label=label)
+    H_[i], dIdV_zero_bias[i] = process_I_H(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, I_min=I_min, dV=dV, ax=ax, label=label)
+
+ax_hist1.hist(dIdV_zero_bias[0] * 1e9, bins=100, orientation='horizontal', normed=True, label=labels[0])
+ax_hist2.hist(dIdV_zero_bias[1] * 1e9, bins=100, orientation='horizontal', normed=True, label=labels[1], color='g')
 ax.legend(loc='best')
+ax_hist1.legend(loc='best')
+ax_hist2.legend(loc='best')
+ax_hist1.set_xlabel('count fraction')
+ax_hist2.set_xlabel('count fraction')
 fig.savefig(os.path.join(figs_dir + 'ZBC_low_H' + fig_format))
 #%%
 
