@@ -605,6 +605,99 @@ new title?
 \end_layout
 
 \begin_layout Standard
+The desired device is NIS tunnelling junction (normal-insulator-superconductor).
+ The insulator is 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+ (energy gap 
+\begin_inset Formula $1.35[eV]$
+\end_inset
+
+).
+ The superconductor is 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ (type 2, 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Tom: articles
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $T_{crit}=7.11\degree K$
+\end_inset
+
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $H_{c1}=??$
+\end_inset
+
+, 
+\begin_inset Formula $H_{c2}=??$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ ).
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+in diffrent devices the 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ was ultra-thin (
+\begin_inset Formula $2-3[nm]$
+\end_inset
+
+) or thin (
+\begin_inset Formula $10-20[nm]$
+\end_inset
+
+), in order to compare the tunnelling to thin and thick SC.
+ Also, some of the junctions were located above the edge of the SC material,
+ and some above the heart.
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+The device was built on a silicon chip.
+ Thin layers of 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+ were peelled from bulk material with cello-tape.
+ Later, they were piled one above the other using dry transfer technique.
+ The gold electrodes were evaporated using e-beam lithography technique.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
@@ -623,6 +716,51 @@ status open
 
 \begin_layout Plain Layout
 move most text to the appendix
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schemes/NISIN.jpg
+	lyxscale 40
+	scale 40
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+scheme of the final device.
+ parts: (1)silicon, (2)
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+, (3)
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+, (4)gold electrodes
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
