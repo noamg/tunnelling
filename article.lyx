@@ -591,6 +591,10 @@ Electrons can tunnel only to an uncoupied energy state.
 \end_layout
 
 \begin_layout Part
+The Device and experimental setup
+\end_layout
+
+\begin_layout Section
 The device: double tunnelling junction (NISIN) of 
 \begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
@@ -725,8 +729,8 @@ scheme of the final device.
  
 \end_layout
 
-\begin_layout Part
-measurements, results
+\begin_layout Section
+experimental setup
 \end_layout
 
 \begin_layout Subsection
@@ -794,10 +798,6 @@ field cooling: repeating the above in different condition: the sample is
 
 \begin_layout Enumerate
 control bistability.
-\end_layout
-
-\begin_layout Section
-experimental setup
 \end_layout
 
 \begin_layout Subsection
@@ -1105,6 +1105,10 @@ past: no hysteresis, or const no time dependant.
 
 \end_layout
 
+\begin_layout Part
+measurements, results
+\end_layout
+
 \begin_layout Section
 conductance of the double tunnelling junction: I(V), 
 \begin_inset Formula $\frac{dI}{dV}(V)=G(V)$
@@ -1129,7 +1133,7 @@ status open
 
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 just 4K not degree
