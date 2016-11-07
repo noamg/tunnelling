@@ -171,6 +171,19 @@ In addition, originally we planned a device with two separate tunnelling
 status open
 
 \begin_layout Plain Layout
+make sure to mention trapped vortices
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 The goal of this experiment was to compare vortices behaviour in 
 \begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
@@ -579,6 +592,42 @@ Electrons can tunnel only to an uncoupied energy state.
 
 \begin_layout Part
 Creation, characterization of device
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+new title?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+describe the device........
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+move most text to the appendix
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -2085,6 +2134,24 @@ status open
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+just 4K not degree
+\end_layout
+
+\begin_layout Plain Layout
+lines, not dots
+\end_layout
+
+\begin_layout Plain Layout
+cut the white space from the graph
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2145,6 +2212,24 @@ status open
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+focus on 
+\begin_inset Quotes eld
+\end_inset
+
+Gap
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2177,6 +2262,16 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+little more focus: up to top, not scree
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename figs/conductance_high_bias_few_T_no_repeat.svg
 	lyxscale 40
@@ -2537,10 +2632,34 @@ status open
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+add histogram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename figs/ZBC_many.svg
 	lyxscale 40
 	scale 35
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+fix caption
+\end_layout
 
 \end_inset
 
@@ -2600,6 +2719,26 @@ status open
 	filename figs/conductance_before_after_ZBC_no_I_V_good_legend.svg
 	lyxscale 40
 	scale 40
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+lines, not dots
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+which is deeper?
+\end_layout
 
 \end_inset
 
@@ -2831,6 +2970,16 @@ status open
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+which is deeper?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2880,6 +3029,20 @@ status open
 	filename figs/ZBC_field_cooling.svg
 	lyxscale 40
 	scale 30
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+what is the story in this graphs? what is the point?
+\end_layout
+
+\begin_layout Plain Layout
+how do I know there is not a gound issue?
+\end_layout
 
 \end_inset
 
@@ -3205,6 +3368,21 @@ read caption with Tom
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+fix caption: all, top left...
+ note....
+ same behaviour decreasing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -3280,6 +3458,16 @@ status open
 	filename figs/i_H_V/dIdV_H_V_curves_H_0_1_4_37.jpg
 	lyxscale 40
 	scale 15
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+move to appendix
+\end_layout
 
 \end_inset
 
@@ -3371,6 +3559,17 @@ status open
 status open
 
 \begin_layout Plain Layout
+focus smaller V area.
+ the edge creates a wall that disturbes the 3D view
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 TODO: change units to Tesla not kGauss
 \end_layout
 
@@ -3441,6 +3640,16 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+move to appendix
+\end_layout
+
+\end_inset
+
+
 \begin_inset Note Note
 status open
 
@@ -3691,7 +3900,7 @@ G(t) control bistability measurement.
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Part
 Appendix: creation of sample using dry transfer technique
 \end_layout
 
