@@ -591,95 +591,15 @@ Electrons can tunnel only to an uncoupied energy state.
 \end_layout
 
 \begin_layout Part
-The device
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-new title?
-\end_layout
-
+The device: double tunnelling junction (NISIN) of 
+\begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-The desired device is NIS tunnelling junction (normal-insulator-superconductor).
- The insulator is 
+ and 
 \begin_inset Formula $\text{WSe}_{2}$
 \end_inset
 
- (energy gap 
-\begin_inset Formula $1.35[eV]$
-\end_inset
 
-).
- The superconductor is 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
- (type 2, 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Tom: articles
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $T_{crit}=7.11\degree K$
-\end_inset
-
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-\begin_inset Formula $H_{c1}=??$
-\end_inset
-
-, 
-\begin_inset Formula $H_{c2}=??$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- ).
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
-\end_layout
-
-\end_inset
-
-in diffrent devices the 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
- was ultra-thin (
-\begin_inset Formula $2-3[nm]$
-\end_inset
-
-) or thin (
-\begin_inset Formula $10-20[nm]$
-\end_inset
-
-), in order to compare the tunnelling to thin and thick SC.
- Also, some of the junctions were located above the edge of the SC material,
- and some above the heart.
-\end_layout
-
-\begin_layout Standard
-.
 \end_layout
 
 \begin_layout Standard
@@ -754,32 +674,6 @@ We intended creating two separate NIS junctions.
 \end_inset
 
  and the contacts laid on it didn't work, what left the double junction.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-describe the device........
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-move most text to the appendix
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
