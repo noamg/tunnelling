@@ -96,7 +96,17 @@ Niobium Deselenide (NbSe
 ) is a type 2 super conductor (can contain magnetic flux trapped in super
  current vortices).
  The behaviour of vortices is dependant on the material width (shown experimenta
-lly in previous work of Tom Dvir
+lly in previous work done in the lab
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+unpublished results
+\end_layout
+
+\end_inset
+
+
 \begin_inset Note Note
 status open
 
@@ -300,8 +310,18 @@ superconductivity is a phenomena where the material is a perfect conductor
 \end_layout
 
 \begin_layout Standard
-In previous work ***ref*** it was shown that the width of the super conductor
- affect the behaviour of vortices.
+In previous work done in the lab
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+unpublished results
+\end_layout
+
+\end_inset
+
+ it was shown that the width of the super conductor affect the behaviour
+ of vortices.
  From Ginzburg-Landau theory of super conductors it is derived that material
  with finite width, has an effective penetration depth 
 \begin_inset Formula $\lambda_{eff}$
@@ -562,19 +582,19 @@ Creation, characterization of device
 \end_layout
 
 \begin_layout Section
-desired device: NIS, superconductor thin (
-\begin_inset Formula $10-20[nm]$
+desired device: NIS with ultra-thin (
+\begin_inset Formula $10-20nm$
 \end_inset
 
-), thick (
-\begin_inset Formula $2-3[nm]$
+) or thin (
+\begin_inset Formula $2-3nm$
 \end_inset
 
-)
+) superconductor 
 \end_layout
 
 \begin_layout Standard
-the desired device is NIS (normal-insulator-superconductor).
+The desired device is NIS tunnelling junction (normal-insulator-superconductor).
  The insulator is 
 \begin_inset Formula $\text{WSe}_{2}$
 \end_inset
@@ -634,16 +654,17 @@ in diffrent devices the
 \begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
- was thin (
+ was ultra-thin (
 \begin_inset Formula $2-3[nm]$
 \end_inset
 
-) or think (
+) or thin (
 \begin_inset Formula $10-20[nm]$
 \end_inset
 
 ), in order to compare the tunnelling to thin and thick SC.
- 
+ Also, some of the junctions were located above the edge of the SC material,
+ and some above the heart.
 \end_layout
 
 \begin_layout Standard
@@ -668,7 +689,7 @@ Hadar
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename schemes/NIS.png
+	filename schemes/NIS.jpg
 	lyxscale 40
 	scale 40
 	clip
@@ -805,7 +826,7 @@ status open
 \begin_inset Graphics
 	filename images/KALL_ref_NbSl2.png
 	lyxscale 40
-	scale 40
+	scale 60
 
 \end_inset
 
@@ -1425,18 +1446,18 @@ also put some graphs of cross sections (for height differences)
 final device
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 After the AFM measurements, golden electrodes were laid on the chip using
  e-beam technique.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 The chip contained 4 devices, and 32 electrodes.
  In contact testing, it has turned out that only 2 electrodes were connected
  through a device (one of the four devices).
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 possible reason for this failure: observing optical images of device before
  and after the second heat cleaning.
  the color of exposed 
@@ -1514,7 +1535,7 @@ should put arrows to show the bright part
 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 eventually, there was a single device with 2 contacts laid over the insulator
  
 \begin_inset Formula $\text{WSe}_{2}$
@@ -1534,7 +1555,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename schemes/NISIN.png
+	filename schemes/NISIN.jpg
 	lyxscale 40
 	scale 40
 	clip
@@ -1824,10 +1845,6 @@ The electronic measurement setup applied voltage on the sample (which is
 \end_layout
 
 \begin_layout Standard
-setup:
-\end_layout
-
-\begin_layout Itemize
 parts: DAC (digital analogue converter) that supllies VDC, voltage devider
  (1/100), RC low pass filter (cutoff 
 \begin_inset Formula $1.59[Hz]$
@@ -1851,23 +1868,23 @@ parts: DAC (digital analogue converter) that supllies VDC, voltage devider
  the computer.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 the comunication between the computer and instrument was established using
  MeasApp application.
  The current value was avaraged (by MeasApp).
  Usually avaraging 40 samples.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 the voltmeter that measures current from the output of the amplifier avarages
  on mode medium (slow was too slow, fast too noisy)
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsubsection
 notes on procedures:
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Standard
 Due to a drift of the DAC, the measured 
 \begin_inset Formula $V=0$
 \end_inset
@@ -1900,13 +1917,13 @@ Due to a drift of the DAC, the measured
  These random touches changed I, and we stopped when I was minimal.
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Standard
 During all measurements, the voltmeter that measures the current was checked
  real time, to make sure that it stabilises on a constant value (except
  noise).
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Standard
 The temperature creates a thermal spread in the energy (
 \begin_inset Formula $1\degree K\to80\mu V)$
 \end_inset
