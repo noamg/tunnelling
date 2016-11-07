@@ -1669,7 +1669,7 @@ status open
 \begin_inset Graphics
 	filename figs/conductance_before_after_ZBC_no_I_V_good_legend.svg
 	lyxscale 40
-	scale 40
+	scale 17
 
 \end_inset
 
@@ -2262,6 +2262,16 @@ status open
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+remove bad graph
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -2278,16 +2288,6 @@ status open
 	filename figs/i_H_V/dIdV_H_V_curves_H_0_1_4.jpg
 	lyxscale 40
 	scale 15
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-read caption with Tom
-\end_layout
 
 \end_inset
 
@@ -2313,128 +2313,51 @@ fix caption: all, top left...
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-\begin_inset Formula $\frac{dI}{dV}(V,H):$
+\begin_inset Formula $G(V,H):$
 \end_inset
 
-from top right clockwise: 3D curve, heatmap, curve for each field, selecting
- only H=0,1.5,4[T].
- 
+ in low bias, 
+\begin_inset Formula $0<H<4T$
+\end_inset
+
+.
+ during this measurement 
 \begin_inset Formula $H$
 \end_inset
 
- rising.
- In 
-\begin_inset Formula $H>1.5[T]$
-\end_inset
-
- there is a peak 
-\begin_inset Formula $G(V;H)$
-\end_inset
-
- at zero bias.
- 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename figs/i_H_V/dIdV_H_V_surf_37.jpg
-	lyxscale 40
-	scale 15
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename figs/i_H_V/dIdV_H_V_imagesc_2_37.jpg
-	lyxscale 40
-	scale 15
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename figs/i_H_V/dIdV_H_V_curves_37.jpg
-	lyxscale 40
-	scale 15
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename figs/i_H_V/dIdV_H_V_curves_H_0_1_4_37.jpg
-	lyxscale 40
-	scale 15
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-move to appendix
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-read caption with Tom
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Formula $\frac{dI}{dV}(V,H):$
-\end_inset
-
-from top right clockwise: 3D curve, heatmap, curve for each field, selecting
- only H=0,1.5,4[T].
- 
+ was sweeped up, similar results were obtained when sweeping 
 \begin_inset Formula $H$
 \end_inset
 
- decreasing.
- In 
-\begin_inset Formula $H>1.5[T]$
+ down.
+ The following graphs are different presentations of  
+\begin_inset Formula $G(V,H)$
 \end_inset
 
- there is a peak 
+ data: Top left (3D graph), top right (heat map), bottom left (
+\begin_inset Formula $G(V)$
+\end_inset
+
+ curve for each 
+\begin_inset Formula $H$
+\end_inset
+
+).
+ Bottom right is 
+\begin_inset Formula $G(V)$
+\end_inset
+
+ curve only for H=0,1.5,4[T].
+ All these figures show a zero bias peak in 
 \begin_inset Formula $G(V;H)$
 \end_inset
 
- at zero bias.
- 
+ for 
+\begin_inset Formula $H>1.5[T]$
+\end_inset
+
+.
+ Some bistability is observed.
 \end_layout
 
 \end_inset
@@ -2537,101 +2460,39 @@ TODO: change units to Tesla not kGauss
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-measurement of field decreasing from 
-\begin_inset Formula $H=6[T].$
+\begin_inset Formula $G(V,H):$
 \end_inset
 
-The curve 
-\begin_inset Formula $G(V)$
-\end_inset
-
- becomes deeper as H falls.
- no zero bias peak observed.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-move to appendix
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-TODO: change units to Tesla not kGauss
-\end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename figs/i_H_V/JCUL-0119dIdV_H_V_surf.jpg
-	lyxscale 40
-	scale 15
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename figs/i_H_V/JCUL-0119dIdV_H_V_imagesc_2.jpg
-	lyxscale 40
-	scale 15
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename figs/i_H_V/JCUL-0119dIdV_H_V_curves.jpg
-	lyxscale 40
-	scale 15
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-measurement of field decreasing from 
-\begin_inset Formula $H=6[T]$
+ in low bias, 
+\begin_inset Formula $0<H<6T$
 \end_inset
 
 .
+ during this measurement 
+\begin_inset Formula $H$
+\end_inset
+
+ was sweeped down.
+ The following graphs are different presentations of  
+\begin_inset Formula $G(V,H)$
+\end_inset
+
+ data: Top left (3D graph), top right (heat map), bottom (
+\begin_inset Formula $G(V)$
+\end_inset
+
+ curve for each 
+\begin_inset Formula $H$
+\end_inset
+
+).
  The curve 
 \begin_inset Formula $G(V)$
 \end_inset
 
  becomes deeper as H falls.
  no zero bias peak observed.
+ Some bistability is observed.
 \end_layout
 
 \end_inset
@@ -2815,6 +2676,234 @@ G(t) control bistability measurement.
 \end_inset
 
  : like the sampling rate.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Additional graphs
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+???
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figs/i_H_V/dIdV_H_V_surf_37.jpg
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/i_H_V/dIdV_H_V_imagesc_2_37.jpg
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figs/i_H_V/dIdV_H_V_curves_37.jpg
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/i_H_V/dIdV_H_V_curves_H_0_1_4_37.jpg
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $G(V,H):$
+\end_inset
+
+ in low bias, 
+\begin_inset Formula $0<H<4T$
+\end_inset
+
+.
+ during this measurement 
+\begin_inset Formula $H$
+\end_inset
+
+ was sweeped down, similar results were obtained when sweeping 
+\begin_inset Formula $H$
+\end_inset
+
+ up.
+ The following graphs are different presentations of  
+\begin_inset Formula $G(V,H)$
+\end_inset
+
+ data: Top left (3D graph), top right (heat map), bottom left (
+\begin_inset Formula $G(V)$
+\end_inset
+
+ curve for each 
+\begin_inset Formula $H$
+\end_inset
+
+).
+ Bottom right is 
+\begin_inset Formula $G(V)$
+\end_inset
+
+ curve only for H=0,1.5,4[T].
+ All these figures show a zero bias peak in 
+\begin_inset Formula $G(V;H)$
+\end_inset
+
+ for 
+\begin_inset Formula $H>1.5[T]$
+\end_inset
+
+.
+ Some bistability is observed.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+move to appendix
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO: change units to Tesla not kGauss
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/i_H_V/JCUL-0119dIdV_H_V_surf.jpg
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/i_H_V/JCUL-0119dIdV_H_V_imagesc_2.jpg
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figs/i_H_V/JCUL-0119dIdV_H_V_curves.jpg
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $G(V,H):$
+\end_inset
+
+ in low bias, 
+\begin_inset Formula $0<H<1T$
+\end_inset
+
+.
+ during this measurement 
+\begin_inset Formula $H$
+\end_inset
+
+ was sweeped down.
+ The following graphs are different presentations of 
+\begin_inset Formula $G(V,H)$
+\end_inset
+
+ data: Top left (3D graph), top right (heat map), bottom (
+\begin_inset Formula $G(V)$
+\end_inset
+
+ curve for each 
+\begin_inset Formula $H$
+\end_inset
+
+).
+ The curve 
+\begin_inset Formula $G(V)$
+\end_inset
+
+ becomes deeper as H falls.
+ no zero bias peak observed.
+ Some bistability is observed.
 \end_layout
 
 \end_inset
