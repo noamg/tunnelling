@@ -2085,6 +2085,33 @@ status open
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+only rise fall
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Should remove: I(V)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2142,6 +2169,16 @@ status open
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+one curve each temperature
+\end_layout
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2186,7 +2223,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Should remove: I(V)
+remove this figure
 \end_layout
 
 \end_inset
@@ -2364,6 +2401,16 @@ ask Tom: pdf pictures old....
  conductance is almost zero.
  Thus, the conductance of the pair rises only in voltage that is high enough
  to take both junctions out of their gap.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO: insert some ref to double junction model
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2642,18 +2689,28 @@ status open
 \begin_inset Formula $G(V=0,H):$
 \end_inset
 
- zero bias conductance: 
-\begin_inset Formula $|H|<0.12[T]$
-\end_inset
-
-.
- (
+ zero bias conductance.
+ Left: two curves 
 \begin_inset Formula $H$
 \end_inset
 
- increasing and then decreasing).
+ increasing and then decreasing (
+\begin_inset Formula $0<H<0.12[T])$
+\end_inset
+
+.
  Note the stairs shape of the conductance curve.
  They can be attributed to enterence of few vortices.
+ Right: few scans of 
+\begin_inset Formula $H$
+\end_inset
+
+ increasing and decreasing (
+\begin_inset Formula $-0.12[T]<H<0.12[T])$
+\end_inset
+
+.
+ The same stairs shape is observed.
 \end_layout
 
 \end_inset
@@ -2674,6 +2731,16 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+remove I(v)
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename figs/conductance_before_after_ZBC.svg
 	lyxscale 40
@@ -2688,13 +2755,33 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-conductance before ZBC, at 
+Conductance 
+\begin_inset Formula $G(V)$
+\end_inset
+
+: at 
+\begin_inset Formula $H=0$
+\end_inset
+
+, at 
 \begin_inset Formula $H=0.12[T]$
 \end_inset
 
-, and after.
+, at 
+\begin_inset Formula $H=0$
+\end_inset
+
+ again.
  Measurements time is written.
- The conductance curve before and after the ZBC overlap.
+ The conductance curve before increasing 
+\begin_inset Formula $H$
+\end_inset
+
+ and after decreasing 
+\begin_inset Formula $H$
+\end_inset
+
+ overlap.
  This gives us an upper bound on the vortex diffusion rate (and hysteresis).
  Some bistability can also be seen.
  
@@ -2889,13 +2976,32 @@ status open
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+remove I(V)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-conductance curves: in field cooling the curve is deeper then in zero cooling.
+Conductance 
+\begin_inset Formula $G(V,H=0)$
+\end_inset
+
+ in zero cooling and field cooling (
+\begin_inset Formula $H=0.12[T])$
+\end_inset
+
+.
+ In field cooling the curve is deeper then in zero cooling.
  This can be expalined by trapped vortices (which raise the conductivity)
 \end_layout
 
@@ -3018,7 +3124,7 @@ time depedance...did not find.
 
 \begin_layout Section
 Conductance with field H: 
-\begin_inset Formula $\frac{dI}{dV}(V,H)$
+\begin_inset Formula $G(V,H)$
 \end_inset
 
 
@@ -3241,6 +3347,16 @@ status open
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+read caption with Tom
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -3319,6 +3435,16 @@ status open
 	filename figs/i_H_V/dIdV_H_V_curves_H_0_1_4_37.jpg
 	lyxscale 40
 	scale 15
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+read caption with Tom
+\end_layout
 
 \end_inset
 
@@ -3713,6 +3839,23 @@ G(t) control bistability measurement.
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Appendix: creation of sample using dry transfer technique
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+here insert the creation process.
 \end_layout
 
 \end_inset
