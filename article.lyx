@@ -143,6 +143,8 @@ check google scholar
 \end_inset
 
 , which can be attributed to entrance of few vortices.
+ Differences in the conductance between zero cooling and field cooling were
+ measured, and may result from trapped vortices.
  We also measured zero bias peak in the conductance during two of the 
 \begin_inset Formula $G(V,H)$
 \end_inset
@@ -167,15 +169,6 @@ In addition, originally we planned a device with two separate tunnelling
 \end_layout
 
 \begin_layout Abstract
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-make sure to mention trapped vortices
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
