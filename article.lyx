@@ -2078,33 +2078,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename figs/conductance_low_bias_few_T.svg
+	filename figs/conductance_up_down.svg
 	lyxscale 40
 	scale 40
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-only rise fall
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Should remove: I(V)
-\end_layout
 
 \end_inset
 
@@ -2162,19 +2138,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename figs/conductance_low_bias_few_T.svg
+	filename figs/conductance_low_bias_few_T_no_repeat.svg
 	lyxscale 40
 	scale 40
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-one curve each temperature
-\end_layout
 
 \end_inset
 
@@ -2212,108 +2178,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename figs/conductance_low_bias_few_T.svg
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-remove this figure
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename figs/conductance_low_bias_few_T_12_13.svg
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-yes; should 
-\end_layout
-
-\begin_layout Plain Layout
-plot as is, plot reverse.
- if shift is correct, gaps overlap.
- manually.
-\end_layout
-
-\begin_layout Plain Layout
-resistance at gap high.
- noise.
- avaraging.
- bad idea.
- decision of minimum.
-\end_layout
-
-\begin_layout Plain Layout
-ZBC: fix dV.
-\end_layout
-
-\begin_layout Plain Layout
-idea: parapolic fit.
-\end_layout
-
-\begin_layout Plain Layout
-prefer peaks.
- lower resistance.
-\end_layout
-
-\begin_layout Plain Layout
-manually Vs auto
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename figs/conductance_high_bias_few_T.svg
+	filename figs/conductance_high_bias_few_T_no_repeat.svg
 	lyxscale 40
 	scale 40
 
@@ -2731,18 +2596,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-remove I(v)
-\end_layout
-
-\end_inset
-
-
 \begin_inset Graphics
-	filename figs/conductance_before_after_ZBC.svg
+	filename figs/conductance_before_after_ZBC_no_I_V_good_legend.svg
 	lyxscale 40
 	scale 40
 
@@ -2969,19 +2824,9 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename figs/field_cooling_conductance.svg
+	filename figs/field_cooling_conductance_no_I_V.svg
 	lyxscale 40
 	scale 40
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-remove I(V)
-\end_layout
 
 \end_inset
 

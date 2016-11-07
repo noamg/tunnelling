@@ -119,9 +119,9 @@ if False:
     test_read_I_V()
     test_read_I_H()
 
-def process_I_V(f, amp, Vdc_div=100, SF=11, axes=None, label='', is_fix_zero=False):
-    if axes is None:
-        fig, axes = plt.subplots(2, 1, sharex=True)
+def process_I_V(f, amp, Vdc_div=100, SF=11, ax=None, label='', is_fix_zero=False):
+    if ax is None:
+        fig, ax = plt.subplots()#2, 1, sharex=True)
     mask = np.ones(SF) * 1.0 / SF
     Vdc, Idc = read_I_V(f, amp, Vdc_div)
     dIdVdc = np.diff(Idc) / np.diff(Vdc)
@@ -134,13 +134,14 @@ def process_I_V(f, amp, Vdc_div=100, SF=11, axes=None, label='', is_fix_zero=Fal
     if is_fix_zero:
         Vdc = Vdc - Vdc[dIdVdc.argmin()]
     
-    ax1, ax2 = axes
-    _ = ax1.plot(Vdc * 1e3, Idc * 1e9, '.', label=label)
-    ax1.set_xlabel('V[mV]')
-    ax1.set_ylabel('I[nA]')
-    _ = ax2.plot(Vdc[1:,] * 1e3, dIdVdc * 1e6, '.', label=label)
-    ax2.set_xlabel('V[mV]')
-    ax2.set_ylabel(r'G[$\mu$S]')
+    #ax1, ax2 = axes
+    if False:
+        _ = ax1.plot(Vdc * 1e3, Idc * 1e9, '.', label=label)
+        ax1.set_xlabel('V[mV]')
+        ax1.set_ylabel('I[nA]')
+    _ = ax.plot(Vdc[1:,] * 1e3, dIdVdc * 1e6, '.', label=label)
+    ax.set_xlabel('V[mV]')
+    ax.set_ylabel(r'G[$\mu$S]')
 
 def process_I_H(f, amp, I_min, dV, ax=None, label=''):
     if ax is None:
@@ -182,7 +183,25 @@ if False:
     process_I_H(os.path.join(data_dir + data_prefix + N_I_H_magnet + data_format), 1e9, 0, 100e-6, ax, label='label')
     ax.legend(loc='best')
 
+
+
+
+#%%
+#%% dIdV low bias up down
+fig, ax = plt.subplots()
+Ns = ['0001', '0002']
+amps = [1e9, 1e9]
+labels = ['bias rising', 'bias falling']
+assert len(Ns) == len(amps)
+for i in range(len(Ns)):
+    N = Ns[i]
+    amp = amps[i]
+    label = labels[i]
+    process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, ax=ax, label=label, is_fix_zero=True)
+ax.legend(loc='best')
+fig.savefig(os.path.join(figs_dir + 'conductance_up_down' + fig_format))
 #%% dIdV low bias few T
+raise('did not adapt to only dIdV')
 fig, axes = plt.subplots(2, 1, sharex=True)
 Ns = ['0001', '0002', '0005', '0010']
 amps = [1e9, 1e9, 1e9, 1e9]
@@ -201,41 +220,39 @@ fig.savefig(os.path.join(figs_dir + 'conductance_low_bias_few_T' + fig_format))
 
 #%% didV low bias few T, more.
 # maybe should shift the minimum to v = 0
-fig, axes = plt.subplots(2, 1, sharex=True)
-Ns = ['0001', '0002', '0005', '0010', '0012', '0013', '0016']
-amps = [1e9, 1e9, 1e9, 1e9, 1e9, 1e9, 1e10]
-labels = ['4K', '4K', '2.2K', '0.3K', '0.3K', '0.3K', '0.3K']
+fig, ax = plt.subplots()
+Ns = ['0001', '0005', '0010']
+amps = [1e9, 1e9, 1e9]
+labels = ['4K', '2.2K', '0.3K']
 assert len(Ns) == len(amps)
 for i in range(len(Ns)):
     N = Ns[i]
     amp = amps[i]
     label = labels[i]
-    process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, axes=axes, label=label, is_fix_zero=True)
-axes[0].legend(loc='best')
-axes[1].legend(loc='best')
-fig.savefig(os.path.join(figs_dir + 'conductance_low_bias_few_T_12_13' + fig_format))
+    process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, ax=ax, label=label, is_fix_zero=True)
+ax.legend(loc='best')
+fig.savefig(os.path.join(figs_dir + 'conductance_low_bias_few_T_no_repeat' + fig_format))
 
 
 
 
 #%% dIdV high bias few T
 # shoft V = 0
-fig, axes = plt.subplots(2, 1, sharex=True)
-Ns = ['0003', '0004', '0006', '0014']
-amps = [1e8, 1e8, 1e9, 1e8]
-labels = ['4K', '4K', '1.7K', '0.3K']
+fig, ax = plt.subplots()
+Ns = ['0004', '0006', '0014']
+amps = [1e8, 1e9, 1e8]
+labels = ['4K', '1.7K', '0.3K']
 assert len(Ns) == len(amps)
 for i in range(len(Ns)):
     N = Ns[i]
     amp = amps[i]
     label = labels[i]
     if N == '0006':
-        process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, axes=axes, label=label, SF=43, is_fix_zero=True)
+        process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, ax=ax, label=label, SF=43, is_fix_zero=True)
     else:
-        process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, axes=axes, label=label, is_fix_zero=True)
-axes[0].legend(loc='best')
-axes[1].legend(loc='best')
-fig.savefig(os.path.join(figs_dir + 'conductance_high_bias_few_T' + fig_format))
+        process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, ax=ax, label=label, is_fix_zero=True)
+ax.legend(loc='best')
+fig.savefig(os.path.join(figs_dir + 'conductance_high_bias_few_T_no_repeat' + fig_format))
 
 #%% ZBC low H, should fix I_min, dV
 
@@ -260,7 +277,7 @@ fig.savefig(os.path.join(figs_dir + 'ZBC_low_H' + fig_format))
 
 
 #%% conductance_before_after_ZBC
-fig, axes = plt.subplots(2, 1, sharex=True)
+fig, ax = plt.subplots()
 Ns = ['0016', '0018', '0020']
 amps = [1e10, 1e10, 1e10]
 labels = ['H=0 before', 'H=0.12[T]', 'H=0 after']
@@ -270,10 +287,10 @@ for i in range(len(Ns)):
     amp = amps[i]
     label = labels[i]
     _, _, _, time, _ = read_mesdata(os.path.join(data_dir + data_prefix + N + data_format))
-    process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, axes=axes, label=label+'-'+time[-8:])
-axes[0].legend(loc='best')
+    process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, ax=ax, label=label+'-'+time[-8:])
+ax.legend(loc='best')
 #axes[1].legend(loc='best')
-fig.savefig(os.path.join(figs_dir + 'conductance_before_after_ZBC' + fig_format))
+fig.savefig(os.path.join(figs_dir + 'conductance_before_after_ZBC_no_I_V' + fig_format))
 #%%
 Ns = ['0016', '0017', '0018', '0019', '0020', '0021', '0022', '0023', '0024', '0025', '0026', '0027', '0028', '0029']
 for N in Ns:
@@ -285,7 +302,7 @@ for N in Ns:
         print(N)
 #%% field cooling dIdV
         
-fig, axes = plt.subplots(2, 1, sharex=True)
+fig, ax = plt.subplots()
 Ns = ['0016', '0051',] # can add 55, 56, 58, 62
 amps = [1e10, 1e9]
 labels = ['zero cooling', 'H=0.12[T] cooling']
@@ -294,9 +311,9 @@ for i in range(len(Ns)):
     N = Ns[i]
     amp = amps[i]
     label = labels[i]
-    process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, axes=axes, label=label)
-axes[0].legend(loc='best')
-fig.savefig(os.path.join(figs_dir + 'field_cooling_conductance' + fig_format))
+    process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, ax=ax, label=label)
+ax.legend(loc='best')
+fig.savefig(os.path.join(figs_dir + 'field_cooling_conductance_no_I_V' + fig_format))
 #%% field cooling ZBC
 
 fig = plt.figure()
