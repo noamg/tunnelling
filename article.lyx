@@ -768,1104 +768,7 @@ scheme of the final device.
 
 \end_layout
 
-\begin_layout Section
-desired device: NIS with ultra-thin (
-\begin_inset Formula $10-20nm$
-\end_inset
-
-) or thin (
-\begin_inset Formula $2-3nm$
-\end_inset
-
-) superconductor 
-\end_layout
-
 \begin_layout Standard
-The desired device is NIS tunnelling junction (normal-insulator-superconductor).
- The insulator is 
-\begin_inset Formula $\text{WSe}_{2}$
-\end_inset
-
- (energy gap 
-\begin_inset Formula $1.35[eV]$
-\end_inset
-
-).
- The superconductor is 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
- (type 2, 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Tom: articles
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $T_{crit}=7.11\degree K$
-\end_inset
-
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-\begin_inset Formula $H_{c1}=??$
-\end_inset
-
-, 
-\begin_inset Formula $H_{c2}=??$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- ).
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
-\end_layout
-
-\end_inset
-
-in diffrent devices the 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
- was ultra-thin (
-\begin_inset Formula $2-3[nm]$
-\end_inset
-
-) or thin (
-\begin_inset Formula $10-20[nm]$
-\end_inset
-
-), in order to compare the tunnelling to thin and thick SC.
- Also, some of the junctions were located above the edge of the SC material,
- and some above the heart.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename schemes/NIS.jpg
-	lyxscale 40
-	scale 40
-	clip
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-scheme of the desired device.
- parts: (1)silicon, (2)
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
-, (3)
-\begin_inset Formula $\text{WSe}_{2}$
-\end_inset
-
-, (4)gold electrodes
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-The device was built on a silicon chip.
- Thin layers of 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
- and 
-\begin_inset Formula $\text{WSe}_{2}$
-\end_inset
-
- were peelled from bulk material with cello-tape.
- Later, they were piled one above the other using dry transfer technique.
- The gold electrodes were evaporated using e-beam lithography technique.
-\end_layout
-
-\begin_layout Section
-Dry transfer
-\end_layout
-
-\begin_layout Subsection
-transfer stages
-\end_layout
-
-\begin_layout Enumerate
-The entire process is done in a gloves box, with atmosphere of 
-\begin_inset Formula $N_{2}$
-\end_inset
-
- , to avoid oxidising the 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
- when it's not covered with 
-\begin_inset Formula $\text{WSe}_{2}$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Enumerate
-Thin layers of 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
- and 
-\begin_inset Formula $\text{WSe}_{2}$
-\end_inset
-
- were pilled from bulk material with celio-tape
-\end_layout
-
-\begin_layout Enumerate
-Small squares of PDMS are located on a glass carrier, attached to the cello-tape
-, and then the celio-tape is pulled away rapidly.
- small flakes of the target material remain on the PDMS.
-\end_layout
-
-\begin_layout Enumerate
-PDMS with 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
- is turned to face down, and is lowered to touch a clean spot on the silicon
- chip.
- It is raised slowly, and some flakes stay on the silicon.
- In order to transfer more flakes, the same PDMS was used again to stamp
- an adjecet spot.
- It increased the amount of flakes passed (thus increasing the variety of
- choice for the device), at the risk of leaving some PDMS residue that might
- hinder the contact between the 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
-and the 
-\begin_inset Formula $\text{WSe}_{2}$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Enumerate
-In optical image of the flakes on PDMS and on silicon, the colors indicate
- the width of the flake (number of layers).
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/tung_color_refrence.png
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/KALL_ref_NbSl2.png
-	lyxscale 40
-	scale 60
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Left: 
-\begin_inset Formula $\text{WSe}_{2}$
-\end_inset
-
- on PDMS, Right: 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
- on silicon (zoom: X100.
- the color indicate the number of layers)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-Using microscope (magnification up to X100) the good flakes are found either
- on the silicon or on the PDMS, and their pictures are taken.
- Based on the pictures, 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
-\end_layout
-
-\end_inset
-
-
-\begin_inset Quotes eld
-\end_inset
-
-skeletons
-\begin_inset Quotes erd
-\end_inset
-
- that show the important parts are made.
-\end_layout
-
-\begin_layout Enumerate
-The device is planned
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
-\end_layout
-
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/JC_tung_fine_skeleton.jpg
-	lyxscale 30
-	scale 30
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/JC_Nb_skeleton_tung_plan.jpg
-	lyxscale 30
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Plan of device JC.
- Left: 
-\begin_inset Formula $\text{WSe}_{2}$
-\end_inset
-
- with skeleton.
- Right: 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
- with the skeleton of 
-\begin_inset Formula $\text{WSe}_{2}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-The PDMS with 
-\begin_inset Formula $\text{WSe}_{2}$
-\end_inset
-
- is located above the 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
- and lowered carefully, while keeping the horizontal position where planned.
-\end_layout
-
-\begin_layout Enumerate
-After the PDMS touches the silicon, it is raised slowly (about 
-\begin_inset Formula $1\frac{\mu m}{sec}$
-\end_inset
-
-).
- In most cases the 
-\begin_inset Formula $\text{WSe}_{2}$
-\end_inset
-
- flake remains on the silicon as planned.
- Usually with location deviation of 
-\begin_inset Formula $\sim1-2[\mu m]$
-\end_inset
-
- from the plan.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Ask Tom: what is new in the process? Add discussion here?:new heat anhiling.
- diff between 
-\end_layout
-
-\begin_layout Plain Layout
-heat 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Device after transfer
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "device JC optical"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/JC_tung_fine_skeleton.jpg
-	lyxscale 20
-	scale 20
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/JC_final_trim.jpg
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/JC_Nb_skeleton_tung_plan.jpg
-	lyxscale 20
-	scale 20
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Device JC.
- Left: 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
- on silicon.
- Right: 
-\begin_inset Formula $\text{WSe}_{2}$
-\end_inset
-
- on PDMS .
- Center: 
-\begin_inset Formula $\text{WSe}_{2}$
-\end_inset
-
- on 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-pictures of the 4(? JC first) devices: tung, Nb, both, fix orientation,
- put arrows to show
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-mendeley desktop
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-AFM, colors different....The thickness is based on optical images, in which
- the colors indicate the number of layers.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-heat cleaning
-\end_layout
-
-\begin_layout Standard
-During the creation of the device some 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
-\end_layout
-
-\end_inset
-
-dust, water and organic materials get between the layers.
- They lower the effective contact area between the layers and thus 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
-\end_layout
-
-\end_inset
-
-hurt the tunnelling junction.
- After the creation of the device, we apply heat cleaning which helps 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
-\end_layout
-
-\end_inset
-
-removing some of the dirt.
- The sample is located in an oven with atmosphere of 95% Argon, 5% 
-\begin_inset Formula $H_{2}$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-We applied the heat cleaning process two times:
-\end_layout
-
-\begin_layout Standard
-first time with 
-\begin_inset Formula $T=150\degree C$
-\end_inset
-
- for 
-\begin_inset Formula $\Delta t=5.5[hour]$
-\end_inset
-
- , second time with 
-\begin_inset Formula $T=175\degree C$
-\end_inset
-
- for 
-\begin_inset Formula $\Delta t=8.0[hour]$
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Subsubsection
-AFM
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-slice differently: tell afm...
- every time it's needed
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-After the device is created and somewhat cleaned with heat cleaning, a better
- characterization is required.
- This includes: making sure what is the location and thickness (how many
- layers) of each material.
- This is important in order to know for sure the device structure, and in
- order to plan the electrodes location.
-\end_layout
-
-\begin_layout Standard
-For that matter, we used an AFM (type Dimension 3100 Nanoscope V) in tapping
- mode.
- The topography measurement indicated thickness and 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
-\end_layout
-
-\end_inset
-
-mateiral idnetity.
- Phase shift image indicated material idnetity.
-\end_layout
-
-\begin_layout Standard
-Next images are of device JC, that can be seen in 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "device JC optical"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-folds
-\end_layout
-
-\begin_layout Plain Layout
-dirt
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-images after first heat cleaning
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-take images
-\end_layout
-
-\begin_layout Plain Layout
-open gwyddion
-\end_layout
-
-\begin_layout Plain Layout
-apply filters
-\end_layout
-
-\begin_layout Plain Layout
-choose height and / or phase
-\end_layout
-
-\begin_layout Plain Layout
-add scale or export with scale
-\end_layout
-
-\begin_layout Plain Layout
-add arrows dirt, etc
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename afm/JC_after_heat_cleaning_1_of_2large_fast.008.jpeg
-	lyxscale 60
-	scale 60
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/JC_final_trim.jpg
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-images of JC after first heat cleaning
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-final device: images after second heat cleaning
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename afm/JC_after_heat_cleaning_1_of_2large_fast.008.jpeg
-	lyxscale 60
-	scale 70
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename afm/jcul.001_adapt_1.jpg
-	lyxscale 30
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename afm/jcul.001_phase.jpg
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Left: images of JC after first heat cleaning.
- Right: images of JC after second heat cleaning.
- Some of the dirt from the 
-\begin_inset Formula $\text{WSe}_{2}$
-\end_inset
-
-, and from between the 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
- and 
-\begin_inset Formula $\text{WSe}_{2}$
-\end_inset
-
- is removed.
- The dirt only on 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
- didn't change.
- Bottom: zoom in on the crack (after second heat cleaning).
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-if possible: only images of JC.
-\end_layout
-
-\begin_layout Plain Layout
-scans + resolution pixels, real space
-\end_layout
-
-\begin_layout Plain Layout
-also put some graphs of cross sections (for height differences)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-final device
-\end_layout
-
-\begin_layout Standard
-After the AFM measurements, golden electrodes were laid on the chip using
- e-beam technique.
-\end_layout
-
-\begin_layout Standard
-The chip contained 4 devices, and 32 electrodes.
- In contact testing, it has turned out that only 2 electrodes were connected
- through a device (one of the four devices).
-\end_layout
-
-\begin_layout Standard
-possible reason for this failure: observing optical images of device before
- and after the second heat cleaning.
- the color of exposed 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
- changed, which indicates a possible change in the texture of the material
- surface.
- Perhaps that change disturbes the contact with the electrode.
- Also, the crack that existed in the material expanded.
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/JC_before_first_heat_cleaning_zoom.jpg
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/JC_after_first_heat_cleaning_zoom.jpg
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/JC_after_second_heat_cleaning_zoom.jpg
-	lyxscale 40
-	scale 7
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-image of device JC.
- left: before heat cleaning.
- right: after heat cleaning.
- the color of the exposed 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
- is changed, the crack expanded
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-should put arrows to show the bright part
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-eventually, there was a single device with 2 contacts laid over the insulator
- 
-\begin_inset Formula $\text{WSe}_{2}$
-\end_inset
-
-, which created a device of structure NISIN.
- two consecutive tunnelling junctions, one at the heart of the 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
- and one at the side.
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename schemes/NISIN.jpg
-	lyxscale 40
-	scale 40
-	clip
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-scheme of the final device
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-pic1 pic2 pic3, peeling traumatic? fall? diff: color diff, cracks
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/tom_Nb.jpg
-	lyxscale 7
-	scale 7
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/tom_Nb_insulator.png
-	lyxscale 7
-	scale 7
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/tom_heat.jpg
-	lyxscale 7
-	scale 7
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Another device of the same 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
-\end_layout
-
-\end_inset
-
-research group.
- Left: 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
-.
- middle: same layer covered by thin Boron-Nitride.
- Right: same deivce after heat cleaning.
- Like in our case, the exposed 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
- was harmed by the heat cleaning.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-bonus: image subtraction (make sure to sclae what needed to be scale.
- maybe based on the silicon.
-\end_layout
-
-\end_inset
-
  
 \end_layout
 
@@ -4040,6 +2943,1107 @@ G(t) control bistability measurement.
 
 \begin_layout Part
 Appendix: creation of sample using dry transfer technique
+\end_layout
+
+\begin_layout Section
+desired device: NIS with ultra-thin (
+\begin_inset Formula $10-20nm$
+\end_inset
+
+) or thin (
+\begin_inset Formula $2-3nm$
+\end_inset
+
+) superconductor 
+\end_layout
+
+\begin_layout Standard
+The desired device is NIS tunnelling junction (normal-insulator-superconductor).
+ The insulator is 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+ (energy gap 
+\begin_inset Formula $1.35[eV]$
+\end_inset
+
+).
+ The superconductor is 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ (type 2, 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Tom: articles
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $T_{crit}=7.11\degree K$
+\end_inset
+
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $H_{c1}=??$
+\end_inset
+
+, 
+\begin_inset Formula $H_{c2}=??$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ ).
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+in diffrent devices the 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ was ultra-thin (
+\begin_inset Formula $2-3[nm]$
+\end_inset
+
+) or thin (
+\begin_inset Formula $10-20[nm]$
+\end_inset
+
+), in order to compare the tunnelling to thin and thick SC.
+ Also, some of the junctions were located above the edge of the SC material,
+ and some above the heart.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schemes/NIS.jpg
+	lyxscale 40
+	scale 40
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+scheme of the desired device.
+ parts: (1)silicon, (2)
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+, (3)
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+, (4)gold electrodes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The device was built on a silicon chip.
+ Thin layers of 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+ were peelled from bulk material with cello-tape.
+ Later, they were piled one above the other using dry transfer technique.
+ The gold electrodes were evaporated using e-beam lithography technique.
+\end_layout
+
+\begin_layout Section
+Dry transfer
+\end_layout
+
+\begin_layout Subsection
+transfer stages
+\end_layout
+
+\begin_layout Enumerate
+The entire process is done in a gloves box, with atmosphere of 
+\begin_inset Formula $N_{2}$
+\end_inset
+
+ , to avoid oxidising the 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ when it's not covered with 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Thin layers of 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+ were pilled from bulk material with celio-tape
+\end_layout
+
+\begin_layout Enumerate
+Small squares of PDMS are located on a glass carrier, attached to the cello-tape
+, and then the celio-tape is pulled away rapidly.
+ small flakes of the target material remain on the PDMS.
+\end_layout
+
+\begin_layout Enumerate
+PDMS with 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ is turned to face down, and is lowered to touch a clean spot on the silicon
+ chip.
+ It is raised slowly, and some flakes stay on the silicon.
+ In order to transfer more flakes, the same PDMS was used again to stamp
+ an adjecet spot.
+ It increased the amount of flakes passed (thus increasing the variety of
+ choice for the device), at the risk of leaving some PDMS residue that might
+ hinder the contact between the 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+and the 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+In optical image of the flakes on PDMS and on silicon, the colors indicate
+ the width of the flake (number of layers).
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/tung_color_refrence.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/KALL_ref_NbSl2.png
+	lyxscale 40
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Left: 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+ on PDMS, Right: 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ on silicon (zoom: X100.
+ the color indicate the number of layers)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Using microscope (magnification up to X100) the good flakes are found either
+ on the silicon or on the PDMS, and their pictures are taken.
+ Based on the pictures, 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+skeletons
+\begin_inset Quotes erd
+\end_inset
+
+ that show the important parts are made.
+\end_layout
+
+\begin_layout Enumerate
+The device is planned
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/JC_tung_fine_skeleton.jpg
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/JC_Nb_skeleton_tung_plan.jpg
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Plan of device JC.
+ Left: 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+ with skeleton.
+ Right: 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ with the skeleton of 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+The PDMS with 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+ is located above the 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ and lowered carefully, while keeping the horizontal position where planned.
+\end_layout
+
+\begin_layout Enumerate
+After the PDMS touches the silicon, it is raised slowly (about 
+\begin_inset Formula $1\frac{\mu m}{sec}$
+\end_inset
+
+).
+ In most cases the 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+ flake remains on the silicon as planned.
+ Usually with location deviation of 
+\begin_inset Formula $\sim1-2[\mu m]$
+\end_inset
+
+ from the plan.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Ask Tom: what is new in the process? Add discussion here?:new heat anhiling.
+ diff between 
+\end_layout
+
+\begin_layout Plain Layout
+heat 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Device after transfer
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "device JC optical"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/JC_tung_fine_skeleton.jpg
+	lyxscale 20
+	scale 20
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/JC_final_trim.jpg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/JC_Nb_skeleton_tung_plan.jpg
+	lyxscale 20
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Device JC.
+ Left: 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ on silicon.
+ Right: 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+ on PDMS .
+ Center: 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+ on 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+pictures of the 4(? JC first) devices: tung, Nb, both, fix orientation,
+ put arrows to show
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+mendeley desktop
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+AFM, colors different....The thickness is based on optical images, in which
+ the colors indicate the number of layers.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+heat cleaning
+\end_layout
+
+\begin_layout Standard
+During the creation of the device some 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+dust, water and organic materials get between the layers.
+ They lower the effective contact area between the layers and thus 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+hurt the tunnelling junction.
+ After the creation of the device, we apply heat cleaning which helps 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+removing some of the dirt.
+ The sample is located in an oven with atmosphere of 95% Argon, 5% 
+\begin_inset Formula $H_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+We applied the heat cleaning process two times:
+\end_layout
+
+\begin_layout Standard
+first time with 
+\begin_inset Formula $T=150\degree C$
+\end_inset
+
+ for 
+\begin_inset Formula $\Delta t=5.5[hour]$
+\end_inset
+
+ , second time with 
+\begin_inset Formula $T=175\degree C$
+\end_inset
+
+ for 
+\begin_inset Formula $\Delta t=8.0[hour]$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+AFM
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+slice differently: tell afm...
+ every time it's needed
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+After the device is created and somewhat cleaned with heat cleaning, a better
+ characterization is required.
+ This includes: making sure what is the location and thickness (how many
+ layers) of each material.
+ This is important in order to know for sure the device structure, and in
+ order to plan the electrodes location.
+\end_layout
+
+\begin_layout Standard
+For that matter, we used an AFM (type Dimension 3100 Nanoscope V) in tapping
+ mode.
+ The topography measurement indicated thickness and 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+mateiral idnetity.
+ Phase shift image indicated material idnetity.
+\end_layout
+
+\begin_layout Standard
+Next images are of device JC, that can be seen in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "device JC optical"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+folds
+\end_layout
+
+\begin_layout Plain Layout
+dirt
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+images after first heat cleaning
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+take images
+\end_layout
+
+\begin_layout Plain Layout
+open gwyddion
+\end_layout
+
+\begin_layout Plain Layout
+apply filters
+\end_layout
+
+\begin_layout Plain Layout
+choose height and / or phase
+\end_layout
+
+\begin_layout Plain Layout
+add scale or export with scale
+\end_layout
+
+\begin_layout Plain Layout
+add arrows dirt, etc
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename afm/JC_after_heat_cleaning_1_of_2large_fast.008.jpeg
+	lyxscale 60
+	scale 60
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/JC_final_trim.jpg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+images of JC after first heat cleaning
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+final device: images after second heat cleaning
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename afm/JC_after_heat_cleaning_1_of_2large_fast.008.jpeg
+	lyxscale 60
+	scale 70
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename afm/jcul.001_adapt_1.jpg
+	lyxscale 30
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename afm/jcul.001_phase.jpg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Left: images of JC after first heat cleaning.
+ Right: images of JC after second heat cleaning.
+ Some of the dirt from the 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+, and from between the 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+ is removed.
+ The dirt only on 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ didn't change.
+ Bottom: zoom in on the crack (after second heat cleaning).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+if possible: only images of JC.
+\end_layout
+
+\begin_layout Plain Layout
+scans + resolution pixels, real space
+\end_layout
+
+\begin_layout Plain Layout
+also put some graphs of cross sections (for height differences)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+final device
+\end_layout
+
+\begin_layout Standard
+After the AFM measurements, golden electrodes were laid on the chip using
+ e-beam technique.
+\end_layout
+
+\begin_layout Standard
+The chip contained 4 devices, and 32 electrodes.
+ In contact testing, it has turned out that only 2 electrodes were connected
+ through a device (one of the four devices).
+\end_layout
+
+\begin_layout Standard
+possible reason for this failure: observing optical images of device before
+ and after the second heat cleaning.
+ the color of exposed 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ changed, which indicates a possible change in the texture of the material
+ surface.
+ Perhaps that change disturbes the contact with the electrode.
+ Also, the crack that existed in the material expanded.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/JC_before_first_heat_cleaning_zoom.jpg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/JC_after_first_heat_cleaning_zoom.jpg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/JC_after_second_heat_cleaning_zoom.jpg
+	lyxscale 40
+	scale 7
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+image of device JC.
+ left: before heat cleaning.
+ right: after heat cleaning.
+ the color of the exposed 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ is changed, the crack expanded
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+should put arrows to show the bright part
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+eventually, there was a single device with 2 contacts laid over the insulator
+ 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+, which created a device of structure NISIN.
+ two consecutive tunnelling junctions, one at the heart of the 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ and one at the side.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schemes/NISIN.jpg
+	lyxscale 40
+	scale 40
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+scheme of the final device
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+pic1 pic2 pic3, peeling traumatic? fall? diff: color diff, cracks
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/tom_Nb.jpg
+	lyxscale 7
+	scale 7
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/tom_Nb_insulator.png
+	lyxscale 7
+	scale 7
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/tom_heat.jpg
+	lyxscale 7
+	scale 7
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Another device of the same 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+research group.
+ Left: 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+.
+ middle: same layer covered by thin Boron-Nitride.
+ Right: same deivce after heat cleaning.
+ Like in our case, the exposed 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ was harmed by the heat cleaning.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+bonus: image subtraction (make sure to sclae what needed to be scale.
+ maybe based on the silicon.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
