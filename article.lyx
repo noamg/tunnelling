@@ -591,7 +591,7 @@ Electrons can tunnel only to an uncoupied energy state.
 \end_layout
 
 \begin_layout Part
-Creation, characterization of device
+The device
 \begin_inset Note Note
 status open
 
@@ -683,8 +683,54 @@ in diffrent devices the
 \end_layout
 
 \begin_layout Standard
-The device was built on a silicon chip.
- Thin layers of 
+We built a device of double tunnelling junction: NISIN.
+ The super conductor was ultra-thin (
+\begin_inset Formula $2-3nm$
+\end_inset
+
+)
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ (type 2 SC, 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $T_{crit}=7.11K$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+), the insulator was thin 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+energy gap (
+\begin_inset Formula $1.35eV$
+\end_inset
+
+).
+ The device was built on a silicon chip using dry-transfer technique: Thin
+ layers of 
 \begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
@@ -693,8 +739,21 @@ The device was built on a silicon chip.
 \end_inset
 
  were peelled from bulk material with cello-tape.
- Later, they were piled one above the other using dry transfer technique.
- The gold electrodes were evaporated using e-beam lithography technique.
+ Later, they were piled one above the other.
+ Gold electrodes (the normal material) were evaporated using e-beam lithography
+ technique.
+ One of the junctions was above the edge of the SC material, the other was
+ above the heart.
+\end_layout
+
+\begin_layout Standard
+We intended creating two separate NIS junctions.
+ However, heat anhiling that had been applied on the sample affected the
+ exposed 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ and the contacts laid on it didn't work, what left the double junction.
 \end_layout
 
 \begin_layout Standard
@@ -2942,7 +3001,8 @@ G(t) control bistability measurement.
 \end_layout
 
 \begin_layout Part
-Appendix: creation of sample using dry transfer technique
+Appendix: creation of device using dry transfer technique, characterization,
+ heat anhiling
 \end_layout
 
 \begin_layout Section
