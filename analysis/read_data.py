@@ -139,7 +139,7 @@ def process_I_V(f, amp, Vdc_div=100, SF=11, ax=None, label='', is_fix_zero=False
         _ = ax1.plot(Vdc * 1e3, Idc * 1e9, '.', label=label)
         ax1.set_xlabel('V[mV]')
         ax1.set_ylabel('I[nA]')
-    _ = ax.plot(Vdc[1:,] * 1e3, dIdVdc * 1e6, '.', label=label)
+    _ = ax.plot(Vdc[1:,] * 1e3, dIdVdc * 1e6, label=label)
     ax.set_xlabel('V[mV]')
     ax.set_ylabel(r'G[$\mu$S]')
 
@@ -191,7 +191,7 @@ if False:
 fig, ax = plt.subplots()
 Ns = ['0001', '0002']
 amps = [1e9, 1e9]
-labels = ['bias rising', 'bias falling']
+labels = ['sweep bias up', 'sweep bias down']
 assert len(Ns) == len(amps)
 for i in range(len(Ns)):
     N = Ns[i]
@@ -199,6 +199,7 @@ for i in range(len(Ns)):
     label = labels[i]
     process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, ax=ax, label=label, is_fix_zero=True)
 ax.legend(loc='best')
+ax.set_xlim([-10, 6.5])
 fig.savefig(os.path.join(figs_dir + 'conductance_up_down' + fig_format))
 #%% dIdV low bias few T
 raise('did not adapt to only dIdV')
@@ -231,6 +232,7 @@ for i in range(len(Ns)):
     label = labels[i]
     process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, ax=ax, label=label, is_fix_zero=True)
 ax.legend(loc='best')
+ax.set_xlim([-5,5])
 fig.savefig(os.path.join(figs_dir + 'conductance_low_bias_few_T_no_repeat' + fig_format))
 
 
@@ -252,6 +254,8 @@ for i in range(len(Ns)):
     else:
         process_I_V(os.path.join(data_dir + data_prefix + N + data_format), amp=amp, ax=ax, label=label, is_fix_zero=True)
 ax.legend(loc='best')
+ax.set_xlim([-60,60])
+ax.set_ylim([0, 0.5])
 fig.savefig(os.path.join(figs_dir + 'conductance_high_bias_few_T_no_repeat' + fig_format))
 
 #%% ZBC low H, should fix I_min, dV
