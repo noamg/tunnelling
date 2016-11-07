@@ -273,11 +273,11 @@ superconductivity is a phenomena where the material is a perfect conductor
 
  inside the superconductor.
  This state takes place in very cold metals (for example: lead 
-\begin_inset Formula $7\degree K$
+\begin_inset Formula $7K$
 \end_inset
 
 , aluminium 
-\begin_inset Formula $4\degree K).$
+\begin_inset Formula $4K).$
 \end_inset
 
  This state is removed by a sufficiantly strong external field H.
@@ -528,7 +528,7 @@ electron with energy above
 
 , and the energy spectrum reveals an energy gap, with prohibited states
  (
-\begin_inset Formula $0\degree K,$
+\begin_inset Formula $0K,$
 \end_inset
 
  in actual temperature, they are very unpopolated states):
@@ -835,7 +835,7 @@ Hadar
 \end_inset
 
 temperature at the sample was 
-\begin_inset Formula $1.5\degree K-2\degree K$
+\begin_inset Formula $1.5K-2K$
 \end_inset
 
 .
@@ -968,7 +968,7 @@ During all measurements, the voltmeter that measures the current was checked
 
 \begin_layout Standard
 The temperature creates a thermal spread in the energy (
-\begin_inset Formula $1\degree K\to80\mu V)$
+\begin_inset Formula $1K\to80\mu V)$
 \end_inset
 
 , which was considered when choosing the voltage sample step.
@@ -1160,7 +1160,7 @@ cut the white space from the graph
 \end_inset
 
 , of the double junction at 
-\begin_inset Formula $4\degree K$
+\begin_inset Formula $4K$
 \end_inset
 
 : two measurements, one with bias voltage rising, one falling show same
@@ -2941,7 +2941,7 @@ Tom: articles
 \end_inset
 
 
-\begin_inset Formula $T_{crit}=7.11\degree K$
+\begin_inset Formula $T_{crit}=7.11K$
 \end_inset
 
  
@@ -3497,7 +3497,7 @@ We applied the heat cleaning process two times:
 
 \begin_layout Standard
 first time with 
-\begin_inset Formula $T=150\degree C$
+\begin_inset Formula $T=150C$
 \end_inset
 
  for 
@@ -3505,7 +3505,7 @@ first time with
 \end_inset
 
  , second time with 
-\begin_inset Formula $T=175\degree C$
+\begin_inset Formula $T=175C$
 \end_inset
 
  for 
