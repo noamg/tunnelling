@@ -2077,6 +2077,102 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/conductance_low_bias_few_T.svg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $G=\frac{dI}{dV}$
+\end_inset
+
+, of the double junction at 
+\begin_inset Formula $4\degree K$
+\end_inset
+
+: two measurements, one with bias voltage rising, one falling show same
+ 
+\begin_inset Formula $G$
+\end_inset
+
+ curve.
+ The width of the low conductivity area is 
+\begin_inset Formula $3.4[mV]$
+\end_inset
+
+ compared to 
+\begin_inset Formula $\Delta=2[mV]$
+\end_inset
+
+.
+ ***connection to double junction model***
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/conductance_low_bias_few_T.svg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $G=\frac{dI}{dV}$
+\end_inset
+
+, of the double junction.
+ As 
+\begin_inset Formula $T$
+\end_inset
+
+ drops, the conductance curve is deeper.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename figs/conductance_low_bias_few_T.svg
@@ -2114,23 +2210,7 @@ Should remove: I(V)
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-\begin_inset Formula $G=\frac{dI}{dV}$
-\end_inset
 
-, of the double junction.
- Notes: the width of the low conductivity area is 
-\begin_inset Formula $3.4[mV]$
-\end_inset
-
- compared to 
-\begin_inset Formula $\Delta=2[mV]$
-\end_inset
-
-, as 
-\begin_inset Formula $T$
-\end_inset
-
- drops, the conductance curve is deeper.
 \end_layout
 
 \end_inset
@@ -2468,7 +2548,7 @@ for next one.
 
 \begin_layout Section
 entrance of vortices: zero bias conductance 
-\begin_inset Formula $G(V\sim0,H)$
+\begin_inset Formula $G(V=0,H)$
 \end_inset
 
 
