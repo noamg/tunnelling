@@ -93,6 +93,177 @@ Noam Gavish, Instructed by Dr.
 status open
 
 \begin_layout Plain Layout
+Hadar:
+\end_layout
+
+\begin_layout Plain Layout
+article.
+ nerrative.
+ one story line.
+ not easy to present it that way.
+\end_layout
+
+\begin_layout Plain Layout
+context - this work.
+ foo is a very interesting subject.
+ model was built by george.
+ device bar was built by kevin.
+ observed X but not Y.
+ In this work ......
+\end_layout
+
+\begin_layout Plain Layout
+option 1: focus on tunnelling.
+ in this lab we use tunnelling bla bla bla trying to measure sub-gap signature
+ bla bla also for SC and vortices.
+\end_layout
+
+\begin_layout Plain Layout
+option 2: focus on vortices.
+ vortices behaviour in thin SC is very interesting, last work in this lab
+ (Tom).
+ In this work also thin bla bla bla trapped vortices bla bla
+\end_layout
+
+\begin_layout Plain Layout
+other options?
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+deivces: many are destroyed.
+ from the rest: many doesn't work well.
+ from the rest: many doesn't reveal new physics.
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+present things in an optimistic way + context.
+ NOT: tried heat anhiling, failed, boo-hoo that is left.
+\end_layout
+
+\begin_layout Plain Layout
+YES: refining methods of device creation in dry transfer.
+ accumulation of dirt which disturbs the contact and disturbs tunnelling
+ (via effective contact area).
+ heat anhiling for cleaning.
+\end_layout
+
+\begin_layout Plain Layout
+results:
+\end_layout
+
+\begin_layout Plain Layout
+1) params _____ hurt exposed NbSe2.
+ ref: japanese folks.
+\end_layout
+
+\begin_layout Plain Layout
+2) covered by Tung is OK (possible: cover by graphene, use proximity, or
+ use small and big junctions)
+\end_layout
+
+\begin_layout Plain Layout
+3) PID of oven.
+ max temperature.
+ maybe should make sure temperature is stable.
+\end_layout
+
+\begin_layout Plain Layout
+4) not cleaning well: AFM.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+1.
+ Using dry transfer we built a double tennelling junction, that fits the
+ model ____
+\end_layout
+
+\begin_layout Plain Layout
+* non constant spectrum at high bias.
+\end_layout
+
+\begin_layout Plain Layout
+2.
+ vortex trapping at FC?
+\end_layout
+
+\begin_layout Plain Layout
+3.
+ measuring ZBC we observed different vortices' behaviour at sweeping up
+ and down.
+ down: quantised G.
+\end_layout
+
+\begin_layout Plain Layout
+4.
+ measuring G(V,H) we observed zero bias peak.
+ didn't reproduce
+\end_layout
+
+\begin_layout Plain Layout
+5.
+ In some measurements we observed bistability.
+ Control measurement suggests connection to the electronic apparatus.
+\end_layout
+
+\begin_layout Plain Layout
+6.
+ Using heat anhiling params ___ is unsuitable for NbSe2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Tom: too much figures compared to text
+\end_layout
+
+\begin_layout Plain Layout
+story?
+\end_layout
+
+\begin_layout Plain Layout
+few punch sentences, each with a figure, text, all the rest to supporting
+ information??
+\end_layout
+
+\begin_layout Plain Layout
+* I did not look at the data that much.
+ the ZBC at least
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 TODO Tuesday:
 \end_layout
 
@@ -106,6 +277,10 @@ double junction model
 
 \begin_layout Plain Layout
 time measurements
+\end_layout
+
+\begin_layout Plain Layout
+ZBC field cooling: what is the story?
 \end_layout
 
 \end_inset
@@ -167,14 +342,34 @@ check google scholar
 \begin_inset Formula $G(V=0,H)$
 \end_inset
 
-, which can be attributed to entrance of few vortices.
+, which can be attributed to entrance of 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar: descrete
+\end_layout
+
+\end_inset
+
+few vortices.
  Differences in the conductance between zero cooling and field cooling were
  measured, and may result from trapped vortices.
  We also measured zero bias peak in the conductance during two of the 
 \begin_inset Formula $G(V,H)$
 \end_inset
 
- measurements, which we did not reproduce.
+ measurements, which we 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar: were not able to reproduce / didn't succed to repeoduce
+\end_layout
+
+\end_inset
+
+did not reproduce.
 \end_layout
 
 \begin_layout Abstract
@@ -702,6 +897,16 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+make preatier scheme
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename schemes/NISIN.jpg
 	lyxscale 40
@@ -739,15 +944,20 @@ scheme of the final device.
 
 \end_layout
 
-\begin_layout Standard
- 
-\end_layout
-
 \begin_layout Section
 experimental setup
 \end_layout
 
 \begin_layout Subsection
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+remove this part, gives nothing
+\end_layout
+
+\end_inset
+
 kinds of measurements:
 \begin_inset Note Note
 status open
@@ -996,6 +1206,16 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+two grounds, VDC
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename schemes/electronic_setup_symbol.jpg
 	lyxscale 40
@@ -1590,6 +1810,93 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+separate to two figures
+\end_layout
+
+\begin_layout Plain Layout
+put grid
+\end_layout
+
+\begin_layout Plain Layout
+G(H) too squeezed, should get more space somehow
+\end_layout
+
+\begin_layout Plain Layout
+can put G(H) in the middle
+\end_layout
+
+\begin_layout Plain Layout
+calculate the 
+\begin_inset Formula $\Delta H$
+\end_inset
+
+ required to move squares.
+ use ginput, eye and then regression on the 
+\begin_inset Formula $H$
+\end_inset
+
+ found.
+\end_layout
+
+\begin_layout Plain Layout
+quantisation quality: which percentage of data is in the stairs
+\end_layout
+
+\begin_layout Plain Layout
+quantisation quality: ratio of bin diff to bin width.
+\end_layout
+
+\begin_layout Plain Layout
+which 
+\end_layout
+
+\begin_layout Plain Layout
+Do we see a single vortex quantisation?? probably not.
+ because at 'up' it's not quantised.
+ inserting new vortices Vs tearing away existing vortices - against pinning
+ sites.??
+\end_layout
+
+\begin_layout Plain Layout
+up and down vortices count the same for normal space, normal tunnelling.
+\end_layout
+
+\begin_layout Plain Layout
+hot spots?
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+possible story: when driving away the anti vortex: it's quantised, inserting
+ new vortices: more continuous
+\end_layout
+
+\begin_layout Plain Layout
+possible display: invert the axis according to (up/down) bit.
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+interesting measurement: ZBC up down: with different rates
+\end_layout
+
+\begin_layout Plain Layout
+* how would it be to read it? technical report?
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename figs/ZBC_low_H.svg
 	lyxscale 40
@@ -2300,7 +2607,45 @@ remove bad graph
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Not all the graphs are needed.
+ try take the 3D and rotate it to good view
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+new idea: left regular result, as H rises G(V) becomes more shallow.
+ right: special result with zero bias peak.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+work flow
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename figs/i_H_V/dIdV_H_V_curves.jpg
 	lyxscale 40
@@ -3556,6 +3901,19 @@ first time with
 \end_inset
 
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar: more contect here, more results here (refinment of methods)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
