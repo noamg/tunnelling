@@ -189,6 +189,10 @@ results:
 status open
 
 \begin_layout Plain Layout
+new structure:
+\end_layout
+
+\begin_layout Plain Layout
 1.
  Using dry transfer we built a double tennelling junction, that fits the
  model ____
@@ -217,6 +221,10 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+appendix
+\end_layout
+
+\begin_layout Plain Layout
 5.
  In some measurements we observed bistability.
  Control measurement suggests connection to the electronic apparatus.
@@ -225,6 +233,10 @@ status open
 \begin_layout Plain Layout
 6.
  Using heat anhiling params ___ is unsuitable for NbSe2
+\end_layout
+
+\begin_layout Plain Layout
+more appendix more data
 \end_layout
 
 \end_inset
@@ -887,6 +899,8 @@ We intended creating two separate NIS junctions.
 \end_inset
 
  and the contacts laid on it didn't work, what left the double junction.
+ An elaboration on the technique and conclusions from the heat anhiling
+ are at the appendix.
 \end_layout
 
 \begin_layout Standard
@@ -2904,169 +2918,25 @@ A possible source to these features could be a special state of vortices
 .
 \end_layout
 
-\begin_layout Section
-Bistability
-\end_layout
-
-\begin_layout Standard
-In some of the conductance 
-\begin_inset Formula $G(V)$
-\end_inset
-
- and zero bias conductance 
-\begin_inset Formula $G(V=0,H)$
-\end_inset
-
- measurements, bistability was observed (___references___).
- It can stem from small area that can be either charged or uncharged, and
- influences the conductance.
-\end_layout
-
-\begin_layout Standard
-As control measurement, we took measurements 
-\begin_inset Formula $I(V\sim0,H=0,t)$
-\end_inset
-
- from which 
-\begin_inset Formula $G(t)$
-\end_inset
-
- was estimated similarly to zero bias conductance.
- One of the measurements doesn't present an easy pattern.
- Another one has two modes, changing every other measurement point.
- This alternation suggests that maybe it stems from the electronic measurement
- apparatus.
- It seems unprobable that there is phenomenon with rate of exactly 
-\begin_inset Formula $1[Hz]$
-\end_inset
-
- which is the sampling rate.
- Future control measurements will include measurements in different sampling
- rates to examine the source of the bistability.
-\end_layout
-
-\begin_layout Standard
-So far: there is bistability, but we are not sure about it's source, and
- the interleaved measurement is strong evidence it is connected to the electroni
-c measurement apparatus.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-measurements, making sure noise, some statistics.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-send Tom
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename figs/record_40.svg
-	lyxscale 40
-	scale 20
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Formula $G(t)$
-\end_inset
-
- control bistability measurement.
- No obvious pattern
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename figs/record_111.svg
-	lyxscale 40
-	scale 20
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-G(t) control bistability measurement.
- Two modes interleaved (changing every other sample point): even points
- at blue.
- odd points at green.
- The fact that the mode change every other sample suggests that it's connected
- to the electronic measurement apparatus, as it's unprobable that there
- is a phenomenon with rate exactly 
-\begin_inset Formula $1[Hz]$
-\end_inset
-
- : like the sampling rate.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Part
-Additional graphs
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-???
+Appendix: supporting results
 \end_layout
 
+\begin_layout Section
+1
+\end_layout
+
+\begin_layout Section
+2
+\end_layout
+
+\begin_layout Section
+3
+\end_layout
+
+\begin_layout Section
+Conductance with field H: 
+\begin_inset Formula $G(V,H)$
 \end_inset
 
 
@@ -3893,7 +3763,7 @@ first time with
 \end_inset
 
  , second time with 
-\begin_inset Formula $T=175\\degree C$
+\begin_inset Formula $T=175degreeC$
 \end_inset
 
  for 
@@ -4447,7 +4317,157 @@ device with gold electrodes
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Appendix: Bistability
+\end_layout
+
+\begin_layout Standard
+In some of the conductance 
+\begin_inset Formula $G(V)$
+\end_inset
+
+ and zero bias conductance 
+\begin_inset Formula $G(V=0,H)$
+\end_inset
+
+ measurements, bistability was observed (___references___).
+ It can stem from small area that can be either charged or uncharged, and
+ influences the conductance.
+\end_layout
+
+\begin_layout Standard
+As control measurement, we took measurements 
+\begin_inset Formula $I(V\sim0,H=0,t)$
+\end_inset
+
+ from which 
+\begin_inset Formula $G(t)$
+\end_inset
+
+ was estimated similarly to zero bias conductance.
+ One of the measurements doesn't present an easy pattern.
+ Another one has two modes, changing every other measurement point.
+ This alternation suggests that maybe it stems from the electronic measurement
+ apparatus.
+ It seems unprobable that there is phenomenon with rate of exactly 
+\begin_inset Formula $1[Hz]$
+\end_inset
+
+ which is the sampling rate.
+ Future control measurements will include measurements in different sampling
+ rates to examine the source of the bistability.
+\end_layout
+
+\begin_layout Standard
+So far: there is bistability, but we are not sure about it's source, and
+ the interleaved measurement is strong evidence it is connected to the electroni
+c measurement apparatus.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
 \begin_layout Plain Layout
+measurements, making sure noise, some statistics.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+send Tom
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figs/record_40.svg
+	lyxscale 40
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $G(t)$
+\end_inset
+
+ control bistability measurement.
+ No obvious pattern
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figs/record_111.svg
+	lyxscale 40
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+G(t) control bistability measurement.
+ Two modes interleaved (changing every other sample point): even points
+ at blue.
+ odd points at green.
+ The fact that the mode change every other sample suggests that it's connected
+ to the electronic measurement apparatus, as it's unprobable that there
+ is a phenomenon with rate exactly 
+\begin_inset Formula $1[Hz]$
+\end_inset
+
+ : like the sampling rate.
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
