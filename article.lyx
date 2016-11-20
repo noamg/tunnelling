@@ -90,7 +90,7 @@ Noam Gavish, Instructed by Dr.
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Hadar:
@@ -155,30 +155,6 @@ YES: refining methods of device creation in dry transfer.
  heat anhiling for cleaning.
 \end_layout
 
-\begin_layout Plain Layout
-results:
-\end_layout
-
-\begin_layout Plain Layout
-1) params _____ hurt exposed NbSe2.
- ref: japanese folks.
-\end_layout
-
-\begin_layout Plain Layout
-2) covered by Tung is OK (possible: cover by graphene, use proximity, or
- use small and big junctions)
-\end_layout
-
-\begin_layout Plain Layout
-3) PID of oven.
- max temperature.
- maybe should make sure temperature is stable.
-\end_layout
-
-\begin_layout Plain Layout
-4) not cleaning well: AFM.
-\end_layout
-
 \end_inset
 
 
@@ -189,7 +165,7 @@ results:
 status open
 
 \begin_layout Plain Layout
-new structure:
+new structure, decided by me and Tom:
 \end_layout
 
 \begin_layout Plain Layout
@@ -301,14 +277,9 @@ ZBC field cooling: what is the story?
 \end_layout
 
 \begin_layout Abstract
-Niobium Deselenide (NbSe
-\begin_inset Formula $_{2}$
-\end_inset
-
-) is a type 2 super conductor (can contain magnetic flux trapped in super
- current vortices).
- The behaviour of vortices is dependant on the material width (shown experimenta
-lly in previous work done in the lab
+The behaviour of vortices in super conductors is dependant on the material
+ width.
+ This was shown experimentally in previous work done in the lab
 \begin_inset Foot
 status open
 
@@ -320,7 +291,7 @@ unpublished results
 
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 phrasing?
@@ -329,6 +300,12 @@ phrasing?
 \end_inset
 
 ).
+ Our research focused the ultra thin layers (which are hard to create) of
+ Niobium Deselenide (NbSe
+\begin_inset Formula $_{2}$
+\end_inset
+
+, type 2 super conductor).
  In this work we built a double tunnelling junction: Normal-Insulator-Supercondu
 cding-Insulator-Normal (NISIN) with Tungstan Deselenide (
 \begin_inset Formula $\text{WSe}_{2}$
@@ -350,59 +327,38 @@ check google scholar
 \end_inset
 
 **The conductance measurement of the double junction___.
- We obsereved quantised stairs in zero bias coductance 
+ We obsereved descrete stairs in zero bias coductance 
 \begin_inset Formula $G(V=0,H)$
 \end_inset
 
-, which can be attributed to entrance of 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar: descrete
-\end_layout
-
-\end_inset
-
-few vortices.
+, which can be attributed to entrance of few vortices.
  Differences in the conductance between zero cooling and field cooling were
  measured, and may result from trapped vortices.
  We also measured zero bias peak in the conductance during two of the 
 \begin_inset Formula $G(V,H)$
 \end_inset
 
- measurements, which we 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar: were not able to reproduce / didn't succed to repeoduce
-\end_layout
-
-\end_inset
-
-did not reproduce.
+ measurements, which we didn't succed to repeoduce.
 \end_layout
 
 \begin_layout Abstract
-In addition, originally we planned a device with two separate tunnelling
- junctions.
- However, during the device's creation, we applied heat cleaning, which
- harmed exposed 
+In this work we also refined methods of device creation using dry transfer.
+ During the creation of the device, some dirt and organic material accumulates
+ between the layers.
+ This dirt decreases the effective contact area, and disturbs tunnelling.
+ Heat anhiling is used for removing such dirt.
+ We found that using certain parameters of heat anhiling had harmed exposed
+ 
 \begin_inset Formula $\text{NbSe}_{2}$
 \end_inset
 
 , causing the contacts laid on it not to work.
- Since the contacts on the 
-\begin_inset Formula $\text{WSe}_{2}$
-\end_inset
-
- worked, we used the double junction that was created.
+ 
 \end_layout
 
 \begin_layout Abstract
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 The goal of this experiment was to compare vortices behaviour in 
@@ -440,7 +396,7 @@ The goal of this experiment was to compare vortices behaviour in
 
 \begin_layout Abstract
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Hadar: discussion: the line of measurements.
@@ -457,7 +413,7 @@ Hadar: discussion: the line of measurements.
 
 \begin_layout Abstract
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Abstract
 .
@@ -3061,16 +3017,6 @@ status open
 status open
 
 \begin_layout Plain Layout
-move to appendix
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
 TODO: change units to Tesla not kGauss
 \end_layout
 
@@ -4315,6 +4261,39 @@ device with gold electrodes
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+results:
+\end_layout
+
+\begin_layout Plain Layout
+1) params _____ hurt exposed NbSe2.
+ ref: japanese folks.
+\end_layout
+
+\begin_layout Plain Layout
+2) covered by Tung is OK (possible: cover by graphene, use proximity, or
+ use small and big junctions)
+\end_layout
+
+\begin_layout Plain Layout
+3) PID of oven.
+ max temperature.
+ maybe should make sure temperature is stable.
+\end_layout
+
+\begin_layout Plain Layout
+4) not cleaning well: AFM.
 \end_layout
 
 \end_inset
