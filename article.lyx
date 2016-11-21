@@ -940,67 +940,26 @@ the cryogenic apparatus can reduce the sample temperature down to
 \begin_inset Formula $T_{base}$
 \end_inset
 
- temperture is bound by 
+ temperture is the temerature of 
 \begin_inset Formula $He^{3}$
 \end_inset
 
- vapour pressure.
+ vapours in vaccum.
+\end_layout
+
+\begin_layout Subsubsection*
+cryogenic apparatus fundamental issue
 \end_layout
 
 \begin_layout Standard
 From other measurements it turned out that there is a problem in the cryogenic
  apparatus.
- When the thermometers indicated base level, the 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
-\end_layout
-
-\end_inset
-
-temperature at the sample was 
+ When the thermometers indicated base level, the temperature at the sample
+ was 
 \begin_inset Formula $1.5K-2K$
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-should remove.
- not business of this paper
-\end_layout
-
-\begin_layout Plain Layout
-would be easier when I see everything
-\end_layout
-
-\begin_layout Plain Layout
-XXX parts: sample, 1K cup, zorb, needle valve, pumps, internal vaccum chamber.
- exchage gasses.
- controller.
- zorb heater, 
-\begin_inset Formula $He^{3}$
-\end_inset
-
- container.
- liquifier.
- liquid helium tank.
- radiation reflectors.
-\end_layout
-
-\begin_layout Plain Layout
-XXX process:
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -1108,16 +1067,6 @@ status open
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-two grounds, VDC
-\end_layout
-
-\end_inset
-
-
 \begin_inset Graphics
 	filename schemes/electronic_setup_symbol.jpg
 	lyxscale 40
@@ -1150,22 +1099,12 @@ magnet: the magnet was used to apply an external field up to
 \begin_inset Formula $H=6[T]$
 \end_inset
 
- using a 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
-\end_layout
-
-\end_inset
-
-persistent current in superconducting wire.
+ using a persistent current in superconducting wire.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 cryogenic apparatus cryogenic apparatus: cooler issues, real temerature
@@ -1208,7 +1147,7 @@ are the features related to SC? to vortices? to quantum dots? else?
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 time dependance.
@@ -1320,45 +1259,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename figs/conductance_low_bias_few_T_no_repeat.svg
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Formula $G=\frac{dI}{dV}$
-\end_inset
-
-, of the double junction.
- As 
-\begin_inset Formula $T$
-\end_inset
-
- drops, the conductance curve is deeper.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename figs/conductance_high_bias_few_T_no_repeat.svg
@@ -1398,12 +1298,16 @@ notes:
 \end_layout
 
 \begin_layout Standard
-avaraging 40 measurements in measuring I.
+Every data point of 
+\begin_inset Formula $I$
+\end_inset
+
+ is an avarage of 40 measurements taken at the same voltage.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 smooth: meaning that the derivative is taken at scale XXX.
@@ -1423,7 +1327,7 @@ In low bias, the conductance displayes the gap behaviour of a tunnelling
 
  (depanding on ground behaviour) 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 ask Tom: pdf pictures old....
@@ -1651,7 +1555,7 @@ entrance of vortices: zero bias conductance
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 finding center: findnig zero: not argmin????, very noisy..
@@ -1670,7 +1574,7 @@ We want to measure
 
  
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 in resolution: 
@@ -1688,7 +1592,7 @@ in resolution:
 \end_inset
 
  which minimises 
-\begin_inset Formula $|I|$
+\begin_inset Formula $|\frac{dI}{dV}(V,H=0)|$
 \end_inset
 
  (I~0).
@@ -1697,11 +1601,32 @@ in resolution:
 \end_inset
 
  which is measured.
- We choose usually 
+ We choose 
+\begin_inset Formula $\Delta V$
+\end_inset
+
+ such that 
+\begin_inset Formula $I$
+\end_inset
+
+ is linear between 
+\begin_inset Formula $V_{min}$
+\end_inset
+
+ and 
+\begin_inset Formula $V_{min}+\Delta V$
+\end_inset
+
+ , usually 
 \begin_inset Formula $\Delta V=100\mu V$
 \end_inset
 
+ or 
+\begin_inset Formula $200\mu V$
+\end_inset
 
+.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1923,7 +1848,7 @@ Conductance
 \end_inset
 
 , at 
-\begin_inset Formula $H=0.12[T]$
+\begin_inset Formula $H=0.12T$
 \end_inset
 
 , at 
@@ -1944,23 +1869,12 @@ Conductance
  That means that in that case there was sufficiant time for diffusion (which
  eliminated hysteresis).
  The conductance curve at 
-\begin_inset Formula $H=12T$
+\begin_inset Formula $H=0.12T$
 \end_inset
 
  is more shallow, due too vortices.
  Some bistability can also be seen.
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-must check times of measurements.
- make sure not enough time to diffuse.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -2091,30 +2005,7 @@ As
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-future possible work: more effort to see vortices inside and outside the
- material.
- maybe the diffusion out has different rates at side and at heart.
-\end_layout
-
-\begin_layout Plain Layout
-measure dIdV(V, H=const, time)
-\end_layout
-
-\begin_layout Plain Layout
-even field profiles?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 which measurements were taken during field cooling?
@@ -2260,7 +2151,7 @@ zero bias conductance, in zero cooling and and field cooling.
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Float figure
@@ -2284,6 +2175,43 @@ time depedance...did not find.
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+discussion:
+\end_layout
+
+\begin_layout Standard
+This experiment has suggested that in field cooling vortices are trapped
+ inside the material.
+ We also tried some measurements that checked time dependancy of the vortices
+ in zero cooling (time dependancy was not observed).
+ In future work, we intend checking time dependance in field cooling, and
+ also to compare junctions at the heart of the sample with junctions at
+ the edge of sample.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+future possible work: more effort to see vortices inside and outside the
+ material.
+ maybe the diffusion out has different rates at side and at heart.
+\end_layout
+
+\begin_layout Plain Layout
+measure dIdV(V, H=const, time)
+\end_layout
+
+\begin_layout Plain Layout
+even field profiles?
 \end_layout
 
 \end_inset
@@ -2359,10 +2287,6 @@ open
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-.
 \end_layout
 
 \begin_layout Standard
@@ -2814,6 +2738,45 @@ Appendix: supporting results
 1
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/conductance_low_bias_few_T_no_repeat.svg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $G=\frac{dI}{dV}$
+\end_inset
+
+, of the double junction.
+ As 
+\begin_inset Formula $T$
+\end_inset
+
+ drops, the conductance curve is deeper.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 2
 \end_layout
@@ -3068,7 +3031,7 @@ The desired device is NIS tunnelling junction (normal-insulator-superconductor).
 
  (type 2, 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Tom: articles
@@ -3082,7 +3045,7 @@ Tom: articles
 
  
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Formula $H_{c1}=??$
@@ -3100,7 +3063,7 @@ status open
  ).
  
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Hadar
@@ -3133,7 +3096,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Hadar
@@ -3322,7 +3285,7 @@ Using microscope (magnification up to X100) the good flakes are found either
  on the silicon or on the PDMS, and their pictures are taken.
  Based on the pictures, 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Hadar
@@ -3344,7 +3307,7 @@ skeletons
 \begin_layout Enumerate
 The device is planned
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Hadar
@@ -3441,7 +3404,7 @@ After the PDMS touches the silicon, it is raised slowly (about
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Ask Tom: what is new in the process? Add discussion here?:new heat anhiling.
@@ -3543,7 +3506,7 @@ Device JC.
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 pictures of the 4(? JC first) devices: tung, Nb, both, fix orientation,
@@ -3557,7 +3520,7 @@ pictures of the 4(? JC first) devices: tung, Nb, both, fix orientation,
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 mendeley desktop
@@ -3570,7 +3533,7 @@ mendeley desktop
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 AFM, colors different....The thickness is based on optical images, in which
@@ -3587,52 +3550,31 @@ heat cleaning
 \end_layout
 
 \begin_layout Standard
-During the creation of the device some 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
+In this work we also refined methods of device creation using dry transfer.
+ During the creation of the device, some dirt and organic material accumulates
+ between the layers.
+ This dirt decreases the effective contact area, and disturbs tunnelling.
+ Heat anhiling is used for removing such dirt.
 \end_layout
 
-\end_inset
-
-dust, water and organic materials get between the layers.
- They lower the effective contact area between the layers and thus 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
+\begin_layout Standard
+notes:
 \end_layout
 
-\end_inset
-
-hurt the tunnelling junction.
- After the creation of the device, we apply heat cleaning which helps 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
-\end_layout
-
-\end_inset
-
-removing some of the dirt.
- The sample is located in an oven with atmosphere of 95% Argon, 5% 
+\begin_layout Enumerate
+The sample is located in an oven with atmosphere of 95% Argon, 5% 
 \begin_inset Formula $H_{2}$
 \end_inset
 
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 We applied the heat cleaning process two times:
 \end_layout
 
-\begin_layout Standard
-first time with 
+\begin_deeper
+\begin_layout Enumerate
 \begin_inset Formula $T=150\degree C$
 \end_inset
 
@@ -3640,8 +3582,11 @@ first time with
 \begin_inset Formula $\Delta t=5.5[hour]$
 \end_inset
 
- , second time with 
-\begin_inset Formula $T=175degreeC$
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $T=175\degree C$
 \end_inset
 
  for 
@@ -3651,32 +3596,28 @@ first time with
  
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar: more contect here, more results here (refinment of methods)
-\end_layout
-
+\end_deeper
+\begin_layout Enumerate
+We observed the oven temperature at the second heat cleaning.
+ This showed that the PID of the temperature control of the oven was too
+ agressive: 
+\begin_inset Formula $T_{max}=223\degree C$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Subsubsection
-AFM
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-slice differently: tell afm...
- every time it's needed
-\end_layout
-
+ and for more then 
+\begin_inset Formula $30min$
 \end_inset
 
+ the temperature was 
+\begin_inset Formula $T>200\degree C$
+\end_inset
 
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+Fine exemination of the device using AFM
 \end_layout
 
 \begin_layout Standard
@@ -3686,6 +3627,8 @@ After the device is created and somewhat cleaned with heat cleaning, a better
  layers) of each material.
  This is important in order to know for sure the device structure, and in
  order to plan the electrodes location.
+ In addition, we want to see which dirt accumulated on or between the layers
+ of the device.
 \end_layout
 
 \begin_layout Standard
@@ -3693,7 +3636,7 @@ For that matter, we used an AFM (type Dimension 3100 Nanoscope V) in tapping
  mode.
  The topography measurement indicated thickness and 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Hadar
@@ -3718,7 +3661,7 @@ reference "device JC optical"
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 folds
@@ -3733,13 +3676,13 @@ dirt
 
 \end_layout
 
-\begin_layout Subsection
-images after first heat cleaning
+\begin_layout Standard
+images after first heat cleaning:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 take images
@@ -3813,7 +3756,7 @@ images of JC after first heat cleaning
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Standard
 final device: images after second heat cleaning
 \end_layout
 
@@ -3894,7 +3837,7 @@ Left: images of JC after first heat cleaning.
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 if possible: only images of JC.
@@ -3913,23 +3856,17 @@ also put some graphs of cross sections (for height differences)
 
 \end_layout
 
-\begin_layout Section
-final device
+\begin_layout Subsection
+Heat anhiling: Conclusions
 \end_layout
 
 \begin_layout Standard
-After the AFM measurements, golden electrodes were laid on the chip using
- e-beam technique.
-\end_layout
+The contacts laid over exposed 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
 
-\begin_layout Standard
-The chip contained 4 devices, and 32 electrodes.
- In contact testing, it has turned out that only 2 electrodes were connected
- through a device (one of the four devices).
-\end_layout
-
-\begin_layout Standard
-possible reason for this failure: observing optical images of device before
+ didn't work, and perhaps the heat anhiling had caused this.
+ Possible reason for this failure: observing optical images of device before
  and after the second heat cleaning.
  the color of exposed 
 \begin_inset Formula $\text{NbSe}_{2}$
@@ -3939,6 +3876,10 @@ possible reason for this failure: observing optical images of device before
  surface.
  Perhaps that change disturbes the contact with the electrode.
  Also, the crack that existed in the material expanded.
+\end_layout
+
+\begin_layout Standard
+Another device in the lab suffered a similar damage.
 \begin_inset Float figure
 wide false
 sideways false
@@ -4007,6 +3948,187 @@ should put arrows to show the bright part
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/tom_Nb.jpg
+	lyxscale 7
+	scale 7
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/tom_Nb_insulator.png
+	lyxscale 7
+	scale 7
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/tom_heat.jpg
+	lyxscale 7
+	scale 7
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Another device of the same 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Hadar
+\end_layout
+
+\end_inset
+
+research group.
+ Left: 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+.
+ middle: same layer covered by thin Boron-Nitride.
+ Right: same deivce after heat cleaning.
+ Like in our case, the exposed 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ was harmed by the heat cleaning.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We also found that 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ that was covered with 
+\begin_inset Formula $\text{WSe}_{2}$
+\end_inset
+
+ was not harmed.
+ This also suggests a possible technique: cover 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ with mono-layer graphene, which is strong and can serve as protector.
+ The superconductivity will be induced to the graphene by proximity.
+\end_layout
+
+\begin_layout Standard
+As mentioned earlier, the oven temperature controller has overshot.
+ It is possible that without this overshooting the 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ would survive.
+ It is therefore required to control the temperature better and avoid overshooti
+ng.
+\end_layout
+
+\begin_layout Standard
+Finally, the heat anhiling in this procedure didn't remove most of the dirt.
+ Perhaps a higher temperature would clean it, if the 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+ is protected (by graphene as metioned earlier).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+results:
+\end_layout
+
+\begin_layout Plain Layout
+1) params _____ hurt exposed NbSe2.
+ ref: japanese folks.
+\end_layout
+
+\begin_layout Plain Layout
+We found that using certain parameters of heat anhiling had harmed exposed
+ 
+\begin_inset Formula $\text{NbSe}_{2}$
+\end_inset
+
+, causing the contacts laid on it not to work.
+\end_layout
+
+\begin_layout Plain Layout
+2) covered by Tung is OK (possible: cover by graphene, use proximity, or
+ use small and big junctions)
+\end_layout
+
+\begin_layout Plain Layout
+3) PID of oven.
+ max temperature.
+ maybe should make sure temperature is stable.
+\end_layout
+
+\begin_layout Plain Layout
+4) not cleaning well: AFM.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hadar: more contect here, more results here (refinment of methods)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Final device
+\end_layout
+
+\begin_layout Standard
+After the AFM measurements, golden electrodes were laid on the chip using
+ e-beam technique.
+\end_layout
+
+\begin_layout Standard
+The chip contained 4 devices, and 32 electrodes.
+ In contact testing, it has turned out that only 2 electrodes were connected
+ through a device (one of the four devices).
+\end_layout
+
+\begin_layout Standard
 eventually, there was a single device with 2 contacts laid over the insulator
  
 \begin_inset Formula $\text{WSe}_{2}$
@@ -4067,81 +4189,8 @@ pic1 pic2 pic3, peeling traumatic? fall? diff: color diff, cracks
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/tom_Nb.jpg
-	lyxscale 7
-	scale 7
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/tom_Nb_insulator.png
-	lyxscale 7
-	scale 7
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/tom_heat.jpg
-	lyxscale 7
-	scale 7
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Another device of the same 
 \begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hadar
-\end_layout
-
-\end_inset
-
-research group.
- Left: 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
-.
- middle: same layer covered by thin Boron-Nitride.
- Right: same deivce after heat cleaning.
- Like in our case, the exposed 
-\begin_inset Formula $\text{NbSe}_{2}$
-\end_inset
-
- was harmed by the heat cleaning.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 bonus: image subtraction (make sure to sclae what needed to be scale.
@@ -4155,7 +4204,7 @@ bonus: image subtraction (make sure to sclae what needed to be scale.
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 here insert the creation process.
@@ -4193,39 +4242,6 @@ device with gold electrodes
 \end_inset
 
 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-results:
-\end_layout
-
-\begin_layout Plain Layout
-1) params _____ hurt exposed NbSe2.
- ref: japanese folks.
-\end_layout
-
-\begin_layout Plain Layout
-2) covered by Tung is OK (possible: cover by graphene, use proximity, or
- use small and big junctions)
-\end_layout
-
-\begin_layout Plain Layout
-3) PID of oven.
- max temperature.
- maybe should make sure temperature is stable.
-\end_layout
-
-\begin_layout Plain Layout
-4) not cleaning well: AFM.
 \end_layout
 
 \end_inset
