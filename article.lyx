@@ -162,7 +162,7 @@ YES: refining methods of device creation in dry transfer.
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 new structure, decided by me and Tom:
@@ -540,19 +540,27 @@ The BCS is a model for superconductivity.
 \end_inset
 
  state.
- It's not trivial as generally, in 3D not every potential well has bound
+ It's not trivial, as generally in 3D not every potential well has bound
  states.
  Also, the coloumb repulsion between the electrons is screened by the positive
  ions of the crystal.
- The suggested source of attractive interaction is mediated by the ions:
- an electron that passes by attracts the ions, and creates a wake of high
+ The suggested source of attractive interaction is mediated by the ions
+ (and is in some sense 
+\begin_inset Quotes eld
+\end_inset
+
+over screening
+\begin_inset Quotes erd
+\end_inset
+
+): an electron that passes by attracts the ions, and creates a wake of high
  density of positive charge, which can be viewed as a phonon.
  Another electron passing by is attracted to these ions, and therfore is
  attracted to the first electron.
  The key point is that the electrons are moving much faster then the ions,
  and thus the coloumb repulsion can be efectively screened 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Hadar: what about screened? - over screening.
@@ -871,7 +879,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-make preatier scheme
+this scheme is prettier
 \end_layout
 
 \end_inset
