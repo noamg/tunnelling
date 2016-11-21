@@ -222,7 +222,7 @@ more appendix more data
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Tom: too much figures compared to text
@@ -249,7 +249,7 @@ few punch sentences, each with a figure, text, all the rest to supporting
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 TODO Tuesday:
@@ -876,7 +876,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 this scheme is prettier
@@ -1203,6 +1203,24 @@ status open
 	filename figs/conductance_up_down.svg
 	lyxscale 40
 	scale 40
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+GRAPH: zoom on 
+\begin_inset Quotes eld
+\end_inset
+
+gap
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
 
 \end_inset
 
@@ -1727,29 +1745,7 @@ interesting measurement: ZBC up down: with different rates
 \begin_inset Graphics
 	filename figs/ZBC_low_H.svg
 	lyxscale 40
-	scale 65
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename figs/ZBC_many.svg
-	lyxscale 40
-	scale 35
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-decide: what to do to the figure at bottom?
-\end_layout
+	scale 45
 
 \end_inset
 
@@ -1764,7 +1760,7 @@ decide: what to do to the figure at bottom?
 \end_inset
 
  zero bias conductance.
- Top left: two curves 
+ Top middle: two curves 
 \begin_inset Formula $H$
 \end_inset
 
@@ -1774,7 +1770,7 @@ decide: what to do to the figure at bottom?
 
 .
  Note the stairs shape of the conductance curve.
- Top middle: histogram of the conductance values with 
+ Top left: histogram of the conductance values with 
 \begin_inset Formula $H$
 \end_inset
 
@@ -1790,90 +1786,6 @@ decide: what to do to the figure at bottom?
 
 .
  That quantisation can be attributed to enterence of few vortices.
- bottom: few scans of 
-\begin_inset Formula $H$
-\end_inset
-
- increasing and decreasing (
-\begin_inset Formula $-0.12[T]<H<0.12[T])$
-\end_inset
-
-.
- The same stairs shape is observed.
- Also, in some of the sweeps hysteresis is observed: 
-\begin_inset Formula $G(H=0)\neq0$
-\end_inset
-
- which is attributed to trapped vortices.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename figs/conductance_before_after_ZBC_no_I_V_good_legend.svg
-	lyxscale 40
-	scale 17
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Conductance 
-\begin_inset Formula $G(V)$
-\end_inset
-
-: at 
-\begin_inset Formula $H=0$
-\end_inset
-
-, at 
-\begin_inset Formula $H=0.12T$
-\end_inset
-
-, at 
-\begin_inset Formula $H=0$
-\end_inset
-
- again.
- Measurements time is written.
- The conductance curve before increasing 
-\begin_inset Formula $H$
-\end_inset
-
- and after decreasing 
-\begin_inset Formula $H$
-\end_inset
-
- overlap.
- That means that in that case there was sufficiant time for diffusion (which
- eliminated hysteresis).
- The conductance curve at 
-\begin_inset Formula $H=0.12T$
-\end_inset
-
- is more shallow, due too vortices.
- Some bistability can also be seen.
  
 \end_layout
 
@@ -1889,7 +1801,7 @@ Conductance
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 maybe should insert here conductance with trapped flux from later chronologicall
@@ -1931,23 +1843,61 @@ Send Tom: *** late data
 
 \end_layout
 
-\begin_layout Enumerate
-the conductance rises with 
+\begin_layout Subsection
+Discussion:
+\end_layout
+
+\begin_layout Standard
+The conductance rises with 
 \begin_inset Formula $H$
 \end_inset
 
  without threshould, indicating that vortices enter the sample even at the
  lowest field (at both junctions).
+ The curve when 
+\begin_inset Formula $H$
+\end_inset
+
+ is decreasing has staircase behaviour, which could be attributed to flux
+ penetrating in descrete portions.
+ The 
+\begin_inset Formula $H$
+\end_inset
+
+ of the stairs are at 
+\begin_inset Formula $0.011,0.043,0.061,0.082,0.102,0.119[T]$
+\end_inset
+
+, with deltas of 
+\begin_inset Formula $0.032,0.018,0.02,0.02,0.017[T]$
+\end_inset
+
+ .
+ So except the first step which is wider, all the steps have 
+\begin_inset Formula $\Delta H\approx0.02[T]$
+\end_inset
+
+.
+ However, it's not in the flux quantum 
+\begin_inset Formula $\phi_{0}$
+\end_inset
+
+ since when 
+\begin_inset Formula $H$
+\end_inset
+
+ is increasing the stairs don't apear.
+ These results suggest that the vortices leave the sample at bigger groups
+ then they enter.
 \end_layout
 
-\begin_layout Enumerate
-The curves has staircase behaviour, which can be attributed to flux penetrating
- in quantised portions.
+\begin_layout Standard
+Similar results were found in later measruements:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 vortices trapping: up and down.
@@ -1960,10 +1910,59 @@ vortices trapping: up and down.
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 maybe: quantization analysis here.....
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figs/ZBC_many.svg
+	lyxscale 40
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+bottom: few scans of 
+\begin_inset Formula $H$
+\end_inset
+
+ increasing and decreasing (
+\begin_inset Formula $-0.12[T]<H<0.12[T])$
+\end_inset
+
+.
+ The same stairs shape is observed.
+ Also, in some of the sweeps hysteresis is observed: 
+\begin_inset Formula $G(H=0)\neq0$
+\end_inset
+
+ which is attributed to trapped vortices.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2736,6 +2735,16 @@ Appendix: supporting results
 
 \begin_layout Section
 1
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+EDIT: give names to these sections
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2779,6 +2788,76 @@ status open
 
 \begin_layout Section
 2
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figs/conductance_before_after_ZBC_no_I_V_good_legend.svg
+	lyxscale 40
+	scale 17
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Conductance 
+\begin_inset Formula $G(V)$
+\end_inset
+
+: at 
+\begin_inset Formula $H=0$
+\end_inset
+
+, at 
+\begin_inset Formula $H=0.12T$
+\end_inset
+
+, at 
+\begin_inset Formula $H=0$
+\end_inset
+
+ again.
+ Measurements time is written.
+ The conductance curve before increasing 
+\begin_inset Formula $H$
+\end_inset
+
+ and after decreasing 
+\begin_inset Formula $H$
+\end_inset
+
+ overlap.
+ That means that in that case there was sufficiant time for diffusion (which
+ eliminated hysteresis).
+ The conductance curve at 
+\begin_inset Formula $H=0.12T$
+\end_inset
+
+ is more shallow, due too vortices.
+ Some bistability can also be seen.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -4060,7 +4139,7 @@ Finally, the heat anhiling in this procedure didn't remove most of the dirt.
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 results:
@@ -4102,7 +4181,7 @@ We found that using certain parameters of heat anhiling had harmed exposed
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Hadar: more contect here, more results here (refinment of methods)
@@ -4177,7 +4256,7 @@ scheme of the final device
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 pic1 pic2 pic3, peeling traumatic? fall? diff: color diff, cracks
@@ -4262,7 +4341,17 @@ In some of the conductance
 \begin_inset Formula $G(V=0,H)$
 \end_inset
 
- measurements, bistability was observed (___references___).
+ measurements, bistability was observed
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+ (___references___)
+\end_layout
+
+\end_inset
+
+.
  It can stem from small area that can be either charged or uncharged, and
  influences the conductance.
 \end_layout
@@ -4298,7 +4387,7 @@ c measurement apparatus.
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 measurements, making sure noise, some statistics.
